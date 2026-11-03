@@ -1,0 +1,302 @@
+{
+  "asOf": "2026-10-30",
+  "source": "traders.co.jp / 2026-10-30 15:45 historical snapshot (partial top-50)",
+  "sourceStatus": "historical-reference",
+  "lastCheckedAt": "2026-11-02 (historical data)",
+  "candidates": [
+    {
+      "code": "5029",
+      "name": "サークレイス",
+      "close": 2014,
+      "gainPct": 83.09,
+      "turnoverThousand": 2058788,
+      "market": "G"
+    },
+    {
+      "code": "5341",
+      "name": "ASAHI EITO",
+      "close": 229,
+      "gainPct": 80.31,
+      "turnoverThousand": 943189,
+      "market": "S"
+    },
+    {
+      "code": "6574",
+      "name": "コンヴァノ",
+      "close": 1281,
+      "gainPct": 32.06,
+      "turnoverThousand": 3432463,
+      "market": "G"
+    },
+    {
+      "code": "4410",
+      "name": "ハリマ化成G",
+      "close": 1355,
+      "gainPct": 31.68,
+      "turnoverThousand": 2430175,
+      "market": "P"
+    },
+    {
+      "code": "4347",
+      "name": "ブロードメディア",
+      "close": 2489,
+      "gainPct": 31.0,
+      "turnoverThousand": 4571154,
+      "market": "S"
+    },
+    {
+      "code": "7477",
+      "name": "ムラキ",
+      "close": 1900,
+      "gainPct": 30.32,
+      "turnoverThousand": 471885,
+      "market": "S"
+    },
+    {
+      "code": "7986",
+      "name": "日本アイエスケイ",
+      "close": 2701,
+      "gainPct": 29.98,
+      "turnoverThousand": 483831,
+      "market": "S"
+    },
+    {
+      "code": "3753",
+      "name": "フライト",
+      "close": 337,
+      "gainPct": 29.12,
+      "turnoverThousand": 8194337,
+      "market": "S"
+    },
+    {
+      "code": "4588",
+      "name": "オンコリス",
+      "close": 7560,
+      "gainPct": 27.49,
+      "turnoverThousand": 95688845,
+      "market": "G"
+    },
+    {
+      "code": "3905",
+      "name": "データセクション",
+      "close": 1950,
+      "gainPct": 27.45,
+      "turnoverThousand": 530379234,
+      "market": "G"
+    },
+    {
+      "code": "4228",
+      "name": "積水化成品",
+      "close": 725,
+      "gainPct": 27.42,
+      "turnoverThousand": 2282498,
+      "market": "P"
+    },
+    {
+      "code": "9551",
+      "name": "メタウォーター",
+      "close": 3700,
+      "gainPct": 25.64,
+      "turnoverThousand": 2968924,
+      "market": "P"
+    },
+    {
+      "code": "6029",
+      "name": "アトラグループ",
+      "close": 229,
+      "gainPct": 23.78,
+      "turnoverThousand": 221058,
+      "market": "S"
+    },
+    {
+      "code": "485A",
+      "name": "パワーエックス",
+      "close": 1986,
+      "gainPct": 23.12,
+      "turnoverThousand": 40002555,
+      "market": "G"
+    },
+    {
+      "code": "6557",
+      "name": "AIAIグループ",
+      "close": 755,
+      "gainPct": 20.41,
+      "turnoverThousand": 151474,
+      "market": "G"
+    },
+    {
+      "code": "6613",
+      "name": "QDレーザ",
+      "close": 2406,
+      "gainPct": 20.24,
+      "turnoverThousand": 41032749,
+      "market": "G"
+    },
+    {
+      "code": "593A",
+      "name": "ティアフォー",
+      "close": 2403,
+      "gainPct": 19.49,
+      "turnoverThousand": 75776420,
+      "market": "G"
+    },
+    {
+      "code": "2673",
+      "name": "夢みつけ隊",
+      "close": 110,
+      "gainPct": 18.28,
+      "turnoverThousand": 250459,
+      "market": "S"
+    },
+    {
+      "code": "2388",
+      "name": "ウェッジHD",
+      "close": 13,
+      "gainPct": 18.18,
+      "turnoverThousand": 72839,
+      "market": "G"
+    },
+    {
+      "code": "3719",
+      "name": "AIストーム",
+      "close": 98,
+      "gainPct": 18.07,
+      "turnoverThousand": 2569815,
+      "market": "S"
+    },
+    {
+      "code": "290A",
+      "name": "Synspective",
+      "close": 1358,
+      "gainPct": 17.78,
+      "turnoverThousand": 15062032,
+      "market": "G"
+    },
+    {
+      "code": "4611",
+      "name": "大日本塗料",
+      "close": 1902,
+      "gainPct": 17.55,
+      "turnoverThousand": 4285555,
+      "market": "P"
+    },
+    {
+      "code": "3997",
+      "name": "トレードワークス",
+      "close": 380,
+      "gainPct": 16.56,
+      "turnoverThousand": 571261,
+      "market": "S"
+    },
+    {
+      "code": "589A",
+      "name": "ネイス",
+      "close": 1060,
+      "gainPct": 16.48,
+      "turnoverThousand": 283564,
+      "market": "G"
+    },
+    {
+      "code": "6834",
+      "name": "精工技研",
+      "close": 6130,
+      "gainPct": 16.32,
+      "turnoverThousand": 42668935,
+      "market": "S"
+    },
+    {
+      "code": "6518",
+      "name": "三相電機",
+      "close": 1960,
+      "gainPct": 16.11,
+      "turnoverThousand": 402887,
+      "market": "S"
+    },
+    {
+      "code": "3843",
+      "name": "フリービット",
+      "close": 2013,
+      "gainPct": 15.23,
+      "turnoverThousand": 2183443,
+      "market": "P"
+    },
+    {
+      "code": "6445",
+      "name": "ジャノメ",
+      "close": 1506,
+      "gainPct": 15.14,
+      "turnoverThousand": 1123501,
+      "market": "P"
+    },
+    {
+      "code": "7970",
+      "name": "信越ポリマー",
+      "close": 2536,
+      "gainPct": 12.86,
+      "turnoverThousand": 9134284,
+      "market": "P"
+    },
+    {
+      "code": "141A",
+      "name": "トライアル",
+      "close": 4015,
+      "gainPct": 12.31,
+      "turnoverThousand": 23041897,
+      "market": "G"
+    },
+    {
+      "code": "7360",
+      "name": "オンデック",
+      "close": 1200,
+      "gainPct": 11.94,
+      "volumeDay": 189900,
+      "turnoverThousand": 220279,
+      "market": "G"
+    },
+    {
+      "code": "6262",
+      "name": "PEGASUS",
+      "close": 573,
+      "gainPct": 11.48,
+      "volumeDay": 965700,
+      "turnoverThousand": 486069,
+      "market": "S"
+    },
+    {
+      "code": "3399",
+      "name": "丸千代山岡家",
+      "close": 5300,
+      "gainPct": 11.34,
+      "volumeDay": 1163500,
+      "turnoverThousand": 5829558,
+      "market": "S"
+    },
+    {
+      "code": "7384",
+      "name": "プロクレアHD",
+      "close": 4280,
+      "gainPct": 11.17,
+      "volumeDay": 1352800,
+      "turnoverThousand": 5585904,
+      "market": "P"
+    },
+    {
+      "code": "7309",
+      "name": "シマノ",
+      "close": 20570,
+      "gainPct": 10.86,
+      "volumeDay": 2635700,
+      "turnoverThousand": 51829060,
+      "market": "P"
+    },
+    {
+      "code": "4478",
+      "name": "freee",
+      "close": 4600,
+      "gainPct": 10.84,
+      "volumeDay": 6820700,
+      "turnoverThousand": 29586679,
+      "market": "G"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "WEEKLY SWING LAB | 株スイング分析",
+  "short_name": "SWING LAB",
+  "description": "週間上昇株と業種資金集中の兆候を分析し、100株の週次スイング損益を試算",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#081322",
+  "theme_color": "#081322",
+  "lang": "ja",
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
