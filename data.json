@@ -384,8 +384,9 @@
       },
       "mondayOpen": 1212.0,
       "mondayOpenDate": "2026-11-02",
-      "latestClose": 1310.0,
-      "latestCloseDate": "2026-11-04"
+      "latestClose": 1241.0,
+      "latestCloseDate": "2026-11-06",
+      "fridayClose": 1241.0
     },
     {
       "code": "6262",
@@ -527,8 +528,9 @@
       },
       "mondayOpen": 673.0,
       "mondayOpenDate": "2026-11-02",
-      "latestClose": 773.0,
-      "latestCloseDate": "2026-11-04"
+      "latestClose": 805.0,
+      "latestCloseDate": "2026-11-06",
+      "fridayClose": 805.0
     },
     {
       "code": "3399",
@@ -670,8 +672,9 @@
       },
       "mondayOpen": 5250.0,
       "mondayOpenDate": "2026-11-02",
-      "latestClose": 5590.0,
-      "latestCloseDate": "2026-11-04"
+      "latestClose": 5580.0,
+      "latestCloseDate": "2026-11-06",
+      "fridayClose": 5580.0
     },
     {
       "code": "7384",
@@ -813,8 +816,9 @@
       },
       "mondayOpen": 3855.0,
       "mondayOpenDate": "2026-11-02",
-      "latestClose": 4000.0,
-      "latestCloseDate": "2026-11-04"
+      "latestClose": 3540.0,
+      "latestCloseDate": "2026-11-06",
+      "fridayClose": 3540.0
     },
     {
       "code": "7309",
@@ -956,8 +960,9 @@
       },
       "mondayOpen": 20930.0,
       "mondayOpenDate": "2026-11-02",
-      "latestClose": 20805.0,
-      "latestCloseDate": "2026-11-04"
+      "latestClose": 21120.0,
+      "latestCloseDate": "2026-11-06",
+      "fridayClose": 21120.0
     },
     {
       "code": "4478",
@@ -1099,10 +1104,11 @@
       },
       "mondayOpen": 4530.0,
       "mondayOpenDate": "2026-11-02",
-      "latestClose": 4580.0,
-      "latestCloseDate": "2026-11-04"
+      "latestClose": 4540.0,
+      "latestCloseDate": "2026-11-06",
+      "fridayClose": 4540.0
     }
   ],
-  "quotesCheckedAt": "2026-11-06 00:55 JST",
+  "quotesCheckedAt": "2026-11-06 17:55 JST",
   "quoteSource": "Yahoo Finance via unofficial yfinance (best effort)"
 }
