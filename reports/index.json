@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "reports": [
+    {
+      "asOf": "2026-10-30",
+      "tradeFriday": "2026-11-06",
+      "complete": true,
+      "winRatePct": 80.0,
+      "grossProfit100Total": 36600,
+      "portfolioReturnPct": 1.15,
+      "selectionMode": "retrospective_initial_reference",
+      "expectedCount": 5,
+      "completeCount": 5,
+      "reportPath": "reports/2026-10-30.json"
+    }
+  ]
+}

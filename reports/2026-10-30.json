@@ -1,0 +1,357 @@
+{
+  "version": 1,
+  "asOf": "2026-10-30",
+  "tradeMonday": "2026-11-02",
+  "tradeFriday": "2026-11-06",
+  "generatedAt": "2026-11-06 21:02 JST",
+  "selectionMode": "retrospective_initial_reference",
+  "learningEligible": false,
+  "lockedCodes": [
+    "7360",
+    "6262",
+    "3399",
+    "7384",
+    "7309"
+  ],
+  "expectedCount": 5,
+  "completeCount": 5,
+  "complete": true,
+  "winners": 4,
+  "losers": 1,
+  "winRatePct": 80.0,
+  "grossProfit100Total": 36600,
+  "capitalEvaluated": 3192000,
+  "portfolioReturnPct": 1.15,
+  "picks": [
+    {
+      "code": "3399",
+      "name": "丸千代山岡家",
+      "picked": true,
+      "mondayOpen": 5250.0,
+      "fridayClose": 5580.0,
+      "grossProfit100": 33000,
+      "returnPct": 6.29,
+      "status": "勝ち",
+      "source": "Yahoo Finance via yfinance / unofficial",
+      "selectionBaseScore": 73,
+      "selectionDecisionScore": 73,
+      "features": {
+        "rsi_balanced": true,
+        "rsi_hot": false,
+        "volume_expansion": false,
+        "ma_uptrend": true,
+        "above_ma200": true
+      },
+      "selectionRsi": 69.1,
+      "selectionVolumeRatio": 0.78,
+      "reviewPoints": [
+        "選定時出来高倍率1.5未満：勢いの継続を検証",
+        "信用需給未確認：買い残・売り残の確認が必要",
+        "決算日未確認：発表の有無を再確認",
+        "利益：偶然の可能性もあり同一条件の再現を確認"
+      ]
+    },
+    {
+      "code": "7309",
+      "name": "シマノ",
+      "picked": true,
+      "mondayOpen": 20930.0,
+      "fridayClose": 21120.0,
+      "grossProfit100": 19000,
+      "returnPct": 0.91,
+      "status": "勝ち",
+      "source": "Yahoo Finance via yfinance / unofficial",
+      "selectionBaseScore": 70,
+      "selectionDecisionScore": 70,
+      "features": {
+        "rsi_balanced": false,
+        "rsi_hot": true,
+        "volume_expansion": false,
+        "ma_uptrend": true,
+        "above_ma200": true
+      },
+      "selectionRsi": 77.9,
+      "selectionVolumeRatio": 1.43,
+      "reviewPoints": [
+        "選定時RSI70超：急騰後の反落リスクを点検",
+        "選定時出来高倍率1.5未満：勢いの継続を検証",
+        "信用需給未確認：買い残・売り残の確認が必要",
+        "決算日未確認：発表の有無を再確認",
+        "利益：偶然の可能性もあり同一条件の再現を確認"
+      ]
+    },
+    {
+      "code": "6262",
+      "name": "PEGASUS",
+      "picked": true,
+      "mondayOpen": 673.0,
+      "fridayClose": 805.0,
+      "grossProfit100": 13200,
+      "returnPct": 19.61,
+      "status": "勝ち",
+      "source": "Yahoo Finance via yfinance / unofficial",
+      "selectionBaseScore": 65,
+      "selectionDecisionScore": 65,
+      "features": {
+        "rsi_balanced": true,
+        "rsi_hot": false,
+        "volume_expansion": true,
+        "ma_uptrend": false,
+        "above_ma200": false
+      },
+      "selectionRsi": 67.5,
+      "selectionVolumeRatio": 1.55,
+      "reviewPoints": [
+        "5日・25日線の上昇配列を満たさない／位置関係に注意",
+        "信用需給未確認：買い残・売り残の確認が必要",
+        "決算日未確認：発表の有無を再確認",
+        "利益：偶然の可能性もあり同一条件の再現を確認"
+      ]
+    },
+    {
+      "code": "7384",
+      "name": "プロクレアHD",
+      "picked": true,
+      "mondayOpen": 3855.0,
+      "fridayClose": 3540.0,
+      "grossProfit100": -31500,
+      "returnPct": -8.17,
+      "status": "負け",
+      "source": "Yahoo Finance via yfinance / unofficial",
+      "selectionBaseScore": 54,
+      "selectionDecisionScore": 54,
+      "features": {
+        "rsi_balanced": false,
+        "rsi_hot": false,
+        "volume_expansion": false,
+        "ma_uptrend": false,
+        "above_ma200": true
+      },
+      "selectionRsi": 40.4,
+      "selectionVolumeRatio": 0.94,
+      "reviewPoints": [
+        "選定時出来高倍率1.5未満：勢いの継続を検証",
+        "5日・25日線の上昇配列を満たさない／位置関係に注意",
+        "信用需給未確認：買い残・売り残の確認が必要",
+        "決算日未確認：発表の有無を再確認",
+        "損失：要因を事後断定せず、チャート・需給と照合する"
+      ]
+    },
+    {
+      "code": "7360",
+      "name": "オンデック",
+      "picked": true,
+      "mondayOpen": 1212.0,
+      "fridayClose": 1241.0,
+      "grossProfit100": 2900,
+      "returnPct": 2.39,
+      "status": "勝ち",
+      "source": "Yahoo Finance via yfinance / unofficial",
+      "selectionBaseScore": 51,
+      "selectionDecisionScore": 51,
+      "features": {
+        "rsi_balanced": false,
+        "rsi_hot": true,
+        "volume_expansion": false,
+        "ma_uptrend": true,
+        "above_ma200": true
+      },
+      "selectionRsi": 79.0,
+      "selectionVolumeRatio": 0.45,
+      "reviewPoints": [
+        "選定時RSI70超：急騰後の反落リスクを点検",
+        "選定時出来高倍率1.5未満：勢いの継続を検証",
+        "信用需給未確認：買い残・売り残の確認が必要",
+        "決算日未確認：発表の有無を再確認",
+        "利益：偶然の可能性もあり同一条件の再現を確認"
+      ]
+    }
+  ],
+  "universeResults": [
+    {
+      "code": "3399",
+      "name": "丸千代山岡家",
+      "picked": true,
+      "mondayOpen": 5250.0,
+      "fridayClose": 5580.0,
+      "grossProfit100": 33000,
+      "returnPct": 6.29,
+      "status": "勝ち",
+      "source": "Yahoo Finance via yfinance / unofficial",
+      "selectionBaseScore": 73,
+      "selectionDecisionScore": 73,
+      "features": {
+        "rsi_balanced": true,
+        "rsi_hot": false,
+        "volume_expansion": false,
+        "ma_uptrend": true,
+        "above_ma200": true
+      },
+      "selectionRsi": 69.1,
+      "selectionVolumeRatio": 0.78,
+      "reviewPoints": [
+        "選定時出来高倍率1.5未満：勢いの継続を検証",
+        "信用需給未確認：買い残・売り残の確認が必要",
+        "決算日未確認：発表の有無を再確認",
+        "利益：偶然の可能性もあり同一条件の再現を確認"
+      ]
+    },
+    {
+      "code": "7309",
+      "name": "シマノ",
+      "picked": true,
+      "mondayOpen": 20930.0,
+      "fridayClose": 21120.0,
+      "grossProfit100": 19000,
+      "returnPct": 0.91,
+      "status": "勝ち",
+      "source": "Yahoo Finance via yfinance / unofficial",
+      "selectionBaseScore": 70,
+      "selectionDecisionScore": 70,
+      "features": {
+        "rsi_balanced": false,
+        "rsi_hot": true,
+        "volume_expansion": false,
+        "ma_uptrend": true,
+        "above_ma200": true
+      },
+      "selectionRsi": 77.9,
+      "selectionVolumeRatio": 1.43,
+      "reviewPoints": [
+        "選定時RSI70超：急騰後の反落リスクを点検",
+        "選定時出来高倍率1.5未満：勢いの継続を検証",
+        "信用需給未確認：買い残・売り残の確認が必要",
+        "決算日未確認：発表の有無を再確認",
+        "利益：偶然の可能性もあり同一条件の再現を確認"
+      ]
+    },
+    {
+      "code": "4478",
+      "name": "freee",
+      "picked": false,
+      "mondayOpen": 4530.0,
+      "fridayClose": 4540.0,
+      "grossProfit100": 1000,
+      "returnPct": 0.22,
+      "status": "勝ち",
+      "source": "Yahoo Finance via yfinance / unofficial",
+      "selectionBaseScore": 68,
+      "selectionDecisionScore": 68,
+      "features": {
+        "rsi_balanced": false,
+        "rsi_hot": true,
+        "volume_expansion": false,
+        "ma_uptrend": true,
+        "above_ma200": true
+      },
+      "selectionRsi": 79.9,
+      "selectionVolumeRatio": 1.33,
+      "reviewPoints": [
+        "選定時RSI70超：急騰後の反落リスクを点検",
+        "選定時出来高倍率1.5未満：勢いの継続を検証",
+        "信用需給未確認：買い残・売り残の確認が必要",
+        "決算日未確認：発表の有無を再確認",
+        "利益：偶然の可能性もあり同一条件の再現を確認"
+      ]
+    },
+    {
+      "code": "6262",
+      "name": "PEGASUS",
+      "picked": true,
+      "mondayOpen": 673.0,
+      "fridayClose": 805.0,
+      "grossProfit100": 13200,
+      "returnPct": 19.61,
+      "status": "勝ち",
+      "source": "Yahoo Finance via yfinance / unofficial",
+      "selectionBaseScore": 65,
+      "selectionDecisionScore": 65,
+      "features": {
+        "rsi_balanced": true,
+        "rsi_hot": false,
+        "volume_expansion": true,
+        "ma_uptrend": false,
+        "above_ma200": false
+      },
+      "selectionRsi": 67.5,
+      "selectionVolumeRatio": 1.55,
+      "reviewPoints": [
+        "5日・25日線の上昇配列を満たさない／位置関係に注意",
+        "信用需給未確認：買い残・売り残の確認が必要",
+        "決算日未確認：発表の有無を再確認",
+        "利益：偶然の可能性もあり同一条件の再現を確認"
+      ]
+    },
+    {
+      "code": "7384",
+      "name": "プロクレアHD",
+      "picked": true,
+      "mondayOpen": 3855.0,
+      "fridayClose": 3540.0,
+      "grossProfit100": -31500,
+      "returnPct": -8.17,
+      "status": "負け",
+      "source": "Yahoo Finance via yfinance / unofficial",
+      "selectionBaseScore": 54,
+      "selectionDecisionScore": 54,
+      "features": {
+        "rsi_balanced": false,
+        "rsi_hot": false,
+        "volume_expansion": false,
+        "ma_uptrend": false,
+        "above_ma200": true
+      },
+      "selectionRsi": 40.4,
+      "selectionVolumeRatio": 0.94,
+      "reviewPoints": [
+        "選定時出来高倍率1.5未満：勢いの継続を検証",
+        "5日・25日線の上昇配列を満たさない／位置関係に注意",
+        "信用需給未確認：買い残・売り残の確認が必要",
+        "決算日未確認：発表の有無を再確認",
+        "損失：要因を事後断定せず、チャート・需給と照合する"
+      ]
+    },
+    {
+      "code": "7360",
+      "name": "オンデック",
+      "picked": true,
+      "mondayOpen": 1212.0,
+      "fridayClose": 1241.0,
+      "grossProfit100": 2900,
+      "returnPct": 2.39,
+      "status": "勝ち",
+      "source": "Yahoo Finance via yfinance / unofficial",
+      "selectionBaseScore": 51,
+      "selectionDecisionScore": 51,
+      "features": {
+        "rsi_balanced": false,
+        "rsi_hot": true,
+        "volume_expansion": false,
+        "ma_uptrend": true,
+        "above_ma200": true
+      },
+      "selectionRsi": 79.0,
+      "selectionVolumeRatio": 0.45,
+      "reviewPoints": [
+        "選定時RSI70超：急騰後の反落リスクを点検",
+        "選定時出来高倍率1.5未満：勢いの継続を検証",
+        "信用需給未確認：買い残・売り残の確認が必要",
+        "決算日未確認：発表の有無を再確認",
+        "利益：偶然の可能性もあり同一条件の再現を確認"
+      ]
+    }
+  ],
+  "lessons": [
+    "評価可能5件中、利益4件・損失1件（仮想100株）。",
+    "損失1件のうち選定時RSI70超は0件。過熱の影響は別週でも検証する。",
+    "評価可能5件中、選定時の出来高倍率1.5未満は4件。利益との関係を複数週で比較。",
+    "次回はMA配列・信用買残増減・決算予定・業種強弱を選定時点で記録し、損益との関連を検証する。",
+    "観測結果は原因の証明ではなく、条件変更は複数週の時系列検証が必要。"
+  ],
+  "notes": [
+    "手数料・税金・スリッページ・指値不成立は反映していません。",
+    "月曜日が休場なら火曜始値で代用せず、当該銘柄は未確定とします。",
+    "信用残・決算など未確認情報を「問題なし」とは判定しません。",
+    "結果から過去の選定条件を上書きしません。結果と原因の関係は仮説です。"
+  ]
+}

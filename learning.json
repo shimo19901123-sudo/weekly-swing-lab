@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "status": "insufficient_data",
+  "totalCompleteWeeks": 0,
+  "minimumWeeks": 16,
+  "weights": {},
+  "appliedChanges": [],
+  "reason": "紙上評価が不足。選定基準は変更せず観察する。",
+  "safeguards": [
+    "上昇率5〜12%、出来高1万株以上、決算跨ぎ回避を自動変更しない",
+    "初期参考週や未確定価格は学習除外",
+    "4週間の時間順ホールドアウトが基準を上回る場合に限り小幅に補正"
+  ],
+  "generatedAt": "2026-11-06 21:02 JST"
+}
