@@ -1,22 +1,25 @@
-name: SWING LAB Auto Update & Weekly Review
+name: SWING LAB Friday Data / Sunday Picks / Weekly Review
 
 on:
   workflow_dispatch:
     inputs:
       mode:
-        description: 'daily = 日足更新 / friday = 振り返り+翌週候補 / review = 振り返りだけ'
+        description: 'daily = 日足 / friday = 金曜ランキング / sunday = 日曜候補固定 / review = 振り返り'
         required: true
         default: daily
         type: choice
         options:
           - daily
           - friday
+          - sunday
           - review
   schedule:
     # UTC 08:10 = JST 17:10, weekdays, after market close
     - cron: '10 8 * * 1-5'
     # UTC 11:20 = JST 20:20, Fridays, after ranking publication
     - cron: '20 11 * * 5'
+    # UTC 11:45 on Sunday = JST 20:45; ready for the 21:00 selection notification
+    - cron: '45 11 * * 0'
 
 permissions:
   contents: write
@@ -55,8 +58,12 @@ jobs:
       - name: Update prices MA RSI volume profile
         if: (github.event_name == 'schedule' && github.event.schedule == '10 8 * * 1-5') || (github.event_name == 'workflow_dispatch' && inputs.mode == 'daily') || (steps.friday_rank.outcome == 'success')
         run: python daily_prices.py
-      - name: Lock next week's five candidates before trading
-        if: steps.friday_rank.outcome == 'success'
+      - name: Collect publicly visible weekend headlines (not official IR confirmation)
+        if: (github.event_name == 'schedule' && github.event.schedule == '45 11 * * 0') || (github.event_name == 'workflow_dispatch' && inputs.mode == 'sunday')
+        continue-on-error: true
+        run: python weekend_news.py --mode sunday
+      - name: Lock next week's research candidates on Sunday before Monday trading
+        if: (github.event_name == 'schedule' && github.event.schedule == '45 11 * * 0') || (github.event_name == 'workflow_dispatch' && inputs.mode == 'sunday')
         run: python weekly_review.py --mode freeze
       - name: Fill available completed prices
         if: (github.event_name == 'schedule' && github.event.schedule == '10 8 * * 1-5') || (github.event_name == 'workflow_dispatch' && inputs.mode == 'daily') || (steps.friday_rank.outcome == 'success')
@@ -68,7 +75,9 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add data.json archive.json
+          if [ -f weekend_news.json ]; then git add weekend_news.json; fi
           if [ -f picks.json ]; then git add picks.json; fi
+          if [ -f sunday_picks.json ]; then git add sunday_picks.json; fi
           if [ -f learning.json ]; then git add learning.json; fi
           if [ -d reports ]; then git add -A reports; fi
           if ! git diff --cached --quiet; then
