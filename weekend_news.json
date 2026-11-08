@@ -1,0 +1,468 @@
+{
+  "version": 1,
+  "rankFriday": "2026-11-06",
+  "selectionSunday": "2026-11-08",
+  "collectedAt": "2026-11-08T21:19+09:00",
+  "status": "headlines_only",
+  "source": "Google ニュース RSS（新聞記事の見出し検索・一次IR照合なし）",
+  "globalHeadlines": [
+    {
+      "title": "NYダウの指数情報・推移 - Yahoo!ファイナンス",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9RX1F0c3NoRW1WOGhKVzFzd0tzWTlBS0NtMVZFbUUyZm14Z1Y5VWhzMjctd201Y2RMTFhBSGx0Rmdqc0ZFY1R2VzZUUG9PVjdUaXc?oc=5",
+      "publisher": "Yahoo!ファイナンス",
+      "publishedAt": "2026-11-08T20:26+09:00"
+    },
+    {
+      "title": "教えて！ヘッジファンドは何してる？投機筋が「円高を信じない」理由 - トウシル",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1BdG9lVjd0SVF4S1M3WllJVWlWQ0R0Z1MyS2FmNkUyaldCN2g4a2labmUyX1F1Nzg3VlFVNDNMUHdTamZVd0lBcWlUb0I4dk0tZ2R2YjVlb1dHUQ?oc=5",
+      "publisher": "トウシル",
+      "publishedAt": "2026-11-08T11:00+09:00"
+    },
+    {
+      "title": "【投資クイズ】ローソク足の「赤三兵」は、強気の相場のシグナルか？ - トウシル",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBISWVuME5qQWtVbDRIbGdGbDJmejJMNjMtS1owS05iaGRnWEt5QVZCNzU3WFJhYTkzeXV3SHZLVTd4TE5EYlA0R2VPQkl0S1hxSmc2SWlhUUg1dw?oc=5",
+      "publisher": "トウシル",
+      "publishedAt": "2026-11-08T08:00+09:00"
+    },
+    {
+      "title": "【2016（平成28）年11月8日】トランプ米大統領当選 - トウシル",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA0V0FvUXp4c1BDbnZHWFczYmJPYlRYalhBeVRhWVVvOUc3UFFsSlNRLTBuWjE1Q2pnS3p5SnM5V0lFb3FIV0d1eWZQdmoydlNWV2Ytc21HVXUwZw?oc=5",
+      "publisher": "トウシル",
+      "publishedAt": "2026-11-08T07:30+09:00"
+    },
+    {
+      "title": "ドル円、来週は160円攻防か 米CPIとAI株安の綱引き、日銀12月利上げ観測も焦点 - BigGo ファイナンス",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9hMU8tSHRuME9QRjd1T2ZJSk5xeHB5TkMwbkFBTXlTdXpLSDM4TXZNWG01UE05RkVCZ1JCUENTeW1SekdhTkZJTFM5U0YtR2xaNVo4VVFrTS0yTUdldlZoYTZyQ2w3bUl1VHg1ZHJmQVF6SXpp?oc=5",
+      "publisher": "BigGo ファイナンス",
+      "publishedAt": "2026-11-08T07:25+09:00"
+    },
+    {
+      "title": "来週のドル円相場はどうなる？11/9週のイベント予定 2026年11月8日 - 外為どっとコム",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBrbzlQRndjUkpZUjZzN0Q5VzA1ZXJwcHo1Z0luRjItTTg2V2tBeERWYUNKNzdCRzhHamNSVUswUkpMYm9BT3pfMFpPd0tmVXRFQ1B6Zk84WW5GdFpVZFJuYk1fRQ?oc=5",
+      "publisher": "外為どっとコム",
+      "publishedAt": "2026-11-08T07:02+09:00"
+    },
+    {
+      "title": "来週の相場で注目すべき3つのポイント：、米CPI、米PPI、国内主力銘柄決算(フィスコ) - Yahoo!ファイナンス",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOVUgzMHotekxkNlZPX0tERWdndVFxRWJMc1VkcXFJZ1NCcENoMzBJVlNLNWFCZUtPLTNjd1VmcFgwSjI0R3A1RVpDaW9DSklNRTdwRzlidHVWWWd0X1FpWU9maHZGUDE5QzlEdWp1UlVzUG5MWHVJNXEwOVE4SDZFb29SY1MweFE?oc=5",
+      "publisher": "Yahoo!ファイナンス",
+      "publishedAt": "2026-11-07T16:49+09:00"
+    },
+    {
+      "title": "国内株式市場見通し：非AI銘柄への資金シフト期待に加え、AI銘柄には短期資金のリバウンド狙いも(フィスコ) - Yahoo!ファイナンス",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSXAzT3VubW9ld0VjYWhLZUltRnlnajB6QWw4Qy16N3UycW5LQXZTb3lkSWF4YTN2dm5FTV9kOUFCdW9haHRXNVdJWjFlWThQWXNyTVVQU1RWSlVjYzQ2TlQwSDR3X1NOWnRsQXI2X3pOMUVFNlpKamtZU19ITzZ4dXJEaG9WbFE?oc=5",
+      "publisher": "Yahoo!ファイナンス",
+      "publishedAt": "2026-11-07T14:34+09:00"
+    },
+    {
+      "title": "為替週間見通し：底堅いか、米雇用の強さと12月追加利上げ観測が下支え 投稿日時： 2026/11/07 14:22[フィスコ] - みんかぶ",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBYQ0JUM2p3S0FFN2JvQWxCcDQySFRLMnhZRnhVR0FhM2xmZ3JWZ2hhdDd6ejhlcUMtTk5saURLdWN2WFRLVVE?oc=5",
+      "publisher": "みんかぶ",
+      "publishedAt": "2026-11-07T14:22+09:00"
+    },
+    {
+      "title": "国内外の注目経済指標：米インフレ動向がFRBの金融政策を左右、主要国の物価・景気指標にも注目 - みんかぶ",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1CSGNyWW9yS2tQVEpTaDhEd1llM0pBRVZGVjljREhfTEhROEFKQWxQTGd1TlJhMTN1RC1mbWcwb3ZjeGhFREE?oc=5",
+      "publisher": "みんかぶ",
+      "publishedAt": "2026-11-07T14:21+09:00"
+    },
+    {
+      "title": "ドル円見通し｜AI・半導体株急落、日経平均5.96％安 それでもドル円は157～158円台で膠着【相場の現在地】2026/11/7 - 外為どっとコム",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5CUVN3TTJ2c0ZiODlHY2pGdzlfb193NjFteHVwcUhaZFJkTVVManBHWkM1RGctMHllUXJNalZzcU8xUkxjTU92djdHellDblJKS0liaFZ2bDNITXF0T1NTTzYydw?oc=5",
+      "publisher": "外為どっとコム",
+      "publishedAt": "2026-11-07T11:00+09:00"
+    },
+    {
+      "title": "パナソニックHD、GSユアサ…蓄電池セクター注目の7銘柄：AI普及が招く電力不足を支える（茂木春輝） - トウシル",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBvYXhadTR4Q21KZGsxTnJHY09aOWg3U1MtcUZzWUY5OEVPTTNFRFZMd3hsTGo5NVMyVlJUMkYxQTNKUmxBNUJJSktDZjhVQjNBR1Vkd242WXA0QQ?oc=5",
+      "publisher": "トウシル",
+      "publishedAt": "2026-11-07T08:00+09:00"
+    },
+    {
+      "title": "【2015（平成27）年11月7日】中国と台湾が初の首脳会談 - トウシル",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE11cmt4eTJBanU5RWZQWWItRU1PUTVfUno3dHg5c01iOWRPdzhFMlVFV1hEVlBqNnQ4a3cwY2xjc3VJQ25oa2RscmI3Y3ZpWVJtY2VTcVFpemduQQ?oc=5",
+      "publisher": "トウシル",
+      "publishedAt": "2026-11-07T07:30+09:00"
+    },
+    {
+      "title": "ダウ平均は続落 データセンター関連に買い戻し 米雇用統計への反応鈍い＝米国株概況 - - みんかぶ FX/為替",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5OWi1ZNTY0SEoyTzRYYlBKc085UVRTZEZLT3hCblRlU3drcTM3NmlMNE5OOVFxei1DVURzSUZoQzFnUzQwUWN2OA?oc=5",
+      "publisher": "みんかぶ FX/為替",
+      "publishedAt": "2026-11-07T06:21+09:00"
+    },
+    {
+      "title": "【ドル/円、今夜から来週の見通し】ドル/円、米10月雇用統計を受けた米株に注目…来週は米10月消費者物価指数発表も注意点あり＿2026/11/6 - 外為どっとコム",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5JUjk1UmkyWS01UTN2ajFXQTl1WGxGM0ZaeWVwN3FtUzN5QzVfM3JVWkRNUG5kZ3NBVTZVYlJLOGNPcVFQc1lWX0h6bU9MRUJPbjJ0bExXVWZLV3R4dmRldHdiNA?oc=5",
+      "publisher": "外為どっとコム",
+      "publishedAt": "2026-11-06T18:59+09:00"
+    },
+    {
+      "title": "AIショック→日経平均株価は一時4,332円下落も…積立投資家が「市場からの撤退」だけは避けたい理由 - トウシル",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9WZTA0czNVS3lQVEkxOWhnZE1oOEo3UXQyXzBySmJvZUdtQXQ4LUpZWjd4MnlieEhjTWRUTy15N25yWThJckE4WFJuOFdfaEhfWlFEcVRZaERFZw?oc=5",
+      "publisher": "トウシル",
+      "publishedAt": "2026-11-06T18:05+09:00"
+    },
+    {
+      "title": "［動画］【速報】世界AIショック安：日本株どうなる？株価急落時に「居続ける」ことが長期投資の成績を決める - トウシル",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBwOFRiMGV1NXY2aTY0NGw5QU4wcDRmWWpTMEVPN0FlRXROYVR0bUstRk9VWUg5NzIzZVVlMlI2enJGOGh2QUl4ZEp0d2ZoZFc5SGtjaDBTdC1DZw?oc=5",
+      "publisher": "トウシル",
+      "publishedAt": "2026-11-06T18:03+09:00"
+    },
+    {
+      "title": "日銀の追加利上げ観測と米CPIの行方に注目(スケジュールチェック) - QUICK Money World",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4zWnMwdkNzSDFsYmVHOW8zbGF4QkhZZDV0dDN0WmZPOUVYU3BNSjlZU2lQR1p2QnhMT0ZXbG5HdW8wT0EwMmd2eVk0aDZPZkR5cXlNazd3?oc=5",
+      "publisher": "QUICK Money World",
+      "publishedAt": "2026-11-06T17:20+09:00"
+    }
+  ],
+  "companies": {
+    "6366": {
+      "name": "千代建",
+      "retrieval": "headlines_only",
+      "headlines": [
+        {
+          "title": "決算プラス・インパクト銘柄 【東証スタンダード・グロース】 … 千代建、東映アニメ、Ｇセキュリ (10月30日～11月5日発表分) - 株探",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9hbVBfRlRueDBuQ0k1eXpqSWtTQlZWWUEybUNDX1BPT1dDbHk2NlhRUl9xaVB0a01QZDZMV1NTTHE1cE9WVl93aF9qNHdGU2dFN3FSZ0J1WWI2TFA5ZGZ3Ug?oc=5",
+          "publisher": "株探",
+          "publishedAt": "2026-11-07T15:00+09:00"
+        }
+      ],
+      "riskHeadlines": [],
+      "needsReview": false,
+      "note": "見出しヒットは公式IR未確認。ヒット0件でも材料なしと証明できない。"
+    },
+    "3028": {
+      "name": "アルペン",
+      "retrieval": "headlines_only",
+      "headlines": [
+        {
+          "title": "(株)アルペン【3028】：株価・株式情報（夜間PTS含む） - Yahoo!ファイナンス",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFByZ2F1QzV1d0NFYU1uQmJWcU9Wa2dsc01EX05NNEQ1dWRiZmpNcVpiQXV3SklxYnlHdWZuVUY3THlKM1M3XzB0Y0ZQeUZXLTBDTmc?oc=5",
+          "publisher": "Yahoo!ファイナンス",
+          "publishedAt": "2026-11-06T17:00+09:00"
+        },
+        {
+          "title": "株式会社アルペンがW LEAGUEオフィシャルスポンサー契約締結 - 北海道新聞デジタル",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNYzV0Tlp2T3VBZzkyS0oxRGRxVF9jVEdrNVVldldvdWpBYnBrQ282Z09GTE9WTmlucTRmUlJ3aGxoZ3llVUhwa3NsNWpVUE05VTFyb09ENnBxRlE3WnFya2d0MF9USVJCYmIzbnlQR24xcjlhWktQaGxxM1NhdWsxdXNjZUdPNUhX?oc=5",
+          "publisher": "北海道新聞デジタル",
+          "publishedAt": "2026-11-07T02:33+09:00"
+        },
+        {
+          "title": "(株)アルペン【3028】：決算情報 - Yahoo!ファイナンス",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9PUktTUzZ2eXJTT2ItYnd3MUZJN1o0VGd2ako5ZDIweVFfRzhuUjBRRTF4WUhqdTA0SUUxYzNTb0ZYdGxIU0VnaXNwNVpNcnRSRzJ3MlhVdW5fWmhzaVJlZg?oc=5",
+          "publisher": "Yahoo!ファイナンス",
+          "publishedAt": "2026-11-06T17:00+09:00"
+        },
+        {
+          "title": "【先行販売で即日完売】「アルミユニットテーブル＋72」が、10月9日(金)より全国のスポーツデポ・アルペンでいよいよ発売！ - 朝日新聞",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1PTDNaWFA1LWQ5c1VuR3BZS1o4TU9tWEV3OG8yVW1UcGUyaEZhN19iMmRFTGlQVFREV3Vrakt1Z0dYdlBQMzc3eVg4NFpZZUpLNkV6Um45Y3hsVDg?oc=5",
+          "publisher": "朝日新聞",
+          "publishedAt": "2026-11-07T04:23+09:00"
+        }
+      ],
+      "riskHeadlines": [],
+      "needsReview": false,
+      "note": "見出しヒットは公式IR未確認。ヒット0件でも材料なしと証明できない。"
+    },
+    "3668": {
+      "name": "コロプラ",
+      "retrieval": "headlines_only",
+      "headlines": [
+        {
+          "title": "(株)コロプラ【3668】：株価・株式情報（夜間PTS含む） - Yahoo!ファイナンス",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1tUFBGMmlPQnYxZ2h6NERlRHMtYXk1NERnb05HR2NRZVFUVTNqX2hpWDVaSnZJTDVhOUFYMXFRRXA5UTBPdWZpOEZJMDhtemJoWGc?oc=5",
+          "publisher": "Yahoo!ファイナンス",
+          "publishedAt": "2026-11-06T17:00+09:00"
+        },
+        {
+          "title": "2026年9月期決算説明会の動画を公開しました - 株式会社コロプラ",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5KT240d3l0b0pnRVFNSEttTk1WQ0FNTGJ1MGtaTnd5anp6VXAyX2FaVS1uZXFIdFBLSWZZOV9nWWx1SldvdVBQclZXMnBjeHJPYnY3VUxEUlI?oc=5",
+          "publisher": "株式会社コロプラ",
+          "publishedAt": "2026-11-06T18:15+09:00"
+        },
+        {
+          "title": "【コロプラ FY2026 通期 決算説明会】コロプラ、営業利益128.6%増の22.9億円で黒字転換——エンタメ事業も18.2億円の営業黒字化、自己資本比率93%を維持 - BigGo ファイナンス",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE13b2N5bHRmQVktVEdkVWxIUVNDZXVIeWgxSFZ4T2NCLU9lU0o4UXBFeHJlenpzU3FDSE43aE90aDRzNmFnQTZtZkN3TkIwck5KcDlwRVoxUWFqQjFHY1Vr?oc=5",
+          "publisher": "BigGo ファイナンス",
+          "publishedAt": "2026-11-06T18:24+09:00"
+        },
+        {
+          "title": "コロプラ 2026年9月期 決算説明会 - BigGo ファイナンス",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBxZ3NLZmtPZnJGTVYwRFU3RWd2cUJYTXdpTlk2Sl9aQWVnVDdMeEM3dmFCUUYtaFg0R2h6MjYyVDBWUlg1V0xfNHdKcGFWOHB3YTVXc0QwMWpRMGNweXp3cm82QnBLd19zWnR1Qlhxa21NMkFXMzFieDc4d20?oc=5",
+          "publisher": "BigGo ファイナンス",
+          "publishedAt": "2026-11-06T18:38+09:00"
+        }
+      ],
+      "riskHeadlines": [],
+      "needsReview": false,
+      "note": "見出しヒットは公式IR未確認。ヒット0件でも材料なしと証明できない。"
+    },
+    "3150": {
+      "name": "グリムス",
+      "retrieval": "headlines_only",
+      "headlines": [
+        {
+          "title": "(株)グリムス【3150】：株価・株式情報（夜間PTS含む） - Yahoo!ファイナンス",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8wQnk2U2ZKNTU1Q2ZVb3R5ckRMN3g4b01abjUtRXZmZ2NjXzlXNG1xVmxHOWN6YmpzYkQwTjRLeTBaN3c0SlpYWnZCbUF0ZlEwZ2c?oc=5",
+          "publisher": "Yahoo!ファイナンス",
+          "publishedAt": "2026-11-06T17:00+09:00"
+        }
+      ],
+      "riskHeadlines": [],
+      "needsReview": false,
+      "note": "見出しヒットは公式IR未確認。ヒット0件でも材料なしと証明できない。"
+    },
+    "4565": {
+      "name": "ネクセラファーマ",
+      "retrieval": "headlines_only",
+      "headlines": [
+        {
+          "title": "ネクセラファーマ(株)【4565】：株価・株式情報（夜間PTS含む） - Yahoo!ファイナンス",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBjcXdVX1Rwc2dEeFc2TkZYWVFMTXVtU1pBUzVQQzdMTXM2eGxBa2M3em1BUXdtOXlNbEJzaE5fTV9BRFlUTzEyVDlNdmROQ2ZSM2c?oc=5",
+          "publisher": "Yahoo!ファイナンス",
+          "publishedAt": "2026-11-06T17:00+09:00"
+        },
+        {
+          "title": "ネクセラファーマ(株)【4565】：掲示板 - Yahoo!ファイナンス",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE56LTZOQXlJZWFwOFFyVUhGanhlM3JyOXZvam9YSXNIdFJyOXhGdVVXQjd1Rk5TUmZ1d2xHZm8yXzdnaVJha0ZNOE11NFVKd2JMQm12S29LQzZMUQ?oc=5",
+          "publisher": "Yahoo!ファイナンス",
+          "publishedAt": "2026-11-06T17:00+09:00"
+        },
+        {
+          "title": "シンバイオ製薬、ネクセラファーマが上昇、PRISM、レナサイエンス、ステムリムが下落、MabGenesisが新規上場 - 日経バイオテクONLINE",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBuSzlkMTFqS05mODJvd2Fqb0xGbHpSTXJqTlA5UDRyZmlmUFlPNlNLRXIzYnhHUVBxaGN1SU1MUUVHZ09EVmRVTXd5LXZ5Vnk0VHMzbVBhRGJGb2R6LWxqNFJiVmM1NTFkNnhIbE9xYw?oc=5",
+          "publisher": "日経バイオテクONLINE",
+          "publishedAt": "2026-11-07T00:32+09:00"
+        }
+      ],
+      "riskHeadlines": [],
+      "needsReview": false,
+      "note": "見出しヒットは公式IR未確認。ヒット0件でも材料なしと証明できない。"
+    },
+    "2805": {
+      "name": "エスビー",
+      "retrieval": "headlines_only",
+      "headlines": [],
+      "riskHeadlines": [],
+      "needsReview": false,
+      "note": "見出しヒットは公式IR未確認。ヒット0件でも材料なしと証明できない。"
+    },
+    "4689": {
+      "name": "ＬＩＮＥヤフー",
+      "retrieval": "headlines_only",
+      "headlines": [
+        {
+          "title": "ＬＩＮＥヤフー(株)【4689】：株価・株式情報（夜間PTS含む） - Yahoo!ファイナンス",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5Rcm9iNDNGdzlJbkQwU3IxdTV3V0JuQmRIWl9RRG9RNm56akNHcW5vN1MwSExvZmpIWVVsT2xIZzdWSkZQcHlnSDRWeGktMTdyV0E?oc=5",
+          "publisher": "Yahoo!ファイナンス",
+          "publishedAt": "2026-11-06T17:00+09:00"
+        },
+        {
+          "title": "ＬＩＮＥヤフー(株)【4689】：掲示板 - Yahoo!ファイナンス",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9qUi00ZXNnWkdfTjJfeS1Lb3lUUUVIY3pmWTBZMWhZQXhxaEUyMktCT3h3dHB3bFBLZmxyd2lqNHJ6OUlCY0FSYjBEVjMtbHBXdnVBNFVVWnpWdw?oc=5",
+          "publisher": "Yahoo!ファイナンス",
+          "publishedAt": "2026-11-06T17:00+09:00"
+        },
+        {
+          "title": "ＬＩＮＥヤフー(株)【4689】：株主優待 - Yahoo!ファイナンス",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5HVmZjZTZSRmdLQkIyZDBkeTlYemo2aXNLdzZUUkFCcnptSVFJRHpsREdaZWVqVDZPekFhU1BjbkJqT0l6RG5lVWlXWkF3dC1KdWx6YWt0SUk0UmNzdkZJ?oc=5",
+          "publisher": "Yahoo!ファイナンス",
+          "publishedAt": "2026-11-06T17:00+09:00"
+        }
+      ],
+      "riskHeadlines": [],
+      "needsReview": false,
+      "note": "見出しヒットは公式IR未確認。ヒット0件でも材料なしと証明できない。"
+    },
+    "8194": {
+      "name": "ライフコーポ",
+      "retrieval": "headlines_only",
+      "headlines": [],
+      "riskHeadlines": [],
+      "needsReview": false,
+      "note": "見出しヒットは公式IR未確認。ヒット0件でも材料なしと証明できない。"
+    },
+    "2730": {
+      "name": "エディオン",
+      "retrieval": "headlines_only",
+      "headlines": [
+        {
+          "title": "エディオン、ECサイトのログに不正アクセス 最大9,554名の個人情報漏洩の恐れ、クレジットカード有効期限も対象の可能性 - 合同会社ロケットボーイズ",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOR2plbi01aElwQm5Fd2RYaGh0UzVFWVd1cVZ0aWRLMm1TZmpiRVR1QzFva3czY25SUVBMVDRrLXBnT0F2bVpKMUktUUtzQm9RdFVUbTF3M3k5WDE0d2ZTcWRjNTc1R2Z5cnZfREpuckt1UjFfUmdBVllPbnY0cW51RFdDS3Q5SHNCOXZNQ056c2lFcnZrN3VMWg?oc=5",
+          "publisher": "合同会社ロケットボーイズ",
+          "publishedAt": "2026-11-08T17:15+09:00"
+        },
+        {
+          "title": "(株)エディオン【2730】：今の株価の理由は？値動きの背景をAIが解説 - Yahoo!ファイナンス",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1PWWZuMkQ4ektxY1FEdHdrWlJaMGlCRDhhUS05aFJReDFJc2JlcUJadEJZelY4TTdHMzlQZ2VOTVlhZnlUcVBnSm82Sm9LclVWN1RRM1ZfTjl1aGpaT2h3?oc=5",
+          "publisher": "Yahoo!ファイナンス",
+          "publishedAt": "2026-11-06T15:57+09:00"
+        },
+        {
+          "title": "全機能利用不可。エディオン、緊急システムメンテナンス実施中【2026年11月7日（土）22時～】 - Jetstream",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQSmNQZmZfaEpiNWZzcE1jOEl2OXB1VnZRMU5xMTJTbUJuT1lFaGg3SGNmNjJyTnBhWDJnamhBbW1GNW9kTDQ0SE9KWGs5dWk5Z0dMY2ZlejBPYmN5bVRFUVc2QUV4anctN1lDajdRWXNQWlkzRVR4NXdOMV9VUzVBVFdqMVQ4YVN2NDFUS1p3?oc=5",
+          "publisher": "Jetstream",
+          "publishedAt": "2026-11-08T05:23+09:00"
+        },
+        {
+          "title": "サンフレッチェ広島公式試合（エディオンピースウイング広島）で人権啓発活動を実施します！ - 広島県公式ホームページ",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5ta0Mza0lsMnhhWmNEejJjbnFvUTVMd3lVUmhXenFqdXdhY0xvM2lIbXBuN1M5Zm5EMHRhRXpyYjVnZzZ2MEw2Z28tQVhnNFQ5VnBDaDhwNkJybzlpd3lsQ1FWcmU0N0U0ekR5cmpoaw?oc=5",
+          "publisher": "広島県公式ホームページ",
+          "publishedAt": "2026-11-06T15:33+09:00"
+        },
+        {
+          "title": "「とことんやるけぇ！」 ヤマダデンキ広島本店開業でエディオン・ケーズデンキ・ビックカメラが対抗セール - 中国新聞デジタル",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBUMFo4MGJFSVBHQmlHZGlOdlE4dkFHOWZGZEkwcmFVUXhRTFEtNlFEWWtlNVRTNFQ3eVpkdms5OG45R2ZVSHcxRk5jYkNHOUNPcGNJT3VHeDRSdw?oc=5",
+          "publisher": "中国新聞デジタル",
+          "publishedAt": "2026-11-06T21:26+09:00"
+        }
+      ],
+      "riskHeadlines": [
+        {
+          "title": "エディオン、ECサイトのログに不正アクセス 最大9,554名の個人情報漏洩の恐れ、クレジットカード有効期限も対象の可能性 - 合同会社ロケットボーイズ",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOR2plbi01aElwQm5Fd2RYaGh0UzVFWVd1cVZ0aWRLMm1TZmpiRVR1QzFva3czY25SUVBMVDRrLXBnT0F2bVpKMUktUUtzQm9RdFVUbTF3M3k5WDE0d2ZTcWRjNTc1R2Z5cnZfREpuckt1UjFfUmdBVllPbnY0cW51RFdDS3Q5SHNCOXZNQ056c2lFcnZrN3VMWg?oc=5",
+          "publisher": "合同会社ロケットボーイズ",
+          "publishedAt": "2026-11-08T17:15+09:00"
+        }
+      ],
+      "needsReview": true,
+      "note": "見出しヒットは公式IR未確認。ヒット0件でも材料なしと証明できない。"
+    },
+    "9202": {
+      "name": "ＡＮＡ",
+      "retrieval": "headlines_only",
+      "headlines": [
+        {
+          "title": "ＡＮＡホールディングス(株)【9202】：株価・株式情報（夜間PTS含む） - Yahoo!ファイナンス",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9xR3VYMWxTMFRmaFFnRlRySFdEYkcxb2VPQ0MwbDZUaEhBT18xd0Fubk04NUNMSFk4VWpMdTFPYVBuc3hsWjdiNHl1OXFxemJGWlE?oc=5",
+          "publisher": "Yahoo!ファイナンス",
+          "publishedAt": "2026-11-06T17:00+09:00"
+        },
+        {
+          "title": "ＡＮＡホールディングス(株)【9202】：掲示板 - Yahoo!ファイナンス",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE91eFVjZFFuSW9GMXBRc3U2ZnROaUwzdklnYVY0c3ZHMjJua0s3RklTSGtZdDF0N1gzdkloZzdWSjdhUkNTTWdHdGEwSTh0THNkdVlzWlNTOW85Zw?oc=5",
+          "publisher": "Yahoo!ファイナンス",
+          "publishedAt": "2026-11-06T17:00+09:00"
+        },
+        {
+          "title": "ＡＮＡホールディングス(株)【9202】：株つぶやき - Yahoo!ファイナンス",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE04QnFIMU9MT05ZV0FiV1VldkVlNlQwS09adTdva0tYV1U5T2FDNUlNek9hNWN5M2E4cDdORWpFdlBrOVlSMmtqa1pMTGR4b0ZGaFlIbDAtYVY?oc=5",
+          "publisher": "Yahoo!ファイナンス",
+          "publishedAt": "2026-11-06T17:00+09:00"
+        }
+      ],
+      "riskHeadlines": [],
+      "needsReview": false,
+      "note": "見出しヒットは公式IR未確認。ヒット0件でも材料なしと証明できない。"
+    },
+    "4612": {
+      "name": "日ペイントＨ",
+      "retrieval": "headlines_only",
+      "headlines": [],
+      "riskHeadlines": [],
+      "needsReview": false,
+      "note": "見出しヒットは公式IR未確認。ヒット0件でも材料なしと証明できない。"
+    },
+    "2501": {
+      "name": "サッポロビー",
+      "retrieval": "headlines_only",
+      "headlines": [],
+      "riskHeadlines": [],
+      "needsReview": false,
+      "note": "見出しヒットは公式IR未確認。ヒット0件でも材料なしと証明できない。"
+    },
+    "3549": {
+      "name": "クスリのアオキ",
+      "retrieval": "headlines_only",
+      "headlines": [
+        {
+          "title": "クスリのアオキHD、秋田県由利本荘市に「クスリのアオキ本荘店」をリニューアルオープン - ダイヤモンド・チェーンストアオンライン",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5vUml2MHI5LUVYeTlVWDNtdlRiano4UHRtZVBQeS1ITmppUUEwdDdVX21kdFR2ejBhaE41SjNSeFQwR3Q2VVhXbkZ4SHJCYTdIb3Z3?oc=5",
+          "publisher": "ダイヤモンド・チェーンストアオンライン",
+          "publishedAt": "2026-11-08T19:17+09:00"
+        },
+        {
+          "title": "画像8 / 9＞クスリのアオキで「スヌーピー」限定グッズ大量当選キャンペーン！3万円分カードや水筒、マイバッグなど - ウォーカープラス",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4yNWVUMmdsTFJsdEJaY2F4QldiaUpFbEpLdGFrNjhvMDZ5Q3dXR2Myb3pmWXFTR0NqRXdDTTBrMEtYb3IzVWREczV2RngxMWR4QUR5WnRJOVliMDFQWlZUQXRNMHMyRDJZSGI1OGxR?oc=5",
+          "publisher": "ウォーカープラス",
+          "publishedAt": "2026-11-08T05:51+09:00"
+        }
+      ],
+      "riskHeadlines": [],
+      "needsReview": false,
+      "note": "見出しヒットは公式IR未確認。ヒット0件でも材料なしと証明できない。"
+    },
+    "8255": {
+      "name": "アクシアル",
+      "retrieval": "headlines_only",
+      "headlines": [
+        {
+          "title": "アクシアル リテイリング(株)【8255】：株つぶやき - Yahoo!ファイナンス",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0xMlZwNXNzLTcxY1VlSVVMSDU5dW1obDVWc2MxaGVfYnozbFRWS2x5UEdwZlhjRUNLdk9ldlp2Ujh3RXRoTWN5TVhudlNHbGdQaGxqbmh2TE4?oc=5",
+          "publisher": "Yahoo!ファイナンス",
+          "publishedAt": "2026-11-07T02:52+09:00"
+        }
+      ],
+      "riskHeadlines": [],
+      "needsReview": false,
+      "note": "見出しヒットは公式IR未確認。ヒット0件でも材料なしと証明できない。"
+    },
+    "7203": {
+      "name": "トヨタ",
+      "retrieval": "headlines_only",
+      "headlines": [
+        {
+          "title": "トヨタ自動車(株)【TM】：株価・株式情報 - Yahoo!ファイナンス",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBBVUdJM0U0aFlkR0FQN05mMW1YR2VRTlVLdEE1d19aRE9MWndrR1NnWTJZb1VtZmtjSGxRTzZseVZQaVhNU1NNUUJFSU8?oc=5",
+          "publisher": "Yahoo!ファイナンス",
+          "publishedAt": "2026-11-08T18:34+09:00"
+        },
+        {
+          "title": "【チケット】11/14,15山形戦 トヨタL&F岩手“パノラマシート”限定販売 - 岩手ビッグブルズ",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFAxblRfTGMySnRZU1R1QVplb0VtTEoyYXpsVmhCOFMwbk16blRtSG1xYVY0OXhLV0FOWlRta3QxYWtyQnUzX1hyZS1heVN4XzN6YWx4a2VjNA?oc=5",
+          "publisher": "岩手ビッグブルズ",
+          "publishedAt": "2026-11-06T19:49+09:00"
+        },
+        {
+          "title": "トヨタ自動車(株)【7203】：掲示板 - Yahoo!ファイナンス",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5SLVlBRzAxc1ZtUUZvS0lFQzQxRzFrcXhLWmV4U1paQkkwb1V6bDhyUzdPSU1kQWxUMGdfaGlObnh5ODBxR2lxOVBMcEZMZkRDLXJNdUFJMGxFdw?oc=5",
+          "publisher": "Yahoo!ファイナンス",
+          "publishedAt": "2026-11-06T16:07+09:00"
+        },
+        {
+          "title": "トヨタ自動車/トヨタグループ株式ファンド【7931603B】：基準価格・投資信託情報 - Yahoo!ファイナンス",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1JV1VLT19ZNXNfQkxlaUo1NWtJRjZrcGZ2Q2dVMmtjVWpxSUhUbXg4Wjc1dDRBN0ZHV0JhdHRuWTQzdHZ2YkNuYWFLaEJ6U0xBZlluZQ?oc=5",
+          "publisher": "Yahoo!ファイナンス",
+          "publishedAt": "2026-11-06T17:00+09:00"
+        },
+        {
+          "title": "トヨタ紡織(株)【3116】：株価・株式情報（夜間PTS含む） - Yahoo!ファイナンス",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBuLURhMFk3SkdqZmMyNkRLOUE5aDlLNjFoQm1kWEtQTW5IMWxjQldYQWdNS0tXeEJnTGdqaHZIN0VaX3pfeC1HN204TVgtQUxqcXc?oc=5",
+          "publisher": "Yahoo!ファイナンス",
+          "publishedAt": "2026-11-06T17:00+09:00"
+        },
+        {
+          "title": "トヨタ紡織(株)【3116】：掲示板 - Yahoo!ファイナンス",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBqbm1KSVVmUnNlNDlkU0NISFdLcGppMzFJY0xtWkgxNjZFUlFQX1JsT0tkQ2UydDdpMkNCTWpLLUtxend6bEhqUm5EODE0cnlRbXNEcTJQYmpiUQ?oc=5",
+          "publisher": "Yahoo!ファイナンス",
+          "publishedAt": "2026-11-06T17:00+09:00"
+        }
+      ],
+      "riskHeadlines": [],
+      "needsReview": false,
+      "note": "見出しヒットは公式IR未確認。ヒット0件でも材料なしと証明できない。"
+    }
+  },
+  "failures": [],
+  "coverage": {
+    "requestedCompanies": 15,
+    "companiesProcessed": 15,
+    "successQueries": 18,
+    "failedQueries": 0
+  },
+  "limitations": [
+    "週末のすべての材料・公式IRを検証したものではない。",
+    "見出しの重大語は誤検出・情報遅延の可能性があるため売買を自動確定しない。",
+    "見出しの有無のみでは安全性を確認できない。日曜夜と月曜寄付前に一次情報を要確認。"
+  ]
+}
