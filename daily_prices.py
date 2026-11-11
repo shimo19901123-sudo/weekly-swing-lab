@@ -115,11 +115,27 @@ def main():
     asof = str(raw['asOf'])
     datetime.fromisoformat(asof)
     today = datetime.now(JST).date().isoformat()
-    pool = [s for s in raw['candidates']
-            if 5 <= float(s.get('gainPct', -999)) <= 12
-            and int(s.get('volumeDay', 0)) >= 10000
-            and positive(s.get('close')) and float(s['close']) >= 250
-            and float(s.get('turnoverThousand', 0)) >= 50000][:25]
+    eligible = [s for s in raw['candidates']
+                if 5 <= float(s.get('gainPct', -999)) <= 12
+                and int(s.get('volumeDay', 0)) >= 10000
+                and positive(s.get('close')) and float(s['close']) >= 250
+                and float(s.get('turnoverThousand', 0)) >= 50000]
+    # Locked weekly picks are prioritized, even when outside the top-25
+    # gain ranking. This does not change selection, scores or order criteria.
+    picked_codes = set()
+    for path in (ROOT / 'sunday_picks.json', ROOT / 'picks.json'):
+        if not path.exists():
+            continue
+        try:
+            snapshot = json.loads(path.read_text(encoding='utf-8'))
+            for week in snapshot.get('weeks', []):
+                if (week.get('asOf') == asof
+                        and week.get('selectionMode') == 'pretrade_locked'):
+                    picked_codes.update(str(code) for code in week.get('pickedCodes', []))
+        except (OSError, ValueError, TypeError) as e:
+            print(f'[WARN] ignored invalid pick snapshot {path.name}: {e}', file=sys.stderr)
+    # Stable sorting keeps the original ranking order within each group.
+    pool = sorted(eligible, key=lambda s: str(s.get('code', '')) not in picked_codes)[:25]
     succeeded = changed = 0
     for stock in pool:
         try:
