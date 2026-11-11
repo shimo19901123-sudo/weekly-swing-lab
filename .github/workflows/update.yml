@@ -65,6 +65,11 @@ jobs:
       - name: Lock next week's research candidates on Sunday before Monday trading
         if: (github.event_name == 'schedule' && github.event.schedule == '45 11 * * 0') || (github.event_name == 'workflow_dispatch' && inputs.mode == 'sunday')
         run: python weekly_review.py --mode freeze
+      - name: Collect optional high-dividend / value reference (not a selection score)
+        if: (github.event_name == 'schedule' && github.event.schedule == '45 11 * * 0') || (github.event_name == 'workflow_dispatch' && inputs.mode == 'sunday')
+        continue-on-error: true
+        run: python fundamentals.py
+
       - name: Fill available completed prices
         if: (github.event_name == 'schedule' && github.event.schedule == '10 8 * * 1-5') || (github.event_name == 'workflow_dispatch' && inputs.mode == 'daily') || (steps.friday_rank.outcome == 'success')
         run: python update_data.py --mode daily
@@ -75,6 +80,7 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add data.json archive.json
+          if [ -f fundamentals.json ]; then git add fundamentals.json; fi
           if [ -f weekend_news.json ]; then git add weekend_news.json; fi
           if [ -f picks.json ]; then git add picks.json; fi
           if [ -f sunday_picks.json ]; then git add sunday_picks.json; fi
