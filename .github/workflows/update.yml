@@ -74,12 +74,19 @@ jobs:
         if: (github.event_name == 'schedule' && github.event.schedule == '10 8 * * 1-5') || (github.event_name == 'workflow_dispatch' && inputs.mode == 'daily') || (steps.friday_rank.outcome == 'success')
         run: python update_data.py --mode daily
 
+      - name: Snapshot completed daily bars and review the pre-trade-locked five
+        if: (github.event_name == 'schedule' && github.event.schedule == '10 8 * * 1-5') || (github.event_name == 'workflow_dispatch' && inputs.mode == 'daily')
+        # Non-fatal for the existing pipeline: missing external quotes are shown as missing.
+        continue-on-error: true
+        run: python daily_review.py
+
       - name: Commit only generated data and reports
         if: always()
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add data.json archive.json
+          if [ -f daily_reviews.json ]; then git add daily_reviews.json; fi
           if [ -f fundamentals.json ]; then git add fundamentals.json; fi
           if [ -f weekend_news.json ]; then git add weekend_news.json; fi
           if [ -f picks.json ]; then git add picks.json; fi
