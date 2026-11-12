@@ -1,0 +1,101 @@
+name: SWING LAB Friday Data / Sunday Picks / Weekly Review
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'daily = 日足 / friday = 金曜ランキング / sunday = 日曜候補固定 / review = 振り返り'
+        required: true
+        default: daily
+        type: choice
+        options:
+          - daily
+          - friday
+          - sunday
+          - review
+  schedule:
+    # UTC 08:10 = JST 17:10, weekdays, after market close
+    - cron: '10 8 * * 1-5'
+    # UTC 11:20 = JST 20:20, Fridays, after ranking publication
+    - cron: '20 11 * * 5'
+    # UTC 11:45 on Sunday = JST 20:45; ready for the 21:00 selection notification
+    - cron: '45 11 * * 0'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: swing-lab-market-data
+  cancel-in-progress: false
+
+jobs:
+  update-and-review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - name: Checkout latest repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install packages
+        run: python -m pip install -r requirements.txt
+
+      - name: Finish prior trading week's review
+        if: (github.event_name == 'schedule' && github.event.schedule == '20 11 * * 5') || (github.event_name == 'workflow_dispatch' && (inputs.mode == 'friday' || inputs.mode == 'review'))
+        run: python weekly_review.py --mode finalize
+      - name: Recalculate safe learning suggestions
+        if: (github.event_name == 'schedule' && github.event.schedule == '20 11 * * 5') || (github.event_name == 'workflow_dispatch' && (inputs.mode == 'friday' || inputs.mode == 'review'))
+        run: python weekly_review.py --mode learn
+
+      - name: Download new Friday ranking
+        id: friday_rank
+        if: (github.event_name == 'schedule' && github.event.schedule == '20 11 * * 5') || (github.event_name == 'workflow_dispatch' && inputs.mode == 'friday')
+        run: python update_data.py --mode friday
+      - name: Update prices MA RSI volume profile
+        if: (github.event_name == 'schedule' && github.event.schedule == '10 8 * * 1-5') || (github.event_name == 'workflow_dispatch' && inputs.mode == 'daily') || (steps.friday_rank.outcome == 'success')
+        run: python daily_prices.py
+      - name: Collect publicly visible weekend headlines (not official IR confirmation)
+        if: (github.event_name == 'schedule' && github.event.schedule == '45 11 * * 0') || (github.event_name == 'workflow_dispatch' && inputs.mode == 'sunday')
+        continue-on-error: true
+        run: python weekend_news.py --mode sunday
+      - name: Lock next week's research candidates on Sunday before Monday trading
+        if: (github.event_name == 'schedule' && github.event.schedule == '45 11 * * 0') || (github.event_name == 'workflow_dispatch' && inputs.mode == 'sunday')
+        run: python weekly_review.py --mode freeze
+      - name: Collect optional high-dividend / value reference (not a selection score)
+        if: (github.event_name == 'schedule' && github.event.schedule == '45 11 * * 0') || (github.event_name == 'workflow_dispatch' && inputs.mode == 'sunday')
+        continue-on-error: true
+        run: python fundamentals.py
+
+      - name: Fill available completed prices
+        if: (github.event_name == 'schedule' && github.event.schedule == '10 8 * * 1-5') || (github.event_name == 'workflow_dispatch' && inputs.mode == 'daily') || (steps.friday_rank.outcome == 'success')
+        run: python update_data.py --mode daily
+
+      - name: Snapshot completed daily bars and review the pre-trade-locked five
+        if: (github.event_name == 'schedule' && github.event.schedule == '10 8 * * 1-5') || (github.event_name == 'workflow_dispatch' && inputs.mode == 'daily')
+        # Non-fatal for the existing pipeline: missing external quotes are shown as missing.
+        continue-on-error: true
+        run: python daily_review.py
+
+      - name: Commit only generated data and reports
+        if: always()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data.json archive.json
+          if [ -f daily_reviews.json ]; then git add daily_reviews.json; fi
+          if [ -f fundamentals.json ]; then git add fundamentals.json; fi
+          if [ -f weekend_news.json ]; then git add weekend_news.json; fi
+          if [ -f picks.json ]; then git add picks.json; fi
+          if [ -f sunday_picks.json ]; then git add sunday_picks.json; fi
+          if [ -f learning.json ]; then git add learning.json; fi
+          if [ -d reports ]; then git add -A reports; fi
+          if ! git diff --cached --quiet; then
+            git commit -m 'Save swing snapshots, weekly reviews and learning results'
+            git push
+          else
+            echo 'No verified updates to commit'
+          fi
