@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "status": "not_configured",
+  "lastSuccessAt": null,
+  "checkedAt": null,
+  "accounts": [
+    {
+      "handle": "keith_market",
+      "label": "Keith",
+      "status": "api_not_configured",
+      "newCount": 0
+    },
+    {
+      "handle": "harukun1717",
+      "label": "はるくん",
+      "status": "api_not_configured",
+      "newCount": 0
+    },
+    {
+      "handle": "cSWN3RHEZM17282",
+      "label": "自分用",
+      "status": "api_not_configured",
+      "newCount": 0
+    },
+    {
+      "handle": "toushi_kenshou",
+      "label": "ぽこたん",
+      "status": "api_not_configured",
+      "newCount": 0
+    },
+    {
+      "handle": "Michael_MIRAI_",
+      "label": "未来手法参考",
+      "status": "api_not_configured",
+      "newCount": 0
+    }
+  ],
+  "latestIds": {},
+  "posts": [],
+  "disclaimer": "X公式APIで確認できた公開投稿のID・リンクと、キーワードで推定した研究テーマだけを保存。投稿の賛否・意図・投資成績は判定できません。銘柄選定スコアは変更しません。"
+}
