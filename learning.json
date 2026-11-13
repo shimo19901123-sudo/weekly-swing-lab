@@ -1,7 +1,7 @@
 {
   "version": 1,
   "status": "insufficient_data",
-  "totalCompleteWeeks": 0,
+  "totalCompleteWeeks": 1,
   "minimumWeeks": 16,
   "weights": {},
   "appliedChanges": [],
@@ -11,5 +11,5 @@
     "初期参考週や未確定価格は学習除外",
     "4週間の時間順ホールドアウトが基準を上回る場合に限り小幅に補正"
   ],
-  "generatedAt": "2026-11-06 21:02 JST"
+  "generatedAt": "2026-11-13 21:08 JST"
 }
