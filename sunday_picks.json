@@ -4543,6 +4543,26 @@
         }
       ],
       "limitations": "日曜夜に固定した調査候補。週末見出しは網羅的・一次IR確認済みではない。決算/信用残は未確認なら買い推奨ではない。100株紙上比較。"
+    },
+    {
+      "asOf": "2026-11-13",
+      "tradeMonday": "2026-11-16",
+      "tradeFriday": "2026-11-20",
+      "selectionMode": "pretrade_locked",
+      "snapshotDate": "2026-11-15",
+      "selectionTiming": "Sunday-before-trading",
+      "selectionTimeJST": "2026-11-15 21:21 JST",
+      "weekendScreen": {
+        "status": "headlines_only",
+        "source": "Google ニュース RSS（新聞記事の見出し検索・一次IR照合なし）",
+        "collectedAt": "2026-11-15T21:21+09:00",
+        "riskHeldCodes": []
+      },
+      "dataSource": "traders.co.jp weekly ranking; Yahoo Finance charts where available",
+      "learningVersion": 1,
+      "pickedCodes": [],
+      "universe": [],
+      "limitations": "日曜夜に固定した調査候補。週末見出しは網羅的・一次IR確認済みではない。決算/信用残は未確認なら買い推奨ではない。100株紙上比較。"
     }
   ]
 }
