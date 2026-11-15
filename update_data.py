@@ -86,7 +86,7 @@ def parse_ranking(html: str) -> tuple[str, list[dict]]:
         stocks.append({"code": code, "name": name, "close": price, "gainPct": pct, "turnoverThousand": turnover, "volumeDay": volume, "market": market})
     if len(stocks)<10:
         raise ValueError(f"Only {len(stocks)} rows extracted; likely source changed")
-    return asof,stocks[:100]
+    return asof,stocks
 
 
 def estimate_volume_profile(df, last_close: float, bars: int = 120, bins: int = 22) -> dict:
@@ -243,6 +243,11 @@ def friday_update():
     asof,stocks=parse_ranking(fetch_html(RANK_URL))
     if asof!=now.date().isoformat():
         raise RuntimeError(f'Stale ranking {asof}; expected {now.date()} (no overwrite)')
+    if stocks and min(s['gainPct'] for s in stocks) > 12:
+        raise RuntimeError(
+                    'Ranking may be incomplete: lowest visible weekly gain is above 12%. '
+                    'Cannot verify the 5-12% range; existing data preserved.'
+        )
     eligible = [s for s in stocks if 5 <= s['gainPct'] <= 12 and s['volumeDay'] >= 10000 and s['close'] >= 250 and s['turnoverThousand'] >= 50000]
     for s in eligible[:40]:
         try:s.update(maybe_price_history(s['code'],asof))
