@@ -2,6 +2,18 @@
   "version": 1,
   "reports": [
     {
+      "asOf": "2026-11-13",
+      "tradeFriday": "2026-11-20",
+      "complete": false,
+      "winRatePct": null,
+      "grossProfit100Total": null,
+      "portfolioReturnPct": null,
+      "selectionMode": "pretrade_locked",
+      "expectedCount": 0,
+      "completeCount": 0,
+      "reportPath": "reports/2026-11-13.json"
+    },
+    {
       "asOf": "2026-11-06",
       "tradeFriday": "2026-11-13",
       "complete": true,

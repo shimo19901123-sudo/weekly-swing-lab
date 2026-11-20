@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "asOf": "2026-11-13",
+  "tradeMonday": "2026-11-16",
+  "tradeFriday": "2026-11-20",
+  "generatedAt": "2026-11-21 04:08 JST",
+  "selectionMode": "pretrade_locked",
+  "learningEligible": true,
+  "lockedCodes": [],
+  "expectedCount": 0,
+  "completeCount": 0,
+  "complete": false,
+  "winners": 0,
+  "losers": 0,
+  "winRatePct": null,
+  "grossProfit100Total": null,
+  "capitalEvaluated": null,
+  "portfolioReturnPct": null,
+  "picks": [],
+  "universeResults": [],
+  "lessons": [
+    "次回はMA配列・信用買残増減・決算予定・業種強弱を選定時点で記録し、損益との関連を検証する。",
+    "観測結果は原因の証明ではなく、条件変更は複数週の時系列検証が必要。"
+  ],
+  "notes": [
+    "手数料・税金・スリッページ・指値不成立は反映していません。",
+    "月曜日が休場なら火曜始値で代用せず、当該銘柄は未確定とします。",
+    "信用残・決算など未確認情報を「問題なし」とは判定しません。",
+    "結果から過去の選定条件を上書きしません。結果と原因の関係は仮説です。"
+  ]
+}
