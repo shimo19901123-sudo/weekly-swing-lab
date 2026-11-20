@@ -2,7 +2,7 @@
   "asOf": "2026-11-13",
   "source": "traders.co.jp weekly ranking; Yahoo Finance charts where available",
   "sourceStatus": "automatic-partial",
-  "lastCheckedAt": "2026-11-13 21:08 JST",
+  "lastCheckedAt": "2026-11-21 01:55 JST",
   "candidates": [
     {
       "code": "6989",
@@ -11,7 +11,9 @@
       "gainPct": 71.82,
       "turnoverThousand": 2291390,
       "volumeDay": 601200,
-      "market": "S"
+      "market": "S",
+      "mondayOpen": 4165.0,
+      "fridayClose": NaN
     },
     {
       "code": "3131",
@@ -20,7 +22,9 @@
       "gainPct": 63.22,
       "turnoverThousand": 3059729,
       "volumeDay": 476000,
-      "market": "S"
+      "market": "S",
+      "mondayOpen": 7110.0,
+      "fridayClose": NaN
     },
     {
       "code": "4918",
@@ -29,7 +33,9 @@
       "gainPct": 61.49,
       "turnoverThousand": 108709,
       "volumeDay": 244300,
-      "market": "S"
+      "market": "S",
+      "mondayOpen": 462.0,
+      "fridayClose": NaN
     },
     {
       "code": "6794",
@@ -38,7 +44,9 @@
       "gainPct": 61.39,
       "turnoverThousand": 16448194,
       "volumeDay": 4103400,
-      "market": "P"
+      "market": "P",
+      "mondayOpen": 4655.0,
+      "fridayClose": NaN
     },
     {
       "code": "6391",
@@ -47,7 +55,9 @@
       "gainPct": 57.46,
       "turnoverThousand": 2371794,
       "volumeDay": 305200,
-      "market": "S"
+      "market": "S",
+      "mondayOpen": 7920.0,
+      "fridayClose": NaN
     },
     {
       "code": "6228",
@@ -56,7 +66,9 @@
       "gainPct": 54.85,
       "turnoverThousand": 424009,
       "volumeDay": 667400,
-      "market": "S"
+      "market": "S",
+      "mondayOpen": 766.0,
+      "fridayClose": NaN
     },
     {
       "code": "7603",
@@ -65,7 +77,9 @@
       "gainPct": 50.0,
       "turnoverThousand": 2094053,
       "volumeDay": 56681500,
-      "market": "S"
+      "market": "S",
+      "mondayOpen": 30.0,
+      "fridayClose": NaN
     },
     {
       "code": "6777",
@@ -74,7 +88,9 @@
       "gainPct": 48.14,
       "turnoverThousand": 32094603,
       "volumeDay": 1631900,
-      "market": "S"
+      "market": "S",
+      "mondayOpen": 19660.0,
+      "fridayClose": NaN
     },
     {
       "code": "5129",
@@ -83,7 +99,9 @@
       "gainPct": 42.49,
       "turnoverThousand": 4740803,
       "volumeDay": 16676100,
-      "market": "G"
+      "market": "G",
+      "mondayOpen": 297.0,
+      "fridayClose": NaN
     },
     {
       "code": "4286",
@@ -92,7 +110,9 @@
       "gainPct": 41.64,
       "turnoverThousand": 960922,
       "volumeDay": 708200,
-      "market": "S"
+      "market": "S",
+      "mondayOpen": 1458.0,
+      "fridayClose": NaN
     },
     {
       "code": "1853",
@@ -101,7 +121,9 @@
       "gainPct": 41.59,
       "turnoverThousand": 232792,
       "volumeDay": 651000,
-      "market": "S"
+      "market": "S",
+      "mondayOpen": 526.0,
+      "fridayClose": NaN
     },
     {
       "code": "4255",
@@ -110,7 +132,9 @@
       "gainPct": 38.47,
       "turnoverThousand": 229214,
       "volumeDay": 62200,
-      "market": "G"
+      "market": "G",
+      "mondayOpen": 4455.0,
+      "fridayClose": NaN
     },
     {
       "code": "6145",
@@ -119,7 +143,9 @@
       "gainPct": 38.21,
       "turnoverThousand": 5564168,
       "volumeDay": 1689000,
-      "market": "S"
+      "market": "S",
+      "mondayOpen": 3500.0,
+      "fridayClose": NaN
     },
     {
       "code": "6062",
@@ -128,7 +154,9 @@
       "gainPct": 38.14,
       "turnoverThousand": 12191440,
       "volumeDay": 6218700,
-      "market": "P"
+      "market": "P",
+      "mondayOpen": 1963.0,
+      "fridayClose": NaN
     },
     {
       "code": "9475",
@@ -137,7 +165,9 @@
       "gainPct": 35.69,
       "turnoverThousand": 473985,
       "volumeDay": 635200,
-      "market": "S"
+      "market": "S",
+      "mondayOpen": 749.0,
+      "fridayClose": NaN
     },
     {
       "code": "1980",
@@ -146,7 +176,9 @@
       "gainPct": 35.0,
       "turnoverThousand": 17665664,
       "volumeDay": 6039500,
-      "market": "P"
+      "market": "P",
+      "mondayOpen": 3205.0,
+      "fridayClose": NaN
     },
     {
       "code": "7717",
@@ -155,7 +187,9 @@
       "gainPct": 33.33,
       "turnoverThousand": 5157853,
       "volumeDay": 1146700,
-      "market": "P"
+      "market": "P",
+      "mondayOpen": 5190.0,
+      "fridayClose": NaN
     },
     {
       "code": "4004",
@@ -164,7 +198,9 @@
       "gainPct": 33.05,
       "turnoverThousand": 309560504,
       "volumeDay": 23439100,
-      "market": "P"
+      "market": "P",
+      "mondayOpen": 14000.0,
+      "fridayClose": NaN
     },
     {
       "code": "6943",
@@ -173,7 +209,9 @@
       "gainPct": 31.89,
       "turnoverThousand": 216451,
       "volumeDay": 31200,
-      "market": "S"
+      "market": "S",
+      "mondayOpen": 6990.0,
+      "fridayClose": NaN
     },
     {
       "code": "6787",
@@ -182,7 +220,9 @@
       "gainPct": 31.88,
       "turnoverThousand": 100487374,
       "volumeDay": 12553000,
-      "market": "P"
+      "market": "P",
+      "mondayOpen": 8270.0,
+      "fridayClose": NaN
     },
     {
       "code": "4222",
@@ -191,7 +231,9 @@
       "gainPct": 31.62,
       "turnoverThousand": 831407,
       "volumeDay": 1598000,
-      "market": "S"
+      "market": "S",
+      "mondayOpen": 666.0,
+      "fridayClose": NaN
     },
     {
       "code": "4064",
@@ -200,7 +242,9 @@
       "gainPct": 31.31,
       "turnoverThousand": 4571948,
       "volumeDay": 1134300,
-      "market": "P"
+      "market": "P",
+      "mondayOpen": 4005.0,
+      "fridayClose": NaN
     },
     {
       "code": "9880",
@@ -209,7 +253,9 @@
       "gainPct": 30.66,
       "turnoverThousand": 4285205,
       "volumeDay": 1319600,
-      "market": "P"
+      "market": "P",
+      "mondayOpen": 3440.0,
+      "fridayClose": NaN
     },
     {
       "code": "1810",
@@ -218,7 +264,9 @@
       "gainPct": 30.46,
       "turnoverThousand": 1015988,
       "volumeDay": 598500,
-      "market": "S"
+      "market": "S",
+      "mondayOpen": 1747.0,
+      "fridayClose": NaN
     },
     {
       "code": "4994",
@@ -227,7 +275,9 @@
       "gainPct": 30.16,
       "turnoverThousand": 944290,
       "volumeDay": 298000,
-      "market": "S"
+      "market": "S",
+      "mondayOpen": 3310.0,
+      "fridayClose": NaN
     },
     {
       "code": "6521",
@@ -236,7 +286,9 @@
       "gainPct": 29.38,
       "turnoverThousand": 4259551,
       "volumeDay": 1429700,
-      "market": "G"
+      "market": "G",
+      "mondayOpen": 3175.0,
+      "fridayClose": NaN
     },
     {
       "code": "150A",
@@ -245,7 +297,9 @@
       "gainPct": 28.14,
       "turnoverThousand": 190076,
       "volumeDay": 307600,
-      "market": "G"
+      "market": "G",
+      "mondayOpen": 790.0,
+      "fridayClose": NaN
     },
     {
       "code": "5142",
@@ -254,7 +308,9 @@
       "gainPct": 28.12,
       "turnoverThousand": 4000301,
       "volumeDay": 1956700,
-      "market": "P"
+      "market": "P",
+      "mondayOpen": 1986.0,
+      "fridayClose": NaN
     },
     {
       "code": "4234",
@@ -265,7 +321,9 @@
       "volumeDay": 438600,
       "market": "S",
       "earnings": "2026-11-13",
-      "earningsSource": "Traders-web earnings calendar (partial listing); confirm company IR"
+      "earningsSource": "Traders-web earnings calendar (partial listing); confirm company IR",
+      "mondayOpen": 1231.0,
+      "fridayClose": NaN
     },
     {
       "code": "6969",
@@ -274,7 +332,9 @@
       "gainPct": 27.28,
       "turnoverThousand": 467319,
       "volumeDay": 405900,
-      "market": "S"
+      "market": "S",
+      "mondayOpen": 1157.0,
+      "fridayClose": NaN
     },
     {
       "code": "7694",
@@ -285,7 +345,9 @@
       "volumeDay": 408000,
       "market": "G",
       "earnings": "2026-11-13",
-      "earningsSource": "Traders-web earnings calendar (partial listing); confirm company IR"
+      "earningsSource": "Traders-web earnings calendar (partial listing); confirm company IR",
+      "mondayOpen": 681.0,
+      "fridayClose": NaN
     },
     {
       "code": "6740",
@@ -294,7 +356,9 @@
       "gainPct": 26.92,
       "turnoverThousand": 4079475,
       "volumeDay": 127492000,
-      "market": "P"
+      "market": "P",
+      "mondayOpen": 32.0,
+      "fridayClose": NaN
     },
     {
       "code": "6235",
@@ -303,7 +367,9 @@
       "gainPct": 26.69,
       "turnoverThousand": 9985295,
       "volumeDay": 4625200,
-      "market": "P"
+      "market": "P",
+      "mondayOpen": 2315.0,
+      "fridayClose": NaN
     },
     {
       "code": "6072",
@@ -312,7 +378,9 @@
       "gainPct": 26.65,
       "turnoverThousand": 8254920,
       "volumeDay": 7260900,
-      "market": "S"
+      "market": "S",
+      "mondayOpen": 1215.0,
+      "fridayClose": NaN
     },
     {
       "code": "2134",
@@ -321,7 +389,9 @@
       "gainPct": 25.0,
       "turnoverThousand": 719318,
       "volumeDay": 45665300,
-      "market": "S"
+      "market": "S",
+      "mondayOpen": 14.0,
+      "fridayClose": NaN
     },
     {
       "code": "4883",
