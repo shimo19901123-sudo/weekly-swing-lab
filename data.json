@@ -1,534 +1,2002 @@
 {
-  "asOf": "2026-11-13",
-  "source": "traders.co.jp weekly ranking; Yahoo Finance charts where available",
-  "sourceStatus": "automatic-partial",
-  "lastCheckedAt": "2026-11-21 01:55 JST",
+  "asOf": "2026-11-20",
+  "tradeMonday": "2026-11-24",
+  "tradeFriday": "2026-11-27",
+  "source": "トレーダーズ・ウェブ（前週末比・全市場と東証市場別）、Yahoo Finance 日足、日本取引所グループ 銘柄別信用取引残高、各社IR",
+  "sourceStatus": "manual-pretrade",
+  "lastCheckedAt": "2026-11-23 11:40 JST",
+  "turnoverBasis": "金曜日安値×当日出来高（下限概算）",
   "candidates": [
     {
-      "code": "6989",
-      "name": "北電工",
-      "close": 4165.0,
-      "gainPct": 71.82,
-      "turnoverThousand": 2291390,
-      "volumeDay": 601200,
-      "market": "S",
-      "mondayOpen": 4165.0,
-      "fridayClose": NaN
-    },
-    {
-      "code": "3131",
-      "name": "シンデンハイテ",
-      "close": 7100.0,
-      "gainPct": 63.22,
-      "turnoverThousand": 3059729,
-      "volumeDay": 476000,
-      "market": "S",
-      "mondayOpen": 7110.0,
-      "fridayClose": NaN
-    },
-    {
-      "code": "4918",
-      "name": "アイビー",
-      "close": 478.0,
-      "gainPct": 61.49,
-      "turnoverThousand": 108709,
-      "volumeDay": 244300,
-      "market": "S",
-      "mondayOpen": 462.0,
-      "fridayClose": NaN
-    },
-    {
-      "code": "6794",
-      "name": "フォスタ電",
-      "close": 4635.0,
-      "gainPct": 61.39,
-      "turnoverThousand": 16448194,
-      "volumeDay": 4103400,
+      "code": "8086",
+      "name": "ニプロ",
       "market": "P",
-      "mondayOpen": 4655.0,
-      "fridayClose": NaN
+      "close": 1456.5,
+      "gainPct": 5.97,
+      "volumeDay": 809000,
+      "turnoverThousand": 1173050,
+      "turnoverBasis": "friday-low-times-volume-lower-bound",
+      "priceAsOf": "2026-11-20",
+      "priceSource": "Yahoo Finance 日足",
+      "ma5": 1451.7,
+      "ma25": 1384.9,
+      "ma75": 1453.13,
+      "ma100": 1486.62,
+      "ma200": 1534.3,
+      "ma250": 1522.0,
+      "ma300": 1521.59,
+      "rsi": 57.9,
+      "volumeRatio": 1.07,
+      "volumeProfile": {
+        "method": "daily-high-low-uniform-estimate",
+        "periodBars": 120,
+        "poc": 1345.68,
+        "support": 1345.68,
+        "resistance": 1579.68,
+        "bins": [
+          {
+            "low": 1292.5,
+            "high": 1313.77,
+            "volume": 919296
+          },
+          {
+            "low": 1313.77,
+            "high": 1335.05,
+            "volume": 4038283
+          },
+          {
+            "low": 1335.05,
+            "high": 1356.32,
+            "volume": 9763569
+          },
+          {
+            "low": 1356.32,
+            "high": 1377.59,
+            "volume": 6623807
+          },
+          {
+            "low": 1377.59,
+            "high": 1398.86,
+            "volume": 1706721
+          },
+          {
+            "low": 1398.86,
+            "high": 1420.14,
+            "volume": 2434108
+          },
+          {
+            "low": 1420.14,
+            "high": 1441.41,
+            "volume": 4726810
+          },
+          {
+            "low": 1441.41,
+            "high": 1462.68,
+            "volume": 7859353
+          },
+          {
+            "low": 1462.68,
+            "high": 1483.95,
+            "volume": 2939677
+          },
+          {
+            "low": 1483.95,
+            "high": 1505.23,
+            "volume": 472780
+          },
+          {
+            "low": 1505.23,
+            "high": 1526.5,
+            "volume": 1053485
+          },
+          {
+            "low": 1526.5,
+            "high": 1547.77,
+            "volume": 3545058
+          },
+          {
+            "low": 1547.77,
+            "high": 1569.05,
+            "volume": 4802669
+          },
+          {
+            "low": 1569.05,
+            "high": 1590.32,
+            "volume": 7889034
+          },
+          {
+            "low": 1590.32,
+            "high": 1611.59,
+            "volume": 7692656
+          },
+          {
+            "low": 1611.59,
+            "high": 1632.86,
+            "volume": 3594775
+          },
+          {
+            "low": 1632.86,
+            "high": 1654.14,
+            "volume": 3498571
+          },
+          {
+            "low": 1654.14,
+            "high": 1675.41,
+            "volume": 2442335
+          },
+          {
+            "low": 1675.41,
+            "high": 1696.68,
+            "volume": 1167620
+          },
+          {
+            "low": 1696.68,
+            "high": 1717.95,
+            "volume": 3776489
+          },
+          {
+            "low": 1717.95,
+            "high": 1739.23,
+            "volume": 3076663
+          },
+          {
+            "low": 1739.23,
+            "high": 1760.5,
+            "volume": 912239
+          }
+        ]
+      },
+      "creditBuy": 174400,
+      "creditSell": 37600,
+      "creditDelta": -26700,
+      "creditAsOf": "2026-11-19",
+      "creditPreviousAsOf": "2026-11-13",
+      "lastEarningsDate": "2026-11-10",
+      "earningsCheckUrl": "https://www.nipro.co.jp/ir/calendar/",
+      "earningsCheckedAt": "2026-11-23",
+      "candleAnalysis": {
+        "status": "observed",
+        "asOf": "2026-11-20",
+        "source": "Yahoo Finance 日足",
+        "patterns": [
+          {
+            "name": "上影陰線",
+            "category": "警戒",
+            "evidence": "陰線で長い上ヒゲ。高値圏では売り圧力を点検"
+          },
+          {
+            "name": "陽のはらみ線",
+            "category": "高値圏警戒",
+            "evidence": "前日陽線の実体内に当日実体が収まる形（陽のはらみ寄せ線）。出現位置と翌日を要確認"
+          },
+          {
+            "name": "三川（トリプルボトム）",
+            "category": "反発候補",
+            "evidence": "近い水準の3つの谷と仮ネックライン超えを検出"
+          },
+          {
+            "name": "毛抜き天井",
+            "category": "高値圏警戒",
+            "evidence": "前日陽線と当日陰線の高値が0.6%以内で一致（暫定）。天井は未確定"
+          }
+        ],
+        "candidatePatternCount": 57,
+        "context": "20日レンジ高値付近",
+        "volumeRatio20": 1.07,
+        "patternVersion": "v7.6",
+        "availableBars": 329,
+        "note": "ローソク足の機械的な形状一致。トレンド転換・翌週の上昇を証明しない"
+      }
     },
     {
-      "code": "6391",
-      "name": "加地テック",
-      "close": 7920.0,
-      "gainPct": 57.46,
-      "turnoverThousand": 2371794,
-      "volumeDay": 305200,
+      "code": "6315",
+      "name": "TOWA",
+      "market": "P",
+      "close": 2352.0,
+      "gainPct": 6.57,
+      "volumeDay": 8060200,
+      "turnoverThousand": 17998426,
+      "turnoverBasis": "friday-low-times-volume-lower-bound",
+      "priceAsOf": "2026-11-20",
+      "priceSource": "Yahoo Finance 日足",
+      "ma5": 2223.4,
+      "ma25": 2127.04,
+      "ma75": 2292.81,
+      "ma100": 2479.29,
+      "ma200": 2638.52,
+      "ma250": 2581.87,
+      "ma300": 2498.15,
+      "rsi": 55.7,
+      "volumeRatio": 1.89,
+      "volumeProfile": {
+        "method": "daily-high-low-uniform-estimate",
+        "periodBars": 120,
+        "poc": 2256.86,
+        "support": 2256.86,
+        "resistance": 2542.95,
+        "bins": [
+          {
+            "low": 1637.0,
+            "high": 1732.36,
+            "volume": 2963953
+          },
+          {
+            "low": 1732.36,
+            "high": 1827.73,
+            "volume": 3428553
+          },
+          {
+            "low": 1827.73,
+            "high": 1923.09,
+            "volume": 3321982
+          },
+          {
+            "low": 1923.09,
+            "high": 2018.45,
+            "volume": 12053985
+          },
+          {
+            "low": 2018.45,
+            "high": 2113.82,
+            "volume": 29150284
+          },
+          {
+            "low": 2113.82,
+            "high": 2209.18,
+            "volume": 48940405
+          },
+          {
+            "low": 2209.18,
+            "high": 2304.55,
+            "volume": 70434494
+          },
+          {
+            "low": 2304.55,
+            "high": 2399.91,
+            "volume": 37654689
+          },
+          {
+            "low": 2399.91,
+            "high": 2495.27,
+            "volume": 20234294
+          },
+          {
+            "low": 2495.27,
+            "high": 2590.64,
+            "volume": 45759495
+          },
+          {
+            "low": 2590.64,
+            "high": 2686.0,
+            "volume": 22345515
+          },
+          {
+            "low": 2686.0,
+            "high": 2781.36,
+            "volume": 13219450
+          },
+          {
+            "low": 2781.36,
+            "high": 2876.73,
+            "volume": 25227303
+          },
+          {
+            "low": 2876.73,
+            "high": 2972.09,
+            "volume": 35570901
+          },
+          {
+            "low": 2972.09,
+            "high": 3067.45,
+            "volume": 35084568
+          },
+          {
+            "low": 3067.45,
+            "high": 3162.82,
+            "volume": 24300224
+          },
+          {
+            "low": 3162.82,
+            "high": 3258.18,
+            "volume": 24947140
+          },
+          {
+            "low": 3258.18,
+            "high": 3353.55,
+            "volume": 19218258
+          },
+          {
+            "low": 3353.55,
+            "high": 3448.91,
+            "volume": 10822249
+          },
+          {
+            "low": 3448.91,
+            "high": 3544.27,
+            "volume": 6241901
+          },
+          {
+            "low": 3544.27,
+            "high": 3639.64,
+            "volume": 2355428
+          },
+          {
+            "low": 3639.64,
+            "high": 3735.0,
+            "volume": 1628626
+          }
+        ]
+      },
+      "creditBuy": 3404800,
+      "creditSell": 495200,
+      "creditDelta": -97900,
+      "creditAsOf": "2026-11-19",
+      "creditPreviousAsOf": "2026-11-13",
+      "lastEarningsDate": "2026-11-06",
+      "earningsCheckUrl": "https://www.towajapan.co.jp/jp/ir/calender/",
+      "earningsCheckedAt": "2026-11-23",
+      "candleAnalysis": {
+        "status": "observed",
+        "asOf": "2026-11-20",
+        "source": "Yahoo Finance 日足",
+        "patterns": [
+          {
+            "name": "陽のはらみ線",
+            "category": "高値圏警戒",
+            "evidence": "前日陽線の実体内に当日実体が収まる形（陽の陽はらみ）。出現位置と翌日を要確認"
+          }
+        ],
+        "candidatePatternCount": 57,
+        "context": "20日レンジ高値付近",
+        "volumeRatio20": 1.89,
+        "patternVersion": "v7.6",
+        "availableBars": 329,
+        "note": "ローソク足の機械的な形状一致。トレンド転換・翌週の上昇を証明しない"
+      }
+    },
+    {
+      "code": "7951",
+      "name": "ヤマハ",
+      "market": "P",
+      "close": 1380.5,
+      "gainPct": 5.3,
+      "volumeDay": 4804400,
+      "turnoverThousand": 6560408,
+      "turnoverBasis": "friday-low-times-volume-lower-bound",
+      "priceAsOf": "2026-11-20",
+      "priceSource": "Yahoo Finance 日足",
+      "ma5": 1354.0,
+      "ma25": 1270.54,
+      "ma75": 1275.12,
+      "ma100": 1255.34,
+      "ma200": 1199.27,
+      "ma250": 1178.36,
+      "ma300": 1149.31,
+      "rsi": 65.8,
+      "volumeRatio": 1.51,
+      "volumeProfile": {
+        "method": "daily-high-low-uniform-estimate",
+        "periodBars": 120,
+        "poc": 1228.02,
+        "support": 1228.02,
+        "resistance": null,
+        "bins": [
+          {
+            "low": 1073.0,
+            "high": 1089.32,
+            "volume": 1253229
+          },
+          {
+            "low": 1089.32,
+            "high": 1105.64,
+            "volume": 6705153
+          },
+          {
+            "low": 1105.64,
+            "high": 1121.95,
+            "volume": 16767016
+          },
+          {
+            "low": 1121.95,
+            "high": 1138.27,
+            "volume": 16455592
+          },
+          {
+            "low": 1138.27,
+            "high": 1154.59,
+            "volume": 10430627
+          },
+          {
+            "low": 1154.59,
+            "high": 1170.91,
+            "volume": 6839997
+          },
+          {
+            "low": 1170.91,
+            "high": 1187.23,
+            "volume": 7670916
+          },
+          {
+            "low": 1187.23,
+            "high": 1203.55,
+            "volume": 16518819
+          },
+          {
+            "low": 1203.55,
+            "high": 1219.86,
+            "volume": 34063570
+          },
+          {
+            "low": 1219.86,
+            "high": 1236.18,
+            "volume": 34175597
+          },
+          {
+            "low": 1236.18,
+            "high": 1252.5,
+            "volume": 20895025
+          },
+          {
+            "low": 1252.5,
+            "high": 1268.82,
+            "volume": 17103059
+          },
+          {
+            "low": 1268.82,
+            "high": 1285.14,
+            "volume": 12918014
+          },
+          {
+            "low": 1285.14,
+            "high": 1301.45,
+            "volume": 14190142
+          },
+          {
+            "low": 1301.45,
+            "high": 1317.77,
+            "volume": 20333146
+          },
+          {
+            "low": 1317.77,
+            "high": 1334.09,
+            "volume": 19937836
+          },
+          {
+            "low": 1334.09,
+            "high": 1350.41,
+            "volume": 10000698
+          },
+          {
+            "low": 1350.41,
+            "high": 1366.73,
+            "volume": 8856989
+          },
+          {
+            "low": 1366.73,
+            "high": 1383.05,
+            "volume": 8766171
+          },
+          {
+            "low": 1383.05,
+            "high": 1399.36,
+            "volume": 5448278
+          },
+          {
+            "low": 1399.36,
+            "high": 1415.68,
+            "volume": 1424639
+          },
+          {
+            "low": 1415.68,
+            "high": 1432.0,
+            "volume": 963887
+          }
+        ]
+      },
+      "creditBuy": 299900,
+      "creditSell": 80000,
+      "creditDelta": -43100,
+      "creditAsOf": "2026-11-19",
+      "creditPreviousAsOf": "2026-11-13",
+      "lastEarningsDate": "2026-11-05",
+      "earningsCheckUrl": "https://www.yamaha.com/ja/ir/archive/",
+      "earningsCheckedAt": "2026-11-23",
+      "candleAnalysis": {
+        "status": "observed",
+        "asOf": "2026-11-20",
+        "source": "Yahoo Finance 日足",
+        "patterns": [
+          {
+            "name": "陽のはらみ線",
+            "category": "高値圏警戒",
+            "evidence": "前日陽線の実体内に当日実体が収まる形（陽の陽はらみ）。出現位置と翌日を要確認"
+          },
+          {
+            "name": "三川（トリプルボトム）",
+            "category": "反発候補",
+            "evidence": "近い水準の3つの谷と仮ネックライン超えを検出"
+          }
+        ],
+        "candidatePatternCount": 57,
+        "context": "20日レンジ高値付近",
+        "volumeRatio20": 1.51,
+        "patternVersion": "v7.6",
+        "availableBars": 329,
+        "note": "ローソク足の機械的な形状一致。トレンド転換・翌週の上昇を証明しない"
+      }
+    },
+    {
+      "code": "4543",
+      "name": "テルモ",
+      "market": "P",
+      "close": 2547.0,
+      "gainPct": 6.13,
+      "volumeDay": 6654000,
+      "turnoverThousand": 16921122,
+      "turnoverBasis": "friday-low-times-volume-lower-bound",
+      "priceAsOf": "2026-11-20",
+      "priceSource": "Yahoo Finance 日足",
+      "ma5": 2531.4,
+      "ma25": 2454.52,
+      "ma75": 2413.95,
+      "ma100": 2370.7,
+      "ma200": 2247.62,
+      "ma250": 2262.31,
+      "ma300": 2307.5,
+      "rsi": 56.2,
+      "volumeRatio": 1.0,
+      "volumeProfile": {
+        "method": "daily-high-low-uniform-estimate",
+        "periodBars": 120,
+        "poc": 2272.0,
+        "support": 2272.0,
+        "resistance": null,
+        "bins": [
+          {
+            "low": 2133.0,
+            "high": 2158.27,
+            "volume": 5085394
+          },
+          {
+            "low": 2158.27,
+            "high": 2183.55,
+            "volume": 12756887
+          },
+          {
+            "low": 2183.55,
+            "high": 2208.82,
+            "volume": 30208401
+          },
+          {
+            "low": 2208.82,
+            "high": 2234.09,
+            "volume": 43845792
+          },
+          {
+            "low": 2234.09,
+            "high": 2259.36,
+            "volume": 59163194
+          },
+          {
+            "low": 2259.36,
+            "high": 2284.64,
+            "volume": 77277553
+          },
+          {
+            "low": 2284.64,
+            "high": 2309.91,
+            "volume": 75680750
+          },
+          {
+            "low": 2309.91,
+            "high": 2335.18,
+            "volume": 47501016
+          },
+          {
+            "low": 2335.18,
+            "high": 2360.45,
+            "volume": 32351911
+          },
+          {
+            "low": 2360.45,
+            "high": 2385.73,
+            "volume": 24518065
+          },
+          {
+            "low": 2385.73,
+            "high": 2411.0,
+            "volume": 28776428
+          },
+          {
+            "low": 2411.0,
+            "high": 2436.27,
+            "volume": 34802872
+          },
+          {
+            "low": 2436.27,
+            "high": 2461.55,
+            "volume": 26633877
+          },
+          {
+            "low": 2461.55,
+            "high": 2486.82,
+            "volume": 15297735
+          },
+          {
+            "low": 2486.82,
+            "high": 2512.09,
+            "volume": 14182364
+          },
+          {
+            "low": 2512.09,
+            "high": 2537.36,
+            "volume": 22795452
+          },
+          {
+            "low": 2537.36,
+            "high": 2562.64,
+            "volume": 31851593
+          },
+          {
+            "low": 2562.64,
+            "high": 2587.91,
+            "volume": 28779758
+          },
+          {
+            "low": 2587.91,
+            "high": 2613.18,
+            "volume": 21389714
+          },
+          {
+            "low": 2613.18,
+            "high": 2638.45,
+            "volume": 13171202
+          },
+          {
+            "low": 2638.45,
+            "high": 2663.73,
+            "volume": 3726224
+          },
+          {
+            "low": 2663.73,
+            "high": 2689.0,
+            "volume": 1923017
+          }
+        ]
+      },
+      "creditBuy": 288100,
+      "creditSell": 131000,
+      "creditDelta": -58700,
+      "creditAsOf": "2026-11-19",
+      "creditPreviousAsOf": "2026-11-13",
+      "lastEarningsDate": "2026-11-12",
+      "earningsCheckUrl": "https://www.terumo.co.jp/investors/event",
+      "earningsCheckedAt": "2026-11-23",
+      "candleAnalysis": {
+        "status": "observed",
+        "asOf": "2026-11-20",
+        "source": "Yahoo Finance 日足",
+        "patterns": [
+          {
+            "name": "上影陰線",
+            "category": "警戒",
+            "evidence": "陰線で長い上ヒゲ。高値圏では売り圧力を点検"
+          },
+          {
+            "name": "陽のはらみ線",
+            "category": "高値圏警戒",
+            "evidence": "前日陽線の実体内に当日実体が収まる形（陽の陰はらみ）。出現位置と翌日を要確認"
+          },
+          {
+            "name": "三川（トリプルボトム）",
+            "category": "反発候補",
+            "evidence": "近い水準の3つの谷と仮ネックライン超えを検出"
+          }
+        ],
+        "candidatePatternCount": 57,
+        "context": "20日レンジ中間",
+        "volumeRatio20": 1.0,
+        "patternVersion": "v7.6",
+        "availableBars": 329,
+        "note": "ローソク足の機械的な形状一致。トレンド転換・翌週の上昇を証明しない"
+      }
+    },
+    {
+      "code": "3865",
+      "name": "北越コーポレーション",
+      "market": "P",
+      "close": 850.0,
+      "gainPct": 5.72,
+      "volumeDay": 331200,
+      "turnoverThousand": 281520,
+      "turnoverBasis": "friday-low-times-volume-lower-bound",
+      "priceAsOf": "2026-11-20",
+      "priceSource": "Yahoo Finance 日足",
+      "ma5": 847.4,
+      "ma25": 836.32,
+      "ma75": 877.96,
+      "ma100": 883.22,
+      "ma200": 906.16,
+      "ma250": 902.95,
+      "ma300": 915.49,
+      "rsi": 51.9,
+      "volumeRatio": 1.01,
+      "volumeProfile": {
+        "method": "daily-high-low-uniform-estimate",
+        "periodBars": 120,
+        "poc": 908.36,
+        "support": 848.55,
+        "resistance": 908.36,
+        "bins": [
+          {
+            "low": 793.0,
+            "high": 801.55,
+            "volume": 121127
+          },
+          {
+            "low": 801.55,
+            "high": 810.09,
+            "volume": 302898
+          },
+          {
+            "low": 810.09,
+            "high": 818.64,
+            "volume": 856969
+          },
+          {
+            "low": 818.64,
+            "high": 827.18,
+            "volume": 1245574
+          },
+          {
+            "low": 827.18,
+            "high": 835.73,
+            "volume": 1014969
+          },
+          {
+            "low": 835.73,
+            "high": 844.27,
+            "volume": 1859429
+          },
+          {
+            "low": 844.27,
+            "high": 852.82,
+            "volume": 2016561
+          },
+          {
+            "low": 852.82,
+            "high": 861.36,
+            "volume": 2280453
+          },
+          {
+            "low": 861.36,
+            "high": 869.91,
+            "volume": 2226561
+          },
+          {
+            "low": 869.91,
+            "high": 878.45,
+            "volume": 1552601
+          },
+          {
+            "low": 878.45,
+            "high": 887.0,
+            "volume": 1266188
+          },
+          {
+            "low": 887.0,
+            "high": 895.55,
+            "volume": 1612993
+          },
+          {
+            "low": 895.55,
+            "high": 904.09,
+            "volume": 2749609
+          },
+          {
+            "low": 904.09,
+            "high": 912.64,
+            "volume": 2910333
+          },
+          {
+            "low": 912.64,
+            "high": 921.18,
+            "volume": 2723388
+          },
+          {
+            "low": 921.18,
+            "high": 929.73,
+            "volume": 2307302
+          },
+          {
+            "low": 929.73,
+            "high": 938.27,
+            "volume": 1580165
+          },
+          {
+            "low": 938.27,
+            "high": 946.82,
+            "volume": 1283525
+          },
+          {
+            "low": 946.82,
+            "high": 955.36,
+            "volume": 717566
+          },
+          {
+            "low": 955.36,
+            "high": 963.91,
+            "volume": 308511
+          },
+          {
+            "low": 963.91,
+            "high": 972.45,
+            "volume": 178956
+          },
+          {
+            "low": 972.45,
+            "high": 981.0,
+            "volume": 124921
+          }
+        ]
+      },
+      "creditBuy": 75600,
+      "creditSell": 64500,
+      "creditDelta": -9000,
+      "creditAsOf": "2026-11-19",
+      "creditPreviousAsOf": "2026-11-13",
+      "lastEarningsDate": "2026-11-13",
+      "earningsCheckUrl": "https://www.hokuetsucorp.com/newsrelease/release2026/",
+      "earningsCheckedAt": "2026-11-23",
+      "candleAnalysis": {
+        "status": "observed",
+        "asOf": "2026-11-20",
+        "source": "Yahoo Finance 日足",
+        "patterns": [
+          {
+            "name": "上影陰線",
+            "category": "警戒",
+            "evidence": "陰線で長い上ヒゲ。高値圏では売り圧力を点検"
+          },
+          {
+            "name": "陽のはらみ線",
+            "category": "高値圏警戒",
+            "evidence": "前日陽線の実体内に当日実体が収まる形（陽の陰はらみ）。出現位置と翌日を要確認"
+          },
+          {
+            "name": "三川（トリプルボトム）",
+            "category": "反発候補",
+            "evidence": "近い水準の3つの谷と仮ネックライン超えを検出"
+          }
+        ],
+        "candidatePatternCount": 57,
+        "context": "20日レンジ中間",
+        "volumeRatio20": 1.01,
+        "patternVersion": "v7.6",
+        "availableBars": 329,
+        "note": "ローソク足の機械的な形状一致。トレンド転換・翌週の上昇を証明しない"
+      }
+    },
+    {
+      "code": "8022",
+      "name": "ミズノ",
+      "market": "P",
+      "close": 4160.0,
+      "gainPct": 5.05,
+      "volumeDay": 403500,
+      "turnoverThousand": 1650315,
+      "turnoverBasis": "friday-low-times-volume-lower-bound",
+      "priceAsOf": "2026-11-20",
+      "priceSource": "Yahoo Finance 日足",
+      "ma5": 4094.0,
+      "ma25": 4306.6,
+      "ma75": 4159.33,
+      "ma100": 4007.55,
+      "ma200": 3749.05,
+      "ma250": 3613.34,
+      "ma300": 3467.34,
+      "rsi": 47.4,
+      "volumeRatio": 1.12,
+      "volumeProfile": {
+        "method": "daily-high-low-uniform-estimate",
+        "periodBars": 120,
+        "poc": 4119.66,
+        "support": 4119.66,
+        "resistance": 4335.8
+      },
+      "creditBuy": 33600,
+      "creditSell": 41500,
+      "creditDelta": -27100,
+      "creditAsOf": "2026-11-19",
+      "creditPreviousAsOf": "2026-11-13"
+    },
+    {
+      "code": "9843",
+      "name": "ニトリＨＤ",
+      "market": "P",
+      "close": 3655.0,
+      "gainPct": 8.62,
+      "volumeDay": 2420200,
+      "turnoverThousand": 8795006,
+      "turnoverBasis": "friday-low-times-volume-lower-bound",
+      "priceAsOf": "2026-11-20",
+      "priceSource": "Yahoo Finance 日足",
+      "ma5": 3670.8,
+      "ma25": 3427.08,
+      "ma75": 3169.37,
+      "ma100": 2987.93,
+      "ma200": 2813.66,
+      "ma250": 2790.57,
+      "ma300": 2766.54,
+      "rsi": 62.9,
+      "volumeRatio": 0.88,
+      "volumeProfile": {
+        "method": "daily-high-low-uniform-estimate",
+        "periodBars": 120,
+        "poc": 3034.22,
+        "support": 3034.22,
+        "resistance": null
+      },
+      "creditBuy": 568600,
+      "creditSell": 405100,
+      "creditDelta": -63100,
+      "creditAsOf": "2026-11-19",
+      "creditPreviousAsOf": "2026-11-13"
+    },
+    {
+      "code": "3042",
+      "name": "セキュアヴェイ",
       "market": "S",
-      "mondayOpen": 7920.0,
-      "fridayClose": NaN
+      "close": 802.0,
+      "gainPct": 8.97,
+      "volumeDay": 4440200,
+      "turnoverThousand": 3494437,
+      "turnoverBasis": "friday-low-times-volume-lower-bound",
+      "priceAsOf": "2026-11-20",
+      "priceSource": "Yahoo Finance 日足",
+      "ma5": 767.4,
+      "ma25": 976.56,
+      "ma75": 554.31,
+      "ma100": 488.74,
+      "ma200": 396.98,
+      "ma250": 387.39,
+      "ma300": 379.56,
+      "rsi": 48.7,
+      "volumeRatio": 1.02,
+      "volumeProfile": {
+        "method": "daily-high-low-uniform-estimate",
+        "periodBars": 120,
+        "poc": 379.3,
+        "support": 379.3,
+        "resistance": 889.34
+      },
+      "creditBuy": 744800,
+      "creditSell": 332400,
+      "creditDelta": 70200,
+      "creditAsOf": "2026-11-19",
+      "creditPreviousAsOf": "2026-11-13"
     },
     {
-      "code": "6228",
-      "name": "ジェイイーティ",
-      "close": 751.0,
-      "gainPct": 54.85,
-      "turnoverThousand": 424009,
-      "volumeDay": 667400,
-      "market": "S",
-      "mondayOpen": 766.0,
-      "fridayClose": NaN
+      "code": "9831",
+      "name": "ヤマダＨＤ",
+      "market": "P",
+      "close": 808.6,
+      "gainPct": 6.86,
+      "volumeDay": 4295800,
+      "turnoverThousand": 3440935,
+      "turnoverBasis": "friday-low-times-volume-lower-bound",
+      "priceAsOf": "2026-11-20",
+      "priceSource": "Yahoo Finance 日足",
+      "ma5": 798.18,
+      "ma25": 750.0,
+      "ma75": 720.24,
+      "ma100": 710.97,
+      "ma200": 641.83,
+      "ma250": 613.0,
+      "ma300": 589.87,
+      "rsi": 75.8,
+      "volumeRatio": 1.1,
+      "volumeProfile": {
+        "method": "daily-high-low-uniform-estimate",
+        "periodBars": 120,
+        "poc": 709.7,
+        "support": 709.7,
+        "resistance": null
+      },
+      "creditBuy": 772700,
+      "creditSell": 336200,
+      "creditDelta": 57700,
+      "creditAsOf": "2026-11-19",
+      "creditPreviousAsOf": "2026-11-13"
     },
     {
-      "code": "7603",
-      "name": "ジーイエット",
-      "close": 30.0,
-      "gainPct": 50.0,
-      "turnoverThousand": 2094053,
-      "volumeDay": 56681500,
-      "market": "S",
-      "mondayOpen": 30.0,
-      "fridayClose": NaN
+      "code": "2810",
+      "name": "ハウス食Ｇ",
+      "market": "P",
+      "close": 4854.0,
+      "gainPct": 7.75,
+      "volumeDay": 344800,
+      "turnoverThousand": 1634007,
+      "turnoverBasis": "friday-low-times-volume-lower-bound",
+      "priceAsOf": "2026-11-20",
+      "priceSource": "Yahoo Finance 日足",
+      "ma5": 4744.0,
+      "ma25": 4514.48,
+      "ma75": 4105.4,
+      "ma100": 4046.75,
+      "ma200": 3616.08,
+      "ma250": 3475.8,
+      "ma300": 3380.48,
+      "rsi": 70.2,
+      "volumeRatio": 0.93,
+      "volumeProfile": {
+        "method": "daily-high-low-uniform-estimate",
+        "periodBars": 120,
+        "poc": 3872.91,
+        "support": 3872.91,
+        "resistance": null
+      },
+      "creditBuy": 44600,
+      "creditSell": 80700,
+      "creditDelta": -400,
+      "creditAsOf": "2026-11-19",
+      "creditPreviousAsOf": "2026-11-13"
     },
     {
-      "code": "6777",
-      "name": "ｓａｎｔｅｃＨＤ",
-      "close": 19540.0,
-      "gainPct": 48.14,
-      "turnoverThousand": 32094603,
-      "volumeDay": 1631900,
-      "market": "S",
-      "mondayOpen": 19660.0,
-      "fridayClose": NaN
+      "code": "4527",
+      "name": "ロート",
+      "market": "P",
+      "close": 2631.5,
+      "gainPct": 7.61,
+      "volumeDay": 1721800,
+      "turnoverThousand": 4511116,
+      "turnoverBasis": "friday-low-times-volume-lower-bound",
+      "priceAsOf": "2026-11-20",
+      "priceSource": "Yahoo Finance 日足",
+      "ma5": 2634.8,
+      "ma25": 2737.6,
+      "ma75": 2784.44,
+      "ma100": 2694.34,
+      "ma200": 2555.92,
+      "ma250": 2554.69,
+      "ma300": 2543.95,
+      "rsi": 45.1,
+      "volumeRatio": 1.18,
+      "volumeProfile": {
+        "method": "daily-high-low-uniform-estimate",
+        "periodBars": 120,
+        "poc": 2827.45,
+        "support": 2356.18,
+        "resistance": 2827.45
+      },
+      "creditBuy": 196300,
+      "creditSell": 125000,
+      "creditDelta": -168000,
+      "creditAsOf": "2026-11-19",
+      "creditPreviousAsOf": "2026-11-13"
     },
     {
-      "code": "5129",
-      "name": "ＦＩＸＥＲ",
-      "close": 275.0,
-      "gainPct": 42.49,
-      "turnoverThousand": 4740803,
-      "volumeDay": 16676100,
+      "code": "4888",
+      "name": "ステラファーマ",
       "market": "G",
-      "mondayOpen": 297.0,
-      "fridayClose": NaN
+      "close": 391.0,
+      "gainPct": 10.14,
+      "volumeDay": 4390200,
+      "turnoverThousand": 1663885,
+      "turnoverBasis": "friday-low-times-volume-lower-bound",
+      "priceAsOf": "2026-11-20",
+      "priceSource": "Yahoo Finance 日足",
+      "ma5": 418.8,
+      "ma25": 400.04,
+      "ma75": 384.28,
+      "ma100": 365.88,
+      "ma200": 421.7,
+      "ma250": 385.82,
+      "ma300": 380.68,
+      "rsi": 48.5,
+      "volumeRatio": 3.76,
+      "volumeProfile": {
+        "method": "daily-high-low-uniform-estimate",
+        "periodBars": 120,
+        "poc": 425.09,
+        "support": 387.27,
+        "resistance": 425.09
+      },
+      "creditBuy": 2711700,
+      "creditSell": 16900,
+      "creditDelta": 606200,
+      "creditAsOf": "2026-11-19",
+      "creditPreviousAsOf": "2026-11-13"
     },
     {
-      "code": "4286",
-      "name": "ＣＬＨＤ",
-      "close": 1466.0,
-      "gainPct": 41.64,
-      "turnoverThousand": 960922,
-      "volumeDay": 708200,
-      "market": "S",
-      "mondayOpen": 1458.0,
-      "fridayClose": NaN
+      "code": "8179",
+      "name": "ロイヤルＨＤ",
+      "market": "P",
+      "close": 1640.0,
+      "gainPct": 6.98,
+      "volumeDay": 439800,
+      "turnoverThousand": 708517,
+      "turnoverBasis": "friday-low-times-volume-lower-bound",
+      "priceAsOf": "2026-11-20",
+      "priceSource": "Yahoo Finance 日足",
+      "ma5": 1618.6,
+      "ma25": 1467.04,
+      "ma75": 1374.8,
+      "ma100": 1345.89,
+      "ma200": 1364.56,
+      "ma250": 1360.55,
+      "ma300": 1358.32,
+      "rsi": 79.0,
+      "volumeRatio": 1.27,
+      "volumeProfile": {
+        "method": "daily-high-low-uniform-estimate",
+        "periodBars": 120,
+        "poc": 1217.82,
+        "support": 1217.82,
+        "resistance": null
+      },
+      "creditBuy": 90500,
+      "creditSell": 388600,
+      "creditDelta": -1800,
+      "creditAsOf": "2026-11-19",
+      "creditPreviousAsOf": "2026-11-13"
     },
     {
-      "code": "1853",
-      "name": "森 組",
-      "close": 446.0,
-      "gainPct": 41.59,
-      "turnoverThousand": 232792,
-      "volumeDay": 651000,
+      "code": "4704",
+      "name": "トレンド",
+      "market": "P",
+      "close": 7583.0,
+      "gainPct": 5.12,
+      "volumeDay": 1983700,
+      "turnoverThousand": 14838076,
+      "turnoverBasis": "friday-low-times-volume-lower-bound",
+      "priceAsOf": "2026-11-20",
+      "priceSource": "Yahoo Finance 日足",
+      "ma5": 7314.6,
+      "ma25": 7115.0,
+      "ma75": 6577.97,
+      "ma100": 6502.52,
+      "ma200": 6084.83,
+      "ma250": 6275.14,
+      "ma300": 6550.63,
+      "rsi": 61.5,
+      "volumeRatio": 1.2,
+      "volumeProfile": {
+        "method": "daily-high-low-uniform-estimate",
+        "periodBars": 120,
+        "poc": 6367.73,
+        "support": 6367.73,
+        "resistance": 7601.73
+      },
+      "creditBuy": 359300,
+      "creditSell": 65600,
+      "creditDelta": -49900,
+      "creditAsOf": "2026-11-19",
+      "creditPreviousAsOf": "2026-11-13"
+    },
+    {
+      "code": "4343",
+      "name": "ファンタジー",
+      "market": "P",
+      "close": 3065.0,
+      "gainPct": 5.62,
+      "volumeDay": 76800,
+      "turnoverThousand": 232320,
+      "turnoverBasis": "friday-low-times-volume-lower-bound",
+      "priceAsOf": "2026-11-20",
+      "priceSource": "Yahoo Finance 日足",
+      "ma5": 3009.0,
+      "ma25": 2821.2,
+      "ma75": 2789.89,
+      "ma100": 2752.59,
+      "ma200": 2650.26,
+      "ma250": 2705.9,
+      "ma300": 2819.69,
+      "rsi": 66.0,
+      "volumeRatio": 0.94,
+      "volumeProfile": {
+        "method": "daily-high-low-uniform-estimate",
+        "periodBars": 120,
+        "poc": 2832.82,
+        "support": 2832.82,
+        "resistance": null
+      },
+      "creditBuy": 118400,
+      "creditSell": 25000,
+      "creditDelta": 27300,
+      "creditAsOf": "2026-11-19",
+      "creditPreviousAsOf": "2026-11-13"
+    },
+    {
+      "code": "8281",
+      "name": "ゼビオＨＤ",
+      "market": "P",
+      "close": 1154.0,
+      "gainPct": 6.07,
+      "volumeDay": 126900,
+      "turnoverThousand": 145554,
+      "turnoverBasis": "friday-low-times-volume-lower-bound",
+      "priceAsOf": "2026-11-20",
+      "priceSource": "Yahoo Finance 日足",
+      "ma5": 1150.4,
+      "ma25": 1100.48,
+      "ma75": 1119.43,
+      "ma100": 1112.87,
+      "ma200": 1077.6,
+      "ma250": 1074.74,
+      "ma300": 1084.33,
+      "rsi": 59.5,
+      "volumeRatio": 0.9,
+      "volumeProfile": {
+        "method": "daily-high-low-uniform-estimate",
+        "periodBars": 120,
+        "poc": 1107.82,
+        "support": 1107.82,
+        "resistance": null
+      },
+      "creditBuy": 130000,
+      "creditSell": 20000,
+      "creditDelta": -11700,
+      "creditAsOf": "2026-11-19",
+      "creditPreviousAsOf": "2026-11-13"
+    },
+    {
+      "code": "8253",
+      "name": "クレセゾン",
+      "market": "P",
+      "close": 4606.0,
+      "gainPct": 10.8,
+      "volumeDay": 1860100,
+      "turnoverThousand": 8567620,
+      "turnoverBasis": "friday-low-times-volume-lower-bound",
+      "priceAsOf": "2026-11-20",
+      "priceSource": "Yahoo Finance 日足",
+      "ma5": 4844.6,
+      "ma25": 4279.08,
+      "ma75": 4476.75,
+      "ma100": 4500.56,
+      "ma200": 4412.99,
+      "ma250": 4349.31,
+      "ma300": 4264.54,
+      "rsi": 57.2,
+      "volumeRatio": 1.71,
+      "volumeProfile": {
+        "method": "daily-high-low-uniform-estimate",
+        "periodBars": 120,
+        "poc": 4646.45,
+        "support": 4153.73,
+        "resistance": 4646.45
+      },
+      "creditBuy": 241200,
+      "creditSell": 46300,
+      "creditDelta": -125200,
+      "creditAsOf": "2026-11-19",
+      "creditPreviousAsOf": "2026-11-13"
+    },
+    {
+      "code": "3909",
+      "name": "ショーケース",
       "market": "S",
-      "mondayOpen": 526.0,
-      "fridayClose": NaN
+      "close": 674.0,
+      "gainPct": 8.19,
+      "volumeDay": 6029000,
+      "turnoverThousand": 4003256,
+      "turnoverBasis": "friday-low-times-volume-lower-bound",
+      "priceAsOf": "2026-11-20",
+      "priceSource": "Yahoo Finance 日足",
+      "ma5": 659.2,
+      "ma25": 722.0,
+      "ma75": 389.15,
+      "ma100": 341.47,
+      "ma200": 287.67,
+      "ma250": 288.88,
+      "ma300": 294.25,
+      "rsi": 52.2,
+      "volumeRatio": 1.71,
+      "volumeProfile": {
+        "method": "daily-high-low-uniform-estimate",
+        "periodBars": 120,
+        "poc": 659.7,
+        "support": 659.7,
+        "resistance": 705.3
+      },
+      "creditBuy": 397300,
+      "creditSell": 71800,
+      "creditDelta": 22800,
+      "creditAsOf": "2026-11-19",
+      "creditPreviousAsOf": "2026-11-13"
+    },
+    {
+      "code": "2334",
+      "name": "イオレ",
+      "market": "G",
+      "close": 487.0,
+      "gainPct": 8.71,
+      "volumeDay": 12798100,
+      "turnoverThousand": 5592769,
+      "turnoverBasis": "friday-low-times-volume-lower-bound",
+      "priceAsOf": "2026-11-20",
+      "priceSource": "Yahoo Finance 日足",
+      "ma5": 494.0,
+      "ma25": 492.52,
+      "ma75": 534.73,
+      "ma100": 538.11,
+      "ma200": 500.07,
+      "ma250": 484.78,
+      "ma300": 487.17,
+      "rsi": 48.1,
+      "volumeRatio": 5.08,
+      "volumeProfile": {
+        "method": "daily-high-low-uniform-estimate",
+        "periodBars": 120,
+        "poc": 548.64,
+        "support": 482.27,
+        "resistance": 548.64
+      },
+      "creditBuy": 12801300,
+      "creditSell": 900,
+      "creditDelta": 1600400,
+      "creditAsOf": "2026-11-19",
+      "creditPreviousAsOf": "2026-11-13"
+    },
+    {
+      "code": "338A",
+      "name": "Ｚｅｎｍｕ",
+      "market": "G",
+      "close": 3435.0,
+      "gainPct": 6.02,
+      "volumeDay": 488500,
+      "turnoverThousand": 1612050,
+      "turnoverBasis": "friday-low-times-volume-lower-bound",
+      "priceAsOf": "2026-11-20",
+      "priceSource": "Yahoo Finance 日足",
+      "ma5": 3261.6,
+      "ma25": 3870.32,
+      "ma75": 3230.25,
+      "ma100": 2954.5,
+      "ma200": 2830.86,
+      "ma250": 2838.16,
+      "ma300": 2949.94,
+      "rsi": 46.9,
+      "volumeRatio": 0.72,
+      "volumeProfile": {
+        "method": "daily-high-low-uniform-estimate",
+        "periodBars": 120,
+        "poc": 4852.5,
+        "support": 3236.59,
+        "resistance": 4852.5
+      },
+      "creditBuy": 389200,
+      "creditSell": 400,
+      "creditDelta": -10000,
+      "creditAsOf": "2026-11-19",
+      "creditPreviousAsOf": "2026-11-13"
+    },
+    {
+      "code": "9204",
+      "name": "スカイマーク",
+      "market": "G",
+      "close": 524.0,
+      "gainPct": 6.94,
+      "volumeDay": 593200,
+      "turnoverThousand": 297786,
+      "turnoverBasis": "friday-low-times-volume-lower-bound",
+      "priceAsOf": "2026-11-20",
+      "priceSource": "Yahoo Finance 日足",
+      "ma5": 507.2,
+      "ma25": 452.84,
+      "ma75": 431.85,
+      "ma100": 429.2,
+      "ma200": 402.65,
+      "ma250": 398.09,
+      "ma300": 412.3,
+      "rsi": 76.4,
+      "volumeRatio": 2.63,
+      "volumeProfile": {
+        "method": "daily-high-low-uniform-estimate",
+        "periodBars": 120,
+        "poc": 416.82,
+        "support": 416.82,
+        "resistance": null
+      },
+      "creditBuy": 2478300,
+      "creditSell": 0,
+      "creditDelta": -74300,
+      "creditAsOf": "2026-11-19",
+      "creditPreviousAsOf": "2026-11-13"
+    },
+    {
+      "code": "6317",
+      "name": "北川鉄",
+      "market": "S",
+      "close": 2532.0,
+      "gainPct": 10.81,
+      "volumeDay": 101300,
+      "turnoverThousand": 253756,
+      "turnoverBasis": "friday-low-times-volume-lower-bound",
+      "priceAsOf": "2026-11-20",
+      "priceSource": "Yahoo Finance 日足",
+      "ma5": 2684.6,
+      "ma25": 2417.96,
+      "ma75": 2189.76,
+      "ma100": 2062.84,
+      "ma200": 1877.77,
+      "ma250": 1853.42,
+      "ma300": 1817.83,
+      "rsi": 55.4,
+      "volumeRatio": 1.07,
+      "volumeProfile": {
+        "method": "daily-high-low-uniform-estimate",
+        "periodBars": 120,
+        "poc": 2517.0,
+        "support": 2517.0,
+        "resistance": 2574.82
+      },
+      "creditBuy": 152300,
+      "creditSell": 8800,
+      "creditDelta": -18700,
+      "creditAsOf": "2026-11-19",
+      "creditPreviousAsOf": "2026-11-13"
+    },
+    {
+      "code": "367A",
+      "name": "プリモＧＨＤ",
+      "market": "S",
+      "close": 3185.0,
+      "gainPct": 5.12,
+      "volumeDay": 80600,
+      "turnoverThousand": 247442,
+      "turnoverBasis": "friday-low-times-volume-lower-bound",
+      "priceAsOf": "2026-11-20",
+      "priceSource": "Yahoo Finance 日足",
+      "ma5": 3081.6,
+      "ma25": 3095.0,
+      "ma75": 2919.24,
+      "ma100": 2897.06,
+      "ma200": 2700.58,
+      "ma250": 2552.04,
+      "ma300": 2458.74,
+      "rsi": 58.7,
+      "volumeRatio": 1.34,
+      "volumeProfile": {
+        "method": "daily-high-low-uniform-estimate",
+        "periodBars": 120,
+        "poc": 2817.41,
+        "support": 2817.41,
+        "resistance": null
+      },
+      "creditBuy": 198300,
+      "creditSell": 0,
+      "creditDelta": -4500,
+      "creditAsOf": "2026-11-19",
+      "creditPreviousAsOf": "2026-11-13"
+    },
+    {
+      "code": "7716",
+      "name": "ナカニシ",
+      "market": "S",
+      "close": 1578.0,
+      "gainPct": 11.21,
+      "volumeDay": 778600,
+      "turnoverThousand": 1223180,
+      "turnoverBasis": "friday-low-times-volume-lower-bound",
+      "priceAsOf": "2026-11-20",
+      "priceSource": "Yahoo Finance 日足",
+      "ma5": 1584.8,
+      "ma25": 1437.84,
+      "ma75": 1503.03,
+      "ma100": 1505.29,
+      "ma200": 1441.02,
+      "ma250": 1355.14,
+      "ma300": 1302.61,
+      "rsi": 62.1,
+      "volumeRatio": 0.57,
+      "volumeProfile": {
+        "method": "daily-high-low-uniform-estimate",
+        "periodBars": 120,
+        "poc": 1422.88,
+        "support": 1422.88,
+        "resistance": 1586.28
+      },
+      "creditBuy": 154800,
+      "creditSell": 99000,
+      "creditDelta": -122300,
+      "creditAsOf": "2026-11-19",
+      "creditPreviousAsOf": "2026-11-13"
+    },
+    {
+      "code": "3765",
+      "name": "ガンホー",
+      "market": "P",
+      "close": 2619.0,
+      "gainPct": 6.77,
+      "volumeDay": 253000,
+      "turnoverThousand": 651728,
+      "turnoverBasis": "friday-low-times-volume-lower-bound",
+      "priceAsOf": "2026-11-20",
+      "priceSource": "Yahoo Finance 日足",
+      "ma5": 2624.0,
+      "ma25": 2463.56,
+      "ma75": 2457.4,
+      "ma100": 2428.83,
+      "ma200": 2442.0,
+      "ma250": 2451.98,
+      "ma300": 2493.48,
+      "rsi": 62.5,
+      "volumeRatio": 1.11,
+      "volumeProfile": {
+        "method": "daily-high-low-uniform-estimate",
+        "periodBars": 120,
+        "poc": 2422.95,
+        "support": 2422.95,
+        "resistance": null
+      },
+      "creditBuy": 271200,
+      "creditSell": 14800,
+      "creditDelta": -15600,
+      "creditAsOf": "2026-11-19",
+      "creditPreviousAsOf": "2026-11-13"
+    },
+    {
+      "code": "5133",
+      "name": "テリロジーＨＤ",
+      "market": "S",
+      "close": 414.0,
+      "gainPct": 5.61,
+      "volumeDay": 3881100,
+      "turnoverThousand": 1517510,
+      "turnoverBasis": "friday-low-times-volume-lower-bound",
+      "priceAsOf": "2026-11-20",
+      "priceSource": "Yahoo Finance 日足",
+      "ma5": 380.4,
+      "ma25": 438.68,
+      "ma75": 358.99,
+      "ma100": 344.32,
+      "ma200": 334.79,
+      "ma250": 333.84,
+      "ma300": 333.36,
+      "rsi": 52.3,
+      "volumeRatio": 2.8,
+      "volumeProfile": {
+        "method": "daily-high-low-uniform-estimate",
+        "periodBars": 120,
+        "poc": 369.23,
+        "support": 369.23,
+        "resistance": 416.41
+      },
+      "creditBuy": 1134600,
+      "creditSell": 0,
+      "creditDelta": -176900,
+      "creditAsOf": "2026-11-19",
+      "creditPreviousAsOf": "2026-11-13"
+    },
+    {
+      "code": "4919",
+      "name": "ミルボン",
+      "market": "P",
+      "close": 3695.0,
+      "gainPct": 11.3,
+      "volumeDay": 141100,
+      "turnoverThousand": 519248,
+      "turnoverBasis": "friday-low-times-volume-lower-bound",
+      "priceAsOf": "2026-11-20",
+      "priceSource": "Yahoo Finance 日足",
+      "ma5": 3737.0,
+      "ma25": 3455.8,
+      "ma75": 3266.88,
+      "ma100": 3147.18,
+      "ma200": 2904.96,
+      "ma250": 2819.14,
+      "ma300": 2757.28,
+      "rsi": 64.4,
+      "volumeRatio": 0.73,
+      "volumeProfile": {
+        "method": "daily-high-low-uniform-estimate",
+        "periodBars": 120,
+        "poc": 3279.14,
+        "support": 3279.14,
+        "resistance": null
+      },
+      "creditBuy": 50600,
+      "creditSell": 43500,
+      "creditDelta": 100,
+      "creditAsOf": "2026-11-19",
+      "creditPreviousAsOf": "2026-11-13"
+    },
+    {
+      "code": "6877",
+      "name": "ＯＢＡＲＡ－Ｇ",
+      "market": "S",
+      "close": 7040.0,
+      "gainPct": 6.99,
+      "volumeDay": 48000,
+      "turnoverThousand": 336960,
+      "turnoverBasis": "friday-low-times-volume-lower-bound",
+      "priceAsOf": "2026-11-20",
+      "priceSource": "Yahoo Finance 日足",
+      "ma5": 7236.0,
+      "ma25": 6826.8,
+      "ma75": 6167.47,
+      "ma100": 6116.6,
+      "ma200": 5811.2,
+      "ma250": 5427.24,
+      "ma300": 5235.78,
+      "rsi": 56.7,
+      "volumeRatio": 0.61,
+      "volumeProfile": {
+        "method": "daily-high-low-uniform-estimate",
+        "periodBars": 120,
+        "poc": 5762.5,
+        "support": 5762.5,
+        "resistance": null
+      },
+      "creditBuy": 20100,
+      "creditSell": 19700,
+      "creditDelta": 7800,
+      "creditAsOf": "2026-11-19",
+      "creditPreviousAsOf": "2026-11-13"
+    },
+    {
+      "code": "3416",
+      "name": "ピクスタ",
+      "market": "S",
+      "close": 966.0,
+      "gainPct": 11.94,
+      "volumeDay": 398600,
+      "turnoverThousand": 354754,
+      "turnoverBasis": "friday-low-times-volume-lower-bound",
+      "priceAsOf": "2026-11-20",
+      "priceSource": "Yahoo Finance 日足",
+      "ma5": 954.6,
+      "ma25": 899.44,
+      "ma75": 891.17,
+      "ma100": 875.94,
+      "ma200": 879.66,
+      "ma250": 902.06,
+      "ma300": 923.18,
+      "rsi": 56.6,
+      "volumeRatio": 6.28,
+      "volumeProfile": {
+        "method": "daily-high-low-uniform-estimate",
+        "periodBars": 120,
+        "poc": 956.73,
+        "support": 956.73,
+        "resistance": 968.0
+      },
+      "creditBuy": 121900,
+      "creditSell": 800,
+      "creditDelta": 50400,
+      "creditAsOf": "2026-11-19",
+      "creditPreviousAsOf": "2026-11-13"
+    },
+    {
+      "code": "6167",
+      "name": "冨士ダイス",
+      "market": "P",
+      "close": 1091.0,
+      "gainPct": 11.33,
+      "volumeDay": 206200,
+      "turnoverThousand": 216510,
+      "turnoverBasis": "friday-low-times-volume-lower-bound",
+      "priceAsOf": "2026-11-20",
+      "priceSource": "Yahoo Finance 日足",
+      "ma5": 1105.2,
+      "ma25": 1029.56,
+      "ma75": 1020.52,
+      "ma100": 1008.87,
+      "ma200": 1053.87,
+      "ma250": 1026.97,
+      "ma300": 997.79,
+      "rsi": 59.6,
+      "volumeRatio": 1.48,
+      "volumeProfile": {
+        "method": "daily-high-low-uniform-estimate",
+        "periodBars": 120,
+        "poc": 1003.18,
+        "support": 1003.18,
+        "resistance": 1099.73
+      },
+      "creditBuy": 216400,
+      "creditSell": 48100,
+      "creditDelta": 7400,
+      "creditAsOf": "2026-11-19",
+      "creditPreviousAsOf": "2026-11-13"
+    },
+    {
+      "code": "6837",
+      "name": "京 写",
+      "market": "S",
+      "close": 449.0,
+      "gainPct": 6.9,
+      "volumeDay": 210900,
+      "turnoverThousand": 93217,
+      "turnoverBasis": "friday-low-times-volume-lower-bound",
+      "priceAsOf": "2026-11-20",
+      "priceSource": "Yahoo Finance 日足",
+      "ma5": 479.2,
+      "ma25": 417.96,
+      "ma75": 395.47,
+      "ma100": 387.19,
+      "ma200": 348.67,
+      "ma250": 339.77,
+      "ma300": 344.88,
+      "rsi": 55.7,
+      "volumeRatio": 1.84,
+      "volumeProfile": {
+        "method": "daily-high-low-uniform-estimate",
+        "periodBars": 120,
+        "poc": 370.45,
+        "support": 370.45,
+        "resistance": null
+      },
+      "creditBuy": 332200,
+      "creditSell": 0,
+      "creditDelta": 18600,
+      "creditAsOf": "2026-11-19",
+      "creditPreviousAsOf": "2026-11-13"
+    },
+    {
+      "code": "9989",
+      "name": "サンドラッグ",
+      "market": "P",
+      "close": 4144.0,
+      "gainPct": 5.61,
+      "volumeDay": 538500,
+      "turnoverThousand": 2222928,
+      "turnoverBasis": "friday-low-times-volume-lower-bound",
+      "priceAsOf": "2026-11-20",
+      "priceSource": "Yahoo Finance 日足",
+      "ma5": 4188.4,
+      "ma25": 3805.96,
+      "ma75": 3714.88,
+      "ma100": 3744.63,
+      "ma200": 3830.37,
+      "ma250": 3920.6,
+      "ma300": 3993.88,
+      "rsi": 66.7,
+      "volumeRatio": 0.8,
+      "volumeProfile": {
+        "method": "daily-high-low-uniform-estimate",
+        "periodBars": 120,
+        "poc": 3697.0,
+        "support": 3697.0,
+        "resistance": null
+      },
+      "creditBuy": 86200,
+      "creditSell": 12300,
+      "creditDelta": -18600,
+      "creditAsOf": "2026-11-19",
+      "creditPreviousAsOf": "2026-11-13"
+    },
+    {
+      "code": "4972",
+      "name": "綜研化学",
+      "market": "S",
+      "close": 5100.0,
+      "gainPct": 11.35,
+      "volumeDay": 84700,
+      "turnoverThousand": 413759,
+      "turnoverBasis": "friday-low-times-volume-lower-bound",
+      "priceAsOf": "2026-11-20",
+      "priceSource": "Yahoo Finance 日足",
+      "ma5": 4910.0,
+      "ma25": 4493.8,
+      "ma75": 4052.4,
+      "ma100": 3895.66,
+      "ma200": 3595.27,
+      "ma250": 3398.9,
+      "ma300": 3173.69,
+      "rsi": 71.6,
+      "volumeRatio": 1.22,
+      "volumeProfile": {
+        "method": "daily-high-low-uniform-estimate",
+        "periodBars": 120,
+        "poc": 3375.23,
+        "support": 3375.23,
+        "resistance": null
+      },
+      "creditBuy": 382300,
+      "creditSell": 0,
+      "creditDelta": 151200,
+      "creditAsOf": "2026-11-19",
+      "creditPreviousAsOf": "2026-11-13"
+    },
+    {
+      "code": "8153",
+      "name": "モスフード",
+      "market": "P",
+      "close": 4795.0,
+      "gainPct": 5.38,
+      "volumeDay": 136900,
+      "turnoverThousand": 644114,
+      "turnoverBasis": "friday-low-times-volume-lower-bound",
+      "priceAsOf": "2026-11-20",
+      "priceSource": "Yahoo Finance 日足",
+      "ma5": 4746.0,
+      "ma25": 4366.6,
+      "ma75": 4036.33,
+      "ma100": 3969.4,
+      "ma200": 3995.15,
+      "ma250": 4036.62,
+      "ma300": 4026.42,
+      "rsi": 73.0,
+      "volumeRatio": 0.98,
+      "volumeProfile": {
+        "method": "daily-high-low-uniform-estimate",
+        "periodBars": 120,
+        "poc": 3907.5,
+        "support": 3907.5,
+        "resistance": null
+      },
+      "creditBuy": 21800,
+      "creditSell": 48700,
+      "creditDelta": 5800,
+      "creditAsOf": "2026-11-19",
+      "creditPreviousAsOf": "2026-11-13"
+    },
+    {
+      "code": "3962",
+      "name": "チェンジＨＤ",
+      "market": "P",
+      "close": 833.0,
+      "gainPct": 10.92,
+      "volumeDay": 638400,
+      "turnoverThousand": 523488,
+      "turnoverBasis": "friday-low-times-volume-lower-bound",
+      "priceAsOf": "2026-11-20",
+      "priceSource": "Yahoo Finance 日足",
+      "ma5": 807.0,
+      "ma25": 894.96,
+      "ma75": 960.44,
+      "ma100": 954.22,
+      "ma200": 952.69,
+      "ma250": 970.75,
+      "ma300": 999.08,
+      "rsi": 40.0,
+      "volumeRatio": 1.11,
+      "volumeProfile": {
+        "method": "daily-high-low-uniform-estimate",
+        "periodBars": 120,
+        "poc": 918.0,
+        "support": null,
+        "resistance": 918.0
+      },
+      "creditBuy": 928300,
+      "creditSell": 254500,
+      "creditDelta": -219000,
+      "creditAsOf": "2026-11-19",
+      "creditPreviousAsOf": "2026-11-13"
+    },
+    {
+      "code": "9823",
+      "name": "マミーマートＨＤ",
+      "market": "S",
+      "close": 1002.0,
+      "gainPct": 5.92,
+      "volumeDay": 158000,
+      "turnoverThousand": 158316,
+      "turnoverBasis": "friday-low-times-volume-lower-bound",
+      "priceAsOf": "2026-11-20",
+      "priceSource": "Yahoo Finance 日足",
+      "ma5": 1037.6,
+      "ma25": 949.28,
+      "ma75": 989.97,
+      "ma100": 1002.98,
+      "ma200": 1142.67,
+      "ma250": 1213.16,
+      "ma300": 1252.07,
+      "rsi": 56.6,
+      "volumeRatio": 1.11,
+      "volumeProfile": {
+        "method": "daily-high-low-uniform-estimate",
+        "periodBars": 120,
+        "poc": 1004.55,
+        "support": 995.45,
+        "resistance": 1004.55
+      },
+      "creditBuy": 567000,
+      "creditSell": 0,
+      "creditDelta": 14700,
+      "creditAsOf": "2026-11-19",
+      "creditPreviousAsOf": "2026-11-13"
+    },
+    {
+      "code": "436A",
+      "name": "サイバーＳＯＬ",
+      "market": "G",
+      "close": 1684.0,
+      "gainPct": 7.26,
+      "volumeDay": 84600,
+      "turnoverThousand": 142466,
+      "turnoverBasis": "friday-low-times-volume-lower-bound",
+      "priceAsOf": "2026-11-20",
+      "priceSource": "Yahoo Finance 日足",
+      "ma5": 1698.6,
+      "ma25": 1712.16,
+      "ma75": 1430.77,
+      "ma100": 1325.61,
+      "ma200": 1191.12,
+      "ma250": 1223.25,
+      "rsi": 50.6,
+      "volumeRatio": 0.14,
+      "volumeProfile": {
+        "method": "daily-high-low-uniform-estimate",
+        "periodBars": 120,
+        "poc": 1940.0,
+        "support": null,
+        "resistance": 1940.0
+      },
+      "creditBuy": 250600,
+      "creditSell": 0,
+      "creditDelta": -52000,
+      "creditAsOf": "2026-11-19",
+      "creditPreviousAsOf": "2026-11-13"
     },
     {
       "code": "4255",
       "name": "ＴＨＥＣＯＯ",
-      "close": 4175.0,
-      "gainPct": 38.47,
-      "turnoverThousand": 229214,
-      "volumeDay": 62200,
       "market": "G",
-      "mondayOpen": 4455.0,
-      "fridayClose": NaN
+      "close": 4385.0,
+      "gainPct": 5.03,
+      "volumeDay": 21900,
+      "turnoverThousand": 93403,
+      "turnoverBasis": "friday-low-times-volume-lower-bound",
+      "priceAsOf": "2026-11-20",
+      "priceSource": "Yahoo Finance 日足",
+      "ma5": 4519.0,
+      "ma25": 3554.2,
+      "ma75": 3407.25,
+      "ma100": 3170.71,
+      "ma200": 2667.3,
+      "ma250": 2522.88,
+      "ma300": 2292.37,
+      "rsi": 67.3,
+      "volumeRatio": 0.94,
+      "volumeProfile": {
+        "method": "daily-high-low-uniform-estimate",
+        "periodBars": 120,
+        "poc": 3502.84,
+        "support": 3502.84,
+        "resistance": 4457.39
+      },
+      "creditBuy": 253900,
+      "creditSell": 0,
+      "creditDelta": 61400,
+      "creditAsOf": "2026-11-19",
+      "creditPreviousAsOf": "2026-11-13"
     },
     {
-      "code": "6145",
-      "name": "ＮＩＴＴＯＫＵ",
-      "close": 3465.0,
-      "gainPct": 38.21,
-      "turnoverThousand": 5564168,
-      "volumeDay": 1689000,
+      "code": "5992",
+      "name": "中発条",
       "market": "S",
-      "mondayOpen": 3500.0,
-      "fridayClose": NaN
-    },
-    {
-      "code": "6062",
-      "name": "チャームケア",
-      "close": 1963.0,
-      "gainPct": 38.14,
-      "turnoverThousand": 12191440,
-      "volumeDay": 6218700,
-      "market": "P",
-      "mondayOpen": 1963.0,
-      "fridayClose": NaN
-    },
-    {
-      "code": "9475",
-      "name": "昭文社ＨＤ",
-      "close": 749.0,
-      "gainPct": 35.69,
-      "turnoverThousand": 473985,
-      "volumeDay": 635200,
-      "market": "S",
-      "mondayOpen": 749.0,
-      "fridayClose": NaN
-    },
-    {
-      "code": "1980",
-      "name": "ダイダン",
-      "close": 3205.0,
-      "gainPct": 35.0,
-      "turnoverThousand": 17665664,
-      "volumeDay": 6039500,
-      "market": "P",
-      "mondayOpen": 3205.0,
-      "fridayClose": NaN
-    },
-    {
-      "code": "7717",
-      "name": "Ｖテクノロジー",
-      "close": 5160.0,
-      "gainPct": 33.33,
-      "turnoverThousand": 5157853,
-      "volumeDay": 1146700,
-      "market": "P",
-      "mondayOpen": 5190.0,
-      "fridayClose": NaN
-    },
-    {
-      "code": "4004",
-      "name": "レゾナックＨＤ",
-      "close": 14010.0,
-      "gainPct": 33.05,
-      "turnoverThousand": 309560504,
-      "volumeDay": 23439100,
-      "market": "P",
-      "mondayOpen": 14000.0,
-      "fridayClose": NaN
-    },
-    {
-      "code": "6943",
-      "name": "ＮＫＫ",
-      "close": 6990.0,
-      "gainPct": 31.89,
-      "turnoverThousand": 216451,
-      "volumeDay": 31200,
-      "market": "S",
-      "mondayOpen": 6990.0,
-      "fridayClose": NaN
-    },
-    {
-      "code": "6787",
-      "name": "メイコー",
-      "close": 8190.0,
-      "gainPct": 31.88,
-      "turnoverThousand": 100487374,
-      "volumeDay": 12553000,
-      "market": "P",
-      "mondayOpen": 8270.0,
-      "fridayClose": NaN
-    },
-    {
-      "code": "4222",
-      "name": "児玉化",
-      "close": 616.0,
-      "gainPct": 31.62,
-      "turnoverThousand": 831407,
-      "volumeDay": 1598000,
-      "market": "S",
-      "mondayOpen": 666.0,
-      "fridayClose": NaN
-    },
-    {
-      "code": "4064",
-      "name": "カーバイド",
-      "close": 4005.0,
-      "gainPct": 31.31,
-      "turnoverThousand": 4571948,
-      "volumeDay": 1134300,
-      "market": "P",
-      "mondayOpen": 4005.0,
-      "fridayClose": NaN
-    },
-    {
-      "code": "9880",
-      "name": "イノテック",
-      "close": 3435.0,
-      "gainPct": 30.66,
-      "turnoverThousand": 4285205,
-      "volumeDay": 1319600,
-      "market": "P",
-      "mondayOpen": 3440.0,
-      "fridayClose": NaN
-    },
-    {
-      "code": "1810",
-      "name": "松井建",
-      "close": 1756.0,
-      "gainPct": 30.46,
-      "turnoverThousand": 1015988,
-      "volumeDay": 598500,
-      "market": "S",
-      "mondayOpen": 1747.0,
-      "fridayClose": NaN
-    },
-    {
-      "code": "4994",
-      "name": "大成ラミクＧ",
-      "close": 3340.0,
-      "gainPct": 30.16,
-      "turnoverThousand": 944290,
-      "volumeDay": 298000,
-      "market": "S",
-      "mondayOpen": 3310.0,
-      "fridayClose": NaN
-    },
-    {
-      "code": "6521",
-      "name": "オキサイド",
-      "close": 3175.0,
-      "gainPct": 29.38,
-      "turnoverThousand": 4259551,
-      "volumeDay": 1429700,
-      "market": "G",
-      "mondayOpen": 3175.0,
-      "fridayClose": NaN
-    },
-    {
-      "code": "150A",
-      "name": "ＪＳＨ",
-      "close": 715.0,
-      "gainPct": 28.14,
-      "turnoverThousand": 190076,
-      "volumeDay": 307600,
-      "market": "G",
-      "mondayOpen": 790.0,
-      "fridayClose": NaN
-    },
-    {
-      "code": "5142",
-      "name": "アキレス",
-      "close": 2023.0,
-      "gainPct": 28.12,
-      "turnoverThousand": 4000301,
-      "volumeDay": 1956700,
-      "market": "P",
-      "mondayOpen": 1986.0,
-      "fridayClose": NaN
-    },
-    {
-      "code": "4234",
-      "name": "サンエー化研",
-      "close": 1141.0,
-      "gainPct": 27.63,
-      "turnoverThousand": 455191,
-      "volumeDay": 438600,
-      "market": "S",
-      "earnings": "2026-11-13",
-      "earningsSource": "Traders-web earnings calendar (partial listing); confirm company IR",
-      "mondayOpen": 1231.0,
-      "fridayClose": NaN
-    },
-    {
-      "code": "6969",
-      "name": "松尾電",
-      "close": 1157.0,
-      "gainPct": 27.28,
-      "turnoverThousand": 467319,
-      "volumeDay": 405900,
-      "market": "S",
-      "mondayOpen": 1157.0,
-      "fridayClose": NaN
-    },
-    {
-      "code": "7694",
-      "name": "いつも",
-      "close": 651.0,
-      "gainPct": 27.15,
-      "turnoverThousand": 248047,
-      "volumeDay": 408000,
-      "market": "G",
-      "earnings": "2026-11-13",
-      "earningsSource": "Traders-web earnings calendar (partial listing); confirm company IR",
-      "mondayOpen": 681.0,
-      "fridayClose": NaN
-    },
-    {
-      "code": "6740",
-      "name": "ＪＤＩ",
-      "close": 33.0,
-      "gainPct": 26.92,
-      "turnoverThousand": 4079475,
-      "volumeDay": 127492000,
-      "market": "P",
-      "mondayOpen": 32.0,
-      "fridayClose": NaN
-    },
-    {
-      "code": "6235",
-      "name": "オプトラン",
-      "close": 2269.0,
-      "gainPct": 26.69,
-      "turnoverThousand": 9985295,
-      "volumeDay": 4625200,
-      "market": "P",
-      "mondayOpen": 2315.0,
-      "fridayClose": NaN
-    },
-    {
-      "code": "6072",
-      "name": "ＥＲＴＨ Ｇ",
-      "close": 1231.0,
-      "gainPct": 26.65,
-      "turnoverThousand": 8254920,
-      "volumeDay": 7260900,
-      "market": "S",
-      "mondayOpen": 1215.0,
-      "fridayClose": NaN
-    },
-    {
-      "code": "2134",
-      "name": "キタハマキャピ",
-      "close": 15.0,
-      "gainPct": 25.0,
-      "turnoverThousand": 719318,
-      "volumeDay": 45665300,
-      "market": "S",
-      "mondayOpen": 14.0,
-      "fridayClose": NaN
-    },
-    {
-      "code": "4883",
-      "name": "モダリス",
-      "close": 30.0,
-      "gainPct": 25.0,
-      "turnoverThousand": 316212,
-      "volumeDay": 10642100,
-      "market": "G"
-    },
-    {
-      "code": "1960",
-      "name": "サンテック",
-      "close": 1837.0,
-      "gainPct": 24.97,
-      "turnoverThousand": 1032199,
-      "volumeDay": 584400,
-      "market": "S"
-    },
-    {
-      "code": "5985",
-      "name": "サンコール",
-      "close": 1769.0,
-      "gainPct": 24.67,
-      "turnoverThousand": 9904889,
-      "volumeDay": 5923500,
-      "market": "S",
-      "earnings": "2026-11-13",
-      "earningsSource": "Traders-web earnings calendar (partial listing); confirm company IR"
-    },
-    {
-      "code": "5121",
-      "name": "藤コンポ",
-      "close": 3170.0,
-      "gainPct": 24.46,
-      "turnoverThousand": 6449053,
-      "volumeDay": 2064500,
-      "market": "P"
-    },
-    {
-      "code": "2820",
-      "name": "やまみ",
-      "close": 8050.0,
-      "gainPct": 24.42,
-      "turnoverThousand": 2463712,
-      "volumeDay": 325100,
-      "market": "S"
-    },
-    {
-      "code": "3652",
-      "name": "ＤＭＰ",
-      "close": 2735.0,
-      "gainPct": 24.32,
-      "turnoverThousand": 796870,
-      "volumeDay": 295900,
-      "market": "G"
-    },
-    {
-      "code": "6590",
-      "name": "芝浦メカ",
-      "close": 2924.0,
-      "gainPct": 23.9,
-      "turnoverThousand": 27350974,
-      "volumeDay": 9794000,
-      "market": "P"
-    },
-    {
-      "code": "6418",
-      "name": "金銭機",
-      "close": 1458.0,
-      "gainPct": 23.77,
-      "turnoverThousand": 4182461,
-      "volumeDay": 2871300,
-      "market": "P"
-    },
-    {
-      "code": "6315",
-      "name": "ＴＯＷＡ",
-      "close": 2207.0,
-      "gainPct": 23.64,
-      "turnoverThousand": 57993300,
-      "volumeDay": 25888400,
-      "market": "P"
-    },
-    {
-      "code": "7235",
-      "name": "東ラヂエタ",
-      "close": 1789.0,
-      "gainPct": 23.46,
-      "turnoverThousand": 538528,
-      "volumeDay": 312500,
-      "market": "S"
-    },
-    {
-      "code": "6961",
-      "name": "エンプラス",
-      "close": 8740.0,
-      "gainPct": 23.45,
-      "turnoverThousand": 11717354,
-      "volumeDay": 1425900,
-      "market": "P"
-    },
-    {
-      "code": "2693",
-      "name": "ＹＫＴ",
-      "close": 280.0,
-      "gainPct": 23.35,
-      "turnoverThousand": 614894,
-      "volumeDay": 2054600,
-      "market": "S"
-    },
-    {
-      "code": "9820",
-      "name": "ＭＴジェネック",
-      "close": 4345.0,
-      "gainPct": 23.26,
-      "turnoverThousand": 74947,
-      "volumeDay": 19300,
-      "market": "S"
-    },
-    {
-      "code": "4381",
-      "name": "ビープラッツ",
-      "close": 197.0,
-      "gainPct": 23.13,
-      "turnoverThousand": 616862,
-      "volumeDay": 3115500,
-      "market": "G"
-    },
-    {
-      "code": "6871",
-      "name": "マイクロニクス",
-      "close": 10670.0,
-      "gainPct": 23.04,
-      "turnoverThousand": 119507386,
-      "volumeDay": 11763800,
-      "market": "P"
+      "close": 2715.0,
+      "gainPct": 6.85,
+      "volumeDay": 111000,
+      "turnoverThousand": 294705,
+      "turnoverBasis": "friday-low-times-volume-lower-bound",
+      "priceAsOf": "2026-11-20",
+      "priceSource": "Yahoo Finance 日足",
+      "ma5": 2653.0,
+      "ma25": 3050.48,
+      "ma75": 3473.96,
+      "ma100": 3546.57,
+      "ma200": 3596.78,
+      "ma250": 3571.63,
+      "ma300": 3525.06,
+      "rsi": 33.7,
+      "volumeRatio": 0.91,
+      "volumeProfile": {
+        "method": "daily-high-low-uniform-estimate",
+        "periodBars": 120,
+        "poc": 3693.0,
+        "support": null,
+        "resistance": 3693.0
+      },
+      "creditBuy": 928500,
+      "creditSell": 80700,
+      "creditDelta": 11000,
+      "creditAsOf": "2026-11-19",
+      "creditPreviousAsOf": "2026-11-13"
     }
   ]
 }

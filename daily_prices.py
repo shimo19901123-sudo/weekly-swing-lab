@@ -36,7 +36,7 @@ def normalize_dates(df):
     return df[~df['_date'].duplicated(keep='last')].sort_values('_date')
 
 
-def enrich_one(stock, asof, today, history_fn=None):
+def enrich_one(stock, asof, today, history_fn=None, trade_dates=None):
     """Fill only verified OHLC dates; keep stale/missing values conspicuous."""
     code = str(stock.get('code', ''))
     if not (5 <= float(stock.get('gainPct', -999)) <= 12
@@ -83,12 +83,12 @@ def enrich_one(stock, asof, today, history_fn=None):
             stock.update(tech)
             changed = True
 
-    mon, fri = week_dates(asof)
+    mon, fri = trade_dates or week_dates(asof)
     latest_allowed = min(today, fri)
     if latest_allowed >= mon:
         week = df.loc[(df['_date'] >= mon) & (df['_date'] <= latest_allowed)]
         monday = week.loc[week['_date'] == mon]
-        # Never substitute a Tuesday opening price for a closed Monday.
+        # On a holiday week, use the first session set in the weekly data.
         if not monday.empty:
             opening = float(monday.iloc[0]['Open'])
             if positive(opening):
@@ -115,6 +115,7 @@ def main():
     asof = str(raw['asOf'])
     datetime.fromisoformat(asof)
     today = datetime.now(JST).date().isoformat()
+    trade_dates = (raw.get('tradeMonday'), raw.get('tradeFriday'))
     eligible = [s for s in raw['candidates']
                 if 5 <= float(s.get('gainPct', -999)) <= 12
                 and int(s.get('volumeDay', 0)) >= 10000
@@ -139,7 +140,7 @@ def main():
     succeeded = changed = 0
     for stock in pool:
         try:
-            changed += int(enrich_one(stock, asof, today))
+            changed += int(enrich_one(stock, asof, today, trade_dates=trade_dates if all(trade_dates) else None))
             succeeded += 1
         except Exception as e:
             print(f"[WARN] {stock.get('code')}: {e}", file=sys.stderr)

@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import math
 import re
 import sys
 from datetime import datetime, timedelta
@@ -211,8 +212,11 @@ def add_sim_history(stocks:list[dict], asof:str, max_tickers=5):
             dd=df.index.tz_convert(JST).strftime('%Y-%m-%d') if df.index.tz is not None else df.index.strftime('%Y-%m-%d')
             dmap={str(d):i for i,d in enumerate(dd)}
             if mon in dmap and fri in dmap:
-                s['mondayOpen']=round(float(df.iloc[dmap[mon]]['Open']),2)
-                s['fridayClose']=round(float(df.iloc[dmap[fri]]['Close']),2)
+                opening=float(df.iloc[dmap[mon]]['Open'])
+                closing=float(df.iloc[dmap[fri]]['Close'])
+                if all(math.isfinite(p) and p>0 for p in (opening,closing)):
+                    s['mondayOpen']=round(opening,2)
+                    s['fridayClose']=round(closing,2)
         except Exception as exc:
             print(f"[WARN] OHLC for {s['code']}: {exc}",file=sys.stderr)
 

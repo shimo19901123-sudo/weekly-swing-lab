@@ -757,7 +757,7 @@ def build_report(snapshot, price_fn=yahoo_prices, generated=None):
         lowv=sum(x.get('features',{}).get('volume_expansion') is False for x in known)
         observations.append(f'評価可能{len(known)}件中、選定時の出来高倍率1.5未満は{lowv}件。利益との関係を複数週で比較。')
     missing=len(picks)-len(known)
-    if missing:observations.append(f'{missing}件は正確な月曜始値または金曜終値が取得できず、損益集計から除外。')
+    if missing:observations.append(f'{missing}件は設定した週初始値または金曜終値が取得できず、損益集計から除外。')
     observations.append('次回はMA配列・信用買残増減・決算予定・業種強弱を選定時点で記録し、損益との関連を検証する。')
     observations.append('観測結果は原因の証明ではなく、条件変更は複数週の時系列検証が必要。')
     wins=sum(x['grossProfit100']>0 for x in known)
@@ -766,7 +766,8 @@ def build_report(snapshot, price_fn=yahoo_prices, generated=None):
     r={'version':1,'asOf':snapshot['asOf'],'tradeMonday':snapshot['tradeMonday'],
        'tradeFriday':snapshot['tradeFriday'],'generatedAt':generated or datetime.now(JST).strftime('%Y-%m-%d %H:%M JST'),
        'selectionMode':snapshot['selectionMode'],
-       'learningEligible':snapshot['selectionMode']=='pretrade_locked',
+       'learningEligible':(snapshot['selectionMode']=='pretrade_locked'
+                           and not snapshot.get('weeklyLearningExcluded', False)),
        'lockedCodes':snapshot['pickedCodes'],'expectedCount':len(picks),
        'completeCount':len(known),'complete':len(known)==len(picks) and len(picks)>0,
        'winners':wins,'losers':sum(x['grossProfit100']<0 for x in known),
@@ -776,7 +777,7 @@ def build_report(snapshot, price_fn=yahoo_prices, generated=None):
        'portfolioReturnPct':round(total/principal*100,2) if principal else None,
        'picks':picks,'universeResults':entries,'lessons':observations,
        'notes':['手数料・税金・スリッページ・指値不成立は反映していません。',
-                '月曜日が休場なら火曜始値で代用せず、当該銘柄は未確定とします。',
+                '選定記録に保存した売買期間の開始日の始値と終了日の終値を使用します。',
                 '信用残・決算など未確認情報を「問題なし」とは判定しません。',
                 '結果から過去の選定条件を上書きしません。結果と原因の関係は仮説です。']}
     return r
@@ -785,14 +786,16 @@ def build_report(snapshot, price_fn=yahoo_prices, generated=None):
 def md_report(report):
     r=report
     f=lambda x: '--' if x is None else f'{x:+,.0f}'
+    kind = '事前固定候補' if r['selectionMode']=='pretrade_locked' else '過去の初期参考候補'
+    if not r['learningEligible']:kind += '（学習対象外）'
     lines=[f'# WEEKLY SWING LAB 週次振り返り {r["tradeFriday"]}',
            f'- 選定基準：{r["asOf"]} / 売買期間：{r["tradeMonday"]}〜{r["tradeFriday"]}',
-           f'- 種類：{"事前固定候補" if r["learningEligible"] else "過去の初期参考候補（学習対象外）"}',
+           f'- 種類：{kind}',
            f'- 評価可能：{r["completeCount"]}/{r["expectedCount"]}銘柄',
            f'- 勝率：{r["winRatePct"] if r["winRatePct"] is not None else "未確定"}%（評価可能分のみ）',
            f'- 100株ずつの合計損益（税・手数料前）：{f(r["grossProfit100Total"])}円',
            f'- 購入額に対する騰落率：{r["portfolioReturnPct"] if r["portfolioReturnPct"] is not None else "未確定"}%',
-           '', '| 銘柄 | 月曜始値 | 金曜終値 | 100株損益 | 騰落率 | 状態 |',
+           '', '| 銘柄 | 週初始値 | 金曜終値 | 100株損益 | 騰落率 | 状態 |',
            '|---|---:|---:|---:|---:|---|']
     for p in r['picks']:
         lines.append(f'| {p["code"]} {p["name"]} | {p["mondayOpen"] if p["mondayOpen"] is not None else "未取得"} | {p["fridayClose"] if p["fridayClose"] is not None else "未取得"} | {f(p["grossProfit100"])} | {p["returnPct"] if p["returnPct"] is not None else "—"}% | {p["status"]} |')
@@ -819,7 +822,7 @@ def finalize(today=None, price_fn=yahoo_prices):
     sunday=read_json(SUNDAY_PICKS,{'version':1,'weeks':[]})
     by_week={w['asOf']:w for w in history['weeks']}
     for w in sunday.get('weeks',[]):
-        if w.get('selectionTiming')=='Sunday-before-trading':
+        if w.get('selectionTiming') in ('Sunday-before-trading', 'manual-before-trading'):
             by_week[w['asOf']]=w
     report_weeks=sorted(by_week.values(),key=lambda x:x['asOf'])
     REPORT_DIR.mkdir(exist_ok=True)
