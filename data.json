@@ -17,7 +17,7 @@
       "turnoverThousand": 1173050,
       "turnoverBasis": "friday-low-times-volume-lower-bound",
       "priceAsOf": "2026-11-20",
-      "priceSource": "Yahoo Finance 日足",
+      "priceSource": "Yahoo Finance via yfinance (非公式・要照合)",
       "ma5": 1451.7,
       "ma25": 1384.9,
       "ma75": 1453.13,
@@ -198,7 +198,7 @@
       "turnoverThousand": 17998426,
       "turnoverBasis": "friday-low-times-volume-lower-bound",
       "priceAsOf": "2026-11-20",
-      "priceSource": "Yahoo Finance 日足",
+      "priceSource": "Yahoo Finance via yfinance (非公式・要照合)",
       "ma5": 2223.4,
       "ma25": 2127.04,
       "ma75": 2292.81,
@@ -364,7 +364,7 @@
       "turnoverThousand": 6560408,
       "turnoverBasis": "friday-low-times-volume-lower-bound",
       "priceAsOf": "2026-11-20",
-      "priceSource": "Yahoo Finance 日足",
+      "priceSource": "Yahoo Finance via yfinance (非公式・要照合)",
       "ma5": 1354.0,
       "ma25": 1270.54,
       "ma75": 1275.12,
@@ -535,7 +535,7 @@
       "turnoverThousand": 16921122,
       "turnoverBasis": "friday-low-times-volume-lower-bound",
       "priceAsOf": "2026-11-20",
-      "priceSource": "Yahoo Finance 日足",
+      "priceSource": "Yahoo Finance via yfinance (非公式・要照合)",
       "ma5": 2531.4,
       "ma25": 2454.52,
       "ma75": 2413.95,
@@ -711,7 +711,7 @@
       "turnoverThousand": 281520,
       "turnoverBasis": "friday-low-times-volume-lower-bound",
       "priceAsOf": "2026-11-20",
-      "priceSource": "Yahoo Finance 日足",
+      "priceSource": "Yahoo Finance via yfinance (非公式・要照合)",
       "ma5": 847.4,
       "ma25": 836.32,
       "ma75": 877.96,
@@ -887,7 +887,7 @@
       "turnoverThousand": 1650315,
       "turnoverBasis": "friday-low-times-volume-lower-bound",
       "priceAsOf": "2026-11-20",
-      "priceSource": "Yahoo Finance 日足",
+      "priceSource": "Yahoo Finance via yfinance (非公式・要照合)",
       "ma5": 4094.0,
       "ma25": 4306.6,
       "ma75": 4159.33,
@@ -902,7 +902,119 @@
         "periodBars": 120,
         "poc": 4119.66,
         "support": 4119.66,
-        "resistance": 4335.8
+        "resistance": 4335.8,
+        "bins": [
+          {
+            "low": 3075.0,
+            "high": 3147.05,
+            "volume": 308699
+          },
+          {
+            "low": 3147.05,
+            "high": 3219.09,
+            "volume": 599411
+          },
+          {
+            "low": 3219.09,
+            "high": 3291.14,
+            "volume": 1193173
+          },
+          {
+            "low": 3291.14,
+            "high": 3363.18,
+            "volume": 901630
+          },
+          {
+            "low": 3363.18,
+            "high": 3435.23,
+            "volume": 1544131
+          },
+          {
+            "low": 3435.23,
+            "high": 3507.27,
+            "volume": 1450960
+          },
+          {
+            "low": 3507.27,
+            "high": 3579.32,
+            "volume": 1078578
+          },
+          {
+            "low": 3579.32,
+            "high": 3651.36,
+            "volume": 1370707
+          },
+          {
+            "low": 3651.36,
+            "high": 3723.41,
+            "volume": 1466305
+          },
+          {
+            "low": 3723.41,
+            "high": 3795.45,
+            "volume": 564323
+          },
+          {
+            "low": 3795.45,
+            "high": 3867.5,
+            "volume": 508362
+          },
+          {
+            "low": 3867.5,
+            "high": 3939.55,
+            "volume": 782802
+          },
+          {
+            "low": 3939.55,
+            "high": 4011.59,
+            "volume": 1619323
+          },
+          {
+            "low": 4011.59,
+            "high": 4083.64,
+            "volume": 2857214
+          },
+          {
+            "low": 4083.64,
+            "high": 4155.68,
+            "volume": 3308417
+          },
+          {
+            "low": 4155.68,
+            "high": 4227.73,
+            "volume": 2573013
+          },
+          {
+            "low": 4227.73,
+            "high": 4299.77,
+            "volume": 2361675
+          },
+          {
+            "low": 4299.77,
+            "high": 4371.82,
+            "volume": 2816935
+          },
+          {
+            "low": 4371.82,
+            "high": 4443.86,
+            "volume": 1504509
+          },
+          {
+            "low": 4443.86,
+            "high": 4515.91,
+            "volume": 949107
+          },
+          {
+            "low": 4515.91,
+            "high": 4587.95,
+            "volume": 726973
+          },
+          {
+            "low": 4587.95,
+            "high": 4660.0,
+            "volume": 334752
+          }
+        ]
       },
       "creditBuy": 33600,
       "creditSell": 41500,
@@ -920,7 +1032,7 @@
       "turnoverThousand": 8795006,
       "turnoverBasis": "friday-low-times-volume-lower-bound",
       "priceAsOf": "2026-11-20",
-      "priceSource": "Yahoo Finance 日足",
+      "priceSource": "Yahoo Finance via yfinance (非公式・要照合)",
       "ma5": 3670.8,
       "ma25": 3427.08,
       "ma75": 3169.37,
@@ -935,7 +1047,119 @@
         "periodBars": 120,
         "poc": 3034.22,
         "support": 3034.22,
-        "resistance": null
+        "resistance": null,
+        "bins": [
+          {
+            "low": 2264.5,
+            "high": 2331.43,
+            "volume": 5154627
+          },
+          {
+            "low": 2331.43,
+            "high": 2398.36,
+            "volume": 31357927
+          },
+          {
+            "low": 2398.36,
+            "high": 2465.3,
+            "volume": 36259829
+          },
+          {
+            "low": 2465.3,
+            "high": 2532.23,
+            "volume": 17129809
+          },
+          {
+            "low": 2532.23,
+            "high": 2599.16,
+            "volume": 20378538
+          },
+          {
+            "low": 2599.16,
+            "high": 2666.09,
+            "volume": 29382414
+          },
+          {
+            "low": 2666.09,
+            "high": 2733.02,
+            "volume": 26077165
+          },
+          {
+            "low": 2733.02,
+            "high": 2799.95,
+            "volume": 9110890
+          },
+          {
+            "low": 2799.95,
+            "high": 2866.89,
+            "volume": 1936525
+          },
+          {
+            "low": 2866.89,
+            "high": 2933.82,
+            "volume": 14455402
+          },
+          {
+            "low": 2933.82,
+            "high": 3000.75,
+            "volume": 23155831
+          },
+          {
+            "low": 3000.75,
+            "high": 3067.68,
+            "volume": 39643359
+          },
+          {
+            "low": 3067.68,
+            "high": 3134.61,
+            "volume": 22372619
+          },
+          {
+            "low": 3134.61,
+            "high": 3201.55,
+            "volume": 18674357
+          },
+          {
+            "low": 3201.55,
+            "high": 3268.48,
+            "volume": 19195427
+          },
+          {
+            "low": 3268.48,
+            "high": 3335.41,
+            "volume": 26555314
+          },
+          {
+            "low": 3335.41,
+            "high": 3402.34,
+            "volume": 25182800
+          },
+          {
+            "low": 3402.34,
+            "high": 3469.27,
+            "volume": 14811338
+          },
+          {
+            "low": 3469.27,
+            "high": 3536.2,
+            "volume": 5945114
+          },
+          {
+            "low": 3536.2,
+            "high": 3603.14,
+            "volume": 2280259
+          },
+          {
+            "low": 3603.14,
+            "high": 3670.07,
+            "volume": 6893373
+          },
+          {
+            "low": 3670.07,
+            "high": 3737.0,
+            "volume": 4117682
+          }
+        ]
       },
       "creditBuy": 568600,
       "creditSell": 405100,
@@ -953,7 +1177,7 @@
       "turnoverThousand": 3494437,
       "turnoverBasis": "friday-low-times-volume-lower-bound",
       "priceAsOf": "2026-11-20",
-      "priceSource": "Yahoo Finance 日足",
+      "priceSource": "Yahoo Finance via yfinance (非公式・要照合)",
       "ma5": 767.4,
       "ma25": 976.56,
       "ma75": 554.31,
@@ -968,7 +1192,119 @@
         "periodBars": 120,
         "poc": 379.3,
         "support": 379.3,
-        "resistance": 889.34
+        "resistance": 889.34,
+        "bins": [
+          {
+            "low": 270.0,
+            "high": 342.86,
+            "volume": 9887016
+          },
+          {
+            "low": 342.86,
+            "high": 415.73,
+            "volume": 22023984
+          },
+          {
+            "low": 415.73,
+            "high": 488.59,
+            "volume": 8803015
+          },
+          {
+            "low": 488.59,
+            "high": 561.45,
+            "volume": 7919776
+          },
+          {
+            "low": 561.45,
+            "high": 634.32,
+            "volume": 5497845
+          },
+          {
+            "low": 634.32,
+            "high": 707.18,
+            "volume": 6450110
+          },
+          {
+            "low": 707.18,
+            "high": 780.05,
+            "volume": 13193681
+          },
+          {
+            "low": 780.05,
+            "high": 852.91,
+            "volume": 12939656
+          },
+          {
+            "low": 852.91,
+            "high": 925.77,
+            "volume": 16655384
+          },
+          {
+            "low": 925.77,
+            "high": 998.64,
+            "volume": 11318141
+          },
+          {
+            "low": 998.64,
+            "high": 1071.5,
+            "volume": 9153601
+          },
+          {
+            "low": 1071.5,
+            "high": 1144.36,
+            "volume": 10689866
+          },
+          {
+            "low": 1144.36,
+            "high": 1217.23,
+            "volume": 8957381
+          },
+          {
+            "low": 1217.23,
+            "high": 1290.09,
+            "volume": 12693884
+          },
+          {
+            "low": 1290.09,
+            "high": 1362.95,
+            "volume": 11829574
+          },
+          {
+            "low": 1362.95,
+            "high": 1435.82,
+            "volume": 4536661
+          },
+          {
+            "low": 1435.82,
+            "high": 1508.68,
+            "volume": 1178921
+          },
+          {
+            "low": 1508.68,
+            "high": 1581.55,
+            "volume": 1178921
+          },
+          {
+            "low": 1581.55,
+            "high": 1654.41,
+            "volume": 4818704
+          },
+          {
+            "low": 1654.41,
+            "high": 1727.27,
+            "volume": 3621437
+          },
+          {
+            "low": 1727.27,
+            "high": 1800.14,
+            "volume": 1178921
+          },
+          {
+            "low": 1800.14,
+            "high": 1873.0,
+            "volume": 1178921
+          }
+        ]
       },
       "creditBuy": 744800,
       "creditSell": 332400,
@@ -986,7 +1322,7 @@
       "turnoverThousand": 3440935,
       "turnoverBasis": "friday-low-times-volume-lower-bound",
       "priceAsOf": "2026-11-20",
-      "priceSource": "Yahoo Finance 日足",
+      "priceSource": "Yahoo Finance via yfinance (非公式・要照合)",
       "ma5": 798.18,
       "ma25": 750.0,
       "ma75": 720.24,
@@ -1001,7 +1337,119 @@
         "periodBars": 120,
         "poc": 709.7,
         "support": 709.7,
-        "resistance": null
+        "resistance": null,
+        "bins": [
+          {
+            "low": 594.6,
+            "high": 604.61,
+            "volume": 1387277
+          },
+          {
+            "low": 604.61,
+            "high": 614.62,
+            "volume": 6928524
+          },
+          {
+            "low": 614.62,
+            "high": 624.63,
+            "volume": 5007147
+          },
+          {
+            "low": 624.63,
+            "high": 634.64,
+            "volume": 5961713
+          },
+          {
+            "low": 634.64,
+            "high": 644.65,
+            "volume": 16513752
+          },
+          {
+            "low": 644.65,
+            "high": 654.65,
+            "volume": 34307711
+          },
+          {
+            "low": 654.65,
+            "high": 664.66,
+            "volume": 45692100
+          },
+          {
+            "low": 664.66,
+            "high": 674.67,
+            "volume": 27783917
+          },
+          {
+            "low": 674.67,
+            "high": 684.68,
+            "volume": 35314334
+          },
+          {
+            "low": 684.68,
+            "high": 694.69,
+            "volume": 40329316
+          },
+          {
+            "low": 694.69,
+            "high": 704.7,
+            "volume": 44462226
+          },
+          {
+            "low": 704.7,
+            "high": 714.71,
+            "volume": 80412493
+          },
+          {
+            "low": 714.71,
+            "high": 724.72,
+            "volume": 76111691
+          },
+          {
+            "low": 724.72,
+            "high": 734.73,
+            "volume": 50591858
+          },
+          {
+            "low": 734.73,
+            "high": 744.74,
+            "volume": 30025794
+          },
+          {
+            "low": 744.74,
+            "high": 754.75,
+            "volume": 15214448
+          },
+          {
+            "low": 754.75,
+            "high": 764.75,
+            "volume": 6375343
+          },
+          {
+            "low": 764.75,
+            "high": 774.76,
+            "volume": 3213655
+          },
+          {
+            "low": 774.76,
+            "high": 784.77,
+            "volume": 1464496
+          },
+          {
+            "low": 784.77,
+            "high": 794.78,
+            "volume": 3449932
+          },
+          {
+            "low": 794.78,
+            "high": 804.79,
+            "volume": 6477070
+          },
+          {
+            "low": 804.79,
+            "high": 814.8,
+            "volume": 4960802
+          }
+        ]
       },
       "creditBuy": 772700,
       "creditSell": 336200,
@@ -1019,7 +1467,7 @@
       "turnoverThousand": 1634007,
       "turnoverBasis": "friday-low-times-volume-lower-bound",
       "priceAsOf": "2026-11-20",
-      "priceSource": "Yahoo Finance 日足",
+      "priceSource": "Yahoo Finance via yfinance (非公式・要照合)",
       "ma5": 4744.0,
       "ma25": 4514.48,
       "ma75": 4105.4,
@@ -1034,7 +1482,119 @@
         "periodBars": 120,
         "poc": 3872.91,
         "support": 3872.91,
-        "resistance": null
+        "resistance": null,
+        "bins": [
+          {
+            "low": 3352.0,
+            "high": 3421.45,
+            "volume": 903744
+          },
+          {
+            "low": 3421.45,
+            "high": 3490.91,
+            "volume": 1939125
+          },
+          {
+            "low": 3490.91,
+            "high": 3560.36,
+            "volume": 1827857
+          },
+          {
+            "low": 3560.36,
+            "high": 3629.82,
+            "volume": 1229427
+          },
+          {
+            "low": 3629.82,
+            "high": 3699.27,
+            "volume": 1401162
+          },
+          {
+            "low": 3699.27,
+            "high": 3768.73,
+            "volume": 3612196
+          },
+          {
+            "low": 3768.73,
+            "high": 3838.18,
+            "volume": 2050158
+          },
+          {
+            "low": 3838.18,
+            "high": 3907.64,
+            "volume": 4146430
+          },
+          {
+            "low": 3907.64,
+            "high": 3977.09,
+            "volume": 2991040
+          },
+          {
+            "low": 3977.09,
+            "high": 4046.55,
+            "volume": 3869376
+          },
+          {
+            "low": 4046.55,
+            "high": 4116.0,
+            "volume": 1173261
+          },
+          {
+            "low": 4116.0,
+            "high": 4185.45,
+            "volume": 345933
+          },
+          {
+            "low": 4185.45,
+            "high": 4254.91,
+            "volume": 467817
+          },
+          {
+            "low": 4254.91,
+            "high": 4324.36,
+            "volume": 699796
+          },
+          {
+            "low": 4324.36,
+            "high": 4393.82,
+            "volume": 1666795
+          },
+          {
+            "low": 4393.82,
+            "high": 4463.27,
+            "volume": 2072321
+          },
+          {
+            "low": 4463.27,
+            "high": 4532.73,
+            "volume": 1284330
+          },
+          {
+            "low": 4532.73,
+            "high": 4602.18,
+            "volume": 1043418
+          },
+          {
+            "low": 4602.18,
+            "high": 4671.64,
+            "volume": 1096889
+          },
+          {
+            "low": 4671.64,
+            "high": 4741.09,
+            "volume": 334367
+          },
+          {
+            "low": 4741.09,
+            "high": 4810.55,
+            "volume": 509562
+          },
+          {
+            "low": 4810.55,
+            "high": 4880.0,
+            "volume": 359994
+          }
+        ]
       },
       "creditBuy": 44600,
       "creditSell": 80700,
@@ -1052,7 +1612,7 @@
       "turnoverThousand": 4511116,
       "turnoverBasis": "friday-low-times-volume-lower-bound",
       "priceAsOf": "2026-11-20",
-      "priceSource": "Yahoo Finance 日足",
+      "priceSource": "Yahoo Finance via yfinance (非公式・要照合)",
       "ma5": 2634.8,
       "ma25": 2737.6,
       "ma75": 2784.44,
@@ -1067,7 +1627,119 @@
         "periodBars": 120,
         "poc": 2827.45,
         "support": 2356.18,
-        "resistance": 2827.45
+        "resistance": 2827.45,
+        "bins": [
+          {
+            "low": 2258.0,
+            "high": 2297.27,
+            "volume": 2891324
+          },
+          {
+            "low": 2297.27,
+            "high": 2336.55,
+            "volume": 10475732
+          },
+          {
+            "low": 2336.55,
+            "high": 2375.82,
+            "volume": 11503012
+          },
+          {
+            "low": 2375.82,
+            "high": 2415.09,
+            "volume": 9928410
+          },
+          {
+            "low": 2415.09,
+            "high": 2454.36,
+            "volume": 9916600
+          },
+          {
+            "low": 2454.36,
+            "high": 2493.64,
+            "volume": 8706666
+          },
+          {
+            "low": 2493.64,
+            "high": 2532.91,
+            "volume": 3832153
+          },
+          {
+            "low": 2532.91,
+            "high": 2572.18,
+            "volume": 1507824
+          },
+          {
+            "low": 2572.18,
+            "high": 2611.45,
+            "volume": 861483
+          },
+          {
+            "low": 2611.45,
+            "high": 2650.73,
+            "volume": 3315929
+          },
+          {
+            "low": 2650.73,
+            "high": 2690.0,
+            "volume": 6578909
+          },
+          {
+            "low": 2690.0,
+            "high": 2729.27,
+            "volume": 8938786
+          },
+          {
+            "low": 2729.27,
+            "high": 2768.55,
+            "volume": 10036020
+          },
+          {
+            "low": 2768.55,
+            "high": 2807.82,
+            "volume": 14046945
+          },
+          {
+            "low": 2807.82,
+            "high": 2847.09,
+            "volume": 15207647
+          },
+          {
+            "low": 2847.09,
+            "high": 2886.36,
+            "volume": 9197309
+          },
+          {
+            "low": 2886.36,
+            "high": 2925.64,
+            "volume": 6221643
+          },
+          {
+            "low": 2925.64,
+            "high": 2964.91,
+            "volume": 3268922
+          },
+          {
+            "low": 2964.91,
+            "high": 3004.18,
+            "volume": 2254466
+          },
+          {
+            "low": 3004.18,
+            "high": 3043.45,
+            "volume": 3241127
+          },
+          {
+            "low": 3043.45,
+            "high": 3082.73,
+            "volume": 3190507
+          },
+          {
+            "low": 3082.73,
+            "high": 3122.0,
+            "volume": 2303686
+          }
+        ]
       },
       "creditBuy": 196300,
       "creditSell": 125000,
@@ -1085,7 +1757,7 @@
       "turnoverThousand": 1663885,
       "turnoverBasis": "friday-low-times-volume-lower-bound",
       "priceAsOf": "2026-11-20",
-      "priceSource": "Yahoo Finance 日足",
+      "priceSource": "Yahoo Finance via yfinance (非公式・要照合)",
       "ma5": 418.8,
       "ma25": 400.04,
       "ma75": 384.28,
@@ -1100,7 +1772,119 @@
         "periodBars": 120,
         "poc": 425.09,
         "support": 387.27,
-        "resistance": 425.09
+        "resistance": 425.09,
+        "bins": [
+          {
+            "low": 288.0,
+            "high": 297.45,
+            "volume": 526452
+          },
+          {
+            "low": 297.45,
+            "high": 306.91,
+            "volume": 2933008
+          },
+          {
+            "low": 306.91,
+            "high": 316.36,
+            "volume": 3773150
+          },
+          {
+            "low": 316.36,
+            "high": 325.82,
+            "volume": 2875949
+          },
+          {
+            "low": 325.82,
+            "high": 335.27,
+            "volume": 3092500
+          },
+          {
+            "low": 335.27,
+            "high": 344.73,
+            "volume": 3073410
+          },
+          {
+            "low": 344.73,
+            "high": 354.18,
+            "volume": 3133060
+          },
+          {
+            "low": 354.18,
+            "high": 363.64,
+            "volume": 3909315
+          },
+          {
+            "low": 363.64,
+            "high": 373.09,
+            "volume": 3464561
+          },
+          {
+            "low": 373.09,
+            "high": 382.55,
+            "volume": 3823409
+          },
+          {
+            "low": 382.55,
+            "high": 392.0,
+            "volume": 4524972
+          },
+          {
+            "low": 392.0,
+            "high": 401.45,
+            "volume": 4150196
+          },
+          {
+            "low": 401.45,
+            "high": 410.91,
+            "volume": 4295493
+          },
+          {
+            "low": 410.91,
+            "high": 420.36,
+            "volume": 5085061
+          },
+          {
+            "low": 420.36,
+            "high": 429.82,
+            "volume": 5436799
+          },
+          {
+            "low": 429.82,
+            "high": 439.27,
+            "volume": 4175825
+          },
+          {
+            "low": 439.27,
+            "high": 448.73,
+            "volume": 3180106
+          },
+          {
+            "low": 448.73,
+            "high": 458.18,
+            "volume": 2449611
+          },
+          {
+            "low": 458.18,
+            "high": 467.64,
+            "volume": 1198397
+          },
+          {
+            "low": 467.64,
+            "high": 477.09,
+            "volume": 682383
+          },
+          {
+            "low": 477.09,
+            "high": 486.55,
+            "volume": 648822
+          },
+          {
+            "low": 486.55,
+            "high": 496.0,
+            "volume": 648822
+          }
+        ]
       },
       "creditBuy": 2711700,
       "creditSell": 16900,
@@ -1118,7 +1902,7 @@
       "turnoverThousand": 708517,
       "turnoverBasis": "friday-low-times-volume-lower-bound",
       "priceAsOf": "2026-11-20",
-      "priceSource": "Yahoo Finance 日足",
+      "priceSource": "Yahoo Finance via yfinance (非公式・要照合)",
       "ma5": 1618.6,
       "ma25": 1467.04,
       "ma75": 1374.8,
@@ -1133,7 +1917,119 @@
         "periodBars": 120,
         "poc": 1217.82,
         "support": 1217.82,
-        "resistance": null
+        "resistance": null,
+        "bins": [
+          {
+            "low": 1184.0,
+            "high": 1206.55,
+            "volume": 2574711
+          },
+          {
+            "low": 1206.55,
+            "high": 1229.09,
+            "volume": 8864339
+          },
+          {
+            "low": 1229.09,
+            "high": 1251.64,
+            "volume": 4626486
+          },
+          {
+            "low": 1251.64,
+            "high": 1274.18,
+            "volume": 2141220
+          },
+          {
+            "low": 1274.18,
+            "high": 1296.73,
+            "volume": 4235471
+          },
+          {
+            "low": 1296.73,
+            "high": 1319.27,
+            "volume": 4985713
+          },
+          {
+            "low": 1319.27,
+            "high": 1341.82,
+            "volume": 3550604
+          },
+          {
+            "low": 1341.82,
+            "high": 1364.36,
+            "volume": 4045292
+          },
+          {
+            "low": 1364.36,
+            "high": 1386.91,
+            "volume": 3076415
+          },
+          {
+            "low": 1386.91,
+            "high": 1409.45,
+            "volume": 1279815
+          },
+          {
+            "low": 1409.45,
+            "high": 1432.0,
+            "volume": 879877
+          },
+          {
+            "low": 1432.0,
+            "high": 1454.55,
+            "volume": 649278
+          },
+          {
+            "low": 1454.55,
+            "high": 1477.09,
+            "volume": 569968
+          },
+          {
+            "low": 1477.09,
+            "high": 1499.64,
+            "volume": 430523
+          },
+          {
+            "low": 1499.64,
+            "high": 1522.18,
+            "volume": 616434
+          },
+          {
+            "low": 1522.18,
+            "high": 1544.73,
+            "volume": 332253
+          },
+          {
+            "low": 1544.73,
+            "high": 1567.27,
+            "volume": 399084
+          },
+          {
+            "low": 1567.27,
+            "high": 1589.82,
+            "volume": 451323
+          },
+          {
+            "low": 1589.82,
+            "high": 1612.36,
+            "volume": 408233
+          },
+          {
+            "low": 1612.36,
+            "high": 1634.91,
+            "volume": 688003
+          },
+          {
+            "low": 1634.91,
+            "high": 1657.45,
+            "volume": 608683
+          },
+          {
+            "low": 1657.45,
+            "high": 1680.0,
+            "volume": 308475
+          }
+        ]
       },
       "creditBuy": 90500,
       "creditSell": 388600,
@@ -1151,7 +2047,7 @@
       "turnoverThousand": 14838076,
       "turnoverBasis": "friday-low-times-volume-lower-bound",
       "priceAsOf": "2026-11-20",
-      "priceSource": "Yahoo Finance 日足",
+      "priceSource": "Yahoo Finance via yfinance (非公式・要照合)",
       "ma5": 7314.6,
       "ma25": 7115.0,
       "ma75": 6577.97,
@@ -1166,7 +2062,119 @@
         "periodBars": 120,
         "poc": 6367.73,
         "support": 6367.73,
-        "resistance": 7601.73
+        "resistance": 7601.73,
+        "bins": [
+          {
+            "low": 5302.0,
+            "high": 5414.18,
+            "volume": 2667228
+          },
+          {
+            "low": 5414.18,
+            "high": 5526.36,
+            "volume": 4764694
+          },
+          {
+            "low": 5526.36,
+            "high": 5638.55,
+            "volume": 7993890
+          },
+          {
+            "low": 5638.55,
+            "high": 5750.73,
+            "volume": 6478973
+          },
+          {
+            "low": 5750.73,
+            "high": 5862.91,
+            "volume": 5870092
+          },
+          {
+            "low": 5862.91,
+            "high": 5975.09,
+            "volume": 5932248
+          },
+          {
+            "low": 5975.09,
+            "high": 6087.27,
+            "volume": 5600581
+          },
+          {
+            "low": 6087.27,
+            "high": 6199.45,
+            "volume": 4884975
+          },
+          {
+            "low": 6199.45,
+            "high": 6311.64,
+            "volume": 8824305
+          },
+          {
+            "low": 6311.64,
+            "high": 6423.82,
+            "volume": 10806693
+          },
+          {
+            "low": 6423.82,
+            "high": 6536.0,
+            "volume": 10399099
+          },
+          {
+            "low": 6536.0,
+            "high": 6648.18,
+            "volume": 10130216
+          },
+          {
+            "low": 6648.18,
+            "high": 6760.36,
+            "volume": 10099352
+          },
+          {
+            "low": 6760.36,
+            "high": 6872.55,
+            "volume": 7784781
+          },
+          {
+            "low": 6872.55,
+            "high": 6984.73,
+            "volume": 4245710
+          },
+          {
+            "low": 6984.73,
+            "high": 7096.91,
+            "volume": 6239752
+          },
+          {
+            "low": 7096.91,
+            "high": 7209.09,
+            "volume": 9081892
+          },
+          {
+            "low": 7209.09,
+            "high": 7321.27,
+            "volume": 9172429
+          },
+          {
+            "low": 7321.27,
+            "high": 7433.45,
+            "volume": 8844897
+          },
+          {
+            "low": 7433.45,
+            "high": 7545.64,
+            "volume": 6717285
+          },
+          {
+            "low": 7545.64,
+            "high": 7657.82,
+            "volume": 5324526
+          },
+          {
+            "low": 7657.82,
+            "high": 7770.0,
+            "volume": 990783
+          }
+        ]
       },
       "creditBuy": 359300,
       "creditSell": 65600,
@@ -1184,7 +2192,7 @@
       "turnoverThousand": 232320,
       "turnoverBasis": "friday-low-times-volume-lower-bound",
       "priceAsOf": "2026-11-20",
-      "priceSource": "Yahoo Finance 日足",
+      "priceSource": "Yahoo Finance via yfinance (非公式・要照合)",
       "ma5": 3009.0,
       "ma25": 2821.2,
       "ma75": 2789.89,
@@ -1199,7 +2207,119 @@
         "periodBars": 120,
         "poc": 2832.82,
         "support": 2832.82,
-        "resistance": null
+        "resistance": null,
+        "bins": [
+          {
+            "low": 2376.0,
+            "high": 2412.55,
+            "volume": 27486
+          },
+          {
+            "low": 2412.55,
+            "high": 2449.09,
+            "volume": 145030
+          },
+          {
+            "low": 2449.09,
+            "high": 2485.64,
+            "volume": 424809
+          },
+          {
+            "low": 2485.64,
+            "high": 2522.18,
+            "volume": 274448
+          },
+          {
+            "low": 2522.18,
+            "high": 2558.73,
+            "volume": 152924
+          },
+          {
+            "low": 2558.73,
+            "high": 2595.27,
+            "volume": 206164
+          },
+          {
+            "low": 2595.27,
+            "high": 2631.82,
+            "volume": 294935
+          },
+          {
+            "low": 2631.82,
+            "high": 2668.36,
+            "volume": 581781
+          },
+          {
+            "low": 2668.36,
+            "high": 2704.91,
+            "volume": 844740
+          },
+          {
+            "low": 2704.91,
+            "high": 2741.45,
+            "volume": 1005085
+          },
+          {
+            "low": 2741.45,
+            "high": 2778.0,
+            "volume": 1076779
+          },
+          {
+            "low": 2778.0,
+            "high": 2814.55,
+            "volume": 906823
+          },
+          {
+            "low": 2814.55,
+            "high": 2851.09,
+            "volume": 1091190
+          },
+          {
+            "low": 2851.09,
+            "high": 2887.64,
+            "volume": 900772
+          },
+          {
+            "low": 2887.64,
+            "high": 2924.18,
+            "volume": 368824
+          },
+          {
+            "low": 2924.18,
+            "high": 2960.73,
+            "volume": 126315
+          },
+          {
+            "low": 2960.73,
+            "high": 2997.27,
+            "volume": 35881
+          },
+          {
+            "low": 2997.27,
+            "high": 3033.82,
+            "volume": 55107
+          },
+          {
+            "low": 3033.82,
+            "high": 3070.36,
+            "volume": 53480
+          },
+          {
+            "low": 3070.36,
+            "high": 3106.91,
+            "volume": 53480
+          },
+          {
+            "low": 3106.91,
+            "high": 3143.45,
+            "volume": 51173
+          },
+          {
+            "low": 3143.45,
+            "high": 3180.0,
+            "volume": 29074
+          }
+        ]
       },
       "creditBuy": 118400,
       "creditSell": 25000,
@@ -1217,7 +2337,7 @@
       "turnoverThousand": 145554,
       "turnoverBasis": "friday-low-times-volume-lower-bound",
       "priceAsOf": "2026-11-20",
-      "priceSource": "Yahoo Finance 日足",
+      "priceSource": "Yahoo Finance via yfinance (非公式・要照合)",
       "ma5": 1150.4,
       "ma25": 1100.48,
       "ma75": 1119.43,
@@ -1232,7 +2352,119 @@
         "periodBars": 120,
         "poc": 1107.82,
         "support": 1107.82,
-        "resistance": null
+        "resistance": null,
+        "bins": [
+          {
+            "low": 999.0,
+            "high": 1010.45,
+            "volume": 85669
+          },
+          {
+            "low": 1010.45,
+            "high": 1021.91,
+            "volume": 232761
+          },
+          {
+            "low": 1021.91,
+            "high": 1033.36,
+            "volume": 432968
+          },
+          {
+            "low": 1033.36,
+            "high": 1044.82,
+            "volume": 527095
+          },
+          {
+            "low": 1044.82,
+            "high": 1056.27,
+            "volume": 674321
+          },
+          {
+            "low": 1056.27,
+            "high": 1067.73,
+            "volume": 948394
+          },
+          {
+            "low": 1067.73,
+            "high": 1079.18,
+            "volume": 1127958
+          },
+          {
+            "low": 1079.18,
+            "high": 1090.64,
+            "volume": 1084630
+          },
+          {
+            "low": 1090.64,
+            "high": 1102.09,
+            "volume": 1665193
+          },
+          {
+            "low": 1102.09,
+            "high": 1113.55,
+            "volume": 1799592
+          },
+          {
+            "low": 1113.55,
+            "high": 1125.0,
+            "volume": 1000306
+          },
+          {
+            "low": 1125.0,
+            "high": 1136.45,
+            "volume": 1471170
+          },
+          {
+            "low": 1136.45,
+            "high": 1147.91,
+            "volume": 1594298
+          },
+          {
+            "low": 1147.91,
+            "high": 1159.36,
+            "volume": 354536
+          },
+          {
+            "low": 1159.36,
+            "high": 1170.82,
+            "volume": 432199
+          },
+          {
+            "low": 1170.82,
+            "high": 1182.27,
+            "volume": 344379
+          },
+          {
+            "low": 1182.27,
+            "high": 1193.73,
+            "volume": 318004
+          },
+          {
+            "low": 1193.73,
+            "high": 1205.18,
+            "volume": 407837
+          },
+          {
+            "low": 1205.18,
+            "high": 1216.64,
+            "volume": 345115
+          },
+          {
+            "low": 1216.64,
+            "high": 1228.09,
+            "volume": 144633
+          },
+          {
+            "low": 1228.09,
+            "high": 1239.55,
+            "volume": 111947
+          },
+          {
+            "low": 1239.55,
+            "high": 1251.0,
+            "volume": 77893
+          }
+        ]
       },
       "creditBuy": 130000,
       "creditSell": 20000,
@@ -1250,7 +2482,7 @@
       "turnoverThousand": 8567620,
       "turnoverBasis": "friday-low-times-volume-lower-bound",
       "priceAsOf": "2026-11-20",
-      "priceSource": "Yahoo Finance 日足",
+      "priceSource": "Yahoo Finance via yfinance (非公式・要照合)",
       "ma5": 4844.6,
       "ma25": 4279.08,
       "ma75": 4476.75,
@@ -1265,7 +2497,119 @@
         "periodBars": 120,
         "poc": 4646.45,
         "support": 4153.73,
-        "resistance": 4646.45
+        "resistance": 4646.45,
+        "bins": [
+          {
+            "low": 3932.0,
+            "high": 3981.27,
+            "volume": 581501
+          },
+          {
+            "low": 3981.27,
+            "high": 4030.55,
+            "volume": 1942745
+          },
+          {
+            "low": 4030.55,
+            "high": 4079.82,
+            "volume": 2770131
+          },
+          {
+            "low": 4079.82,
+            "high": 4129.09,
+            "volume": 7984562
+          },
+          {
+            "low": 4129.09,
+            "high": 4178.36,
+            "volume": 10598470
+          },
+          {
+            "low": 4178.36,
+            "high": 4227.64,
+            "volume": 6603195
+          },
+          {
+            "low": 4227.64,
+            "high": 4276.91,
+            "volume": 4771324
+          },
+          {
+            "low": 4276.91,
+            "high": 4326.18,
+            "volume": 3732868
+          },
+          {
+            "low": 4326.18,
+            "high": 4375.45,
+            "volume": 4976580
+          },
+          {
+            "low": 4375.45,
+            "high": 4424.73,
+            "volume": 3646925
+          },
+          {
+            "low": 4424.73,
+            "high": 4474.0,
+            "volume": 2785892
+          },
+          {
+            "low": 4474.0,
+            "high": 4523.27,
+            "volume": 3372610
+          },
+          {
+            "low": 4523.27,
+            "high": 4572.55,
+            "volume": 4560600
+          },
+          {
+            "low": 4572.55,
+            "high": 4621.82,
+            "volume": 7857965
+          },
+          {
+            "low": 4621.82,
+            "high": 4671.09,
+            "volume": 11926173
+          },
+          {
+            "low": 4671.09,
+            "high": 4720.36,
+            "volume": 9410703
+          },
+          {
+            "low": 4720.36,
+            "high": 4769.64,
+            "volume": 4293598
+          },
+          {
+            "low": 4769.64,
+            "high": 4818.91,
+            "volume": 2160965
+          },
+          {
+            "low": 4818.91,
+            "high": 4868.18,
+            "volume": 1978578
+          },
+          {
+            "low": 4868.18,
+            "high": 4917.45,
+            "volume": 2262686
+          },
+          {
+            "low": 4917.45,
+            "high": 4966.73,
+            "volume": 2294509
+          },
+          {
+            "low": 4966.73,
+            "high": 5016.0,
+            "volume": 1263121
+          }
+        ]
       },
       "creditBuy": 241200,
       "creditSell": 46300,
@@ -1283,7 +2627,7 @@
       "turnoverThousand": 4003256,
       "turnoverBasis": "friday-low-times-volume-lower-bound",
       "priceAsOf": "2026-11-20",
-      "priceSource": "Yahoo Finance 日足",
+      "priceSource": "Yahoo Finance via yfinance (非公式・要照合)",
       "ma5": 659.2,
       "ma25": 722.0,
       "ma75": 389.15,
@@ -1298,7 +2642,119 @@
         "periodBars": 120,
         "poc": 659.7,
         "support": 659.7,
-        "resistance": 705.3
+        "resistance": 705.3,
+        "bins": [
+          {
+            "low": 181.0,
+            "high": 226.59,
+            "volume": 2523609
+          },
+          {
+            "low": 226.59,
+            "high": 272.18,
+            "volume": 5388651
+          },
+          {
+            "low": 272.18,
+            "high": 317.77,
+            "volume": 6796308
+          },
+          {
+            "low": 317.77,
+            "high": 363.36,
+            "volume": 3185618
+          },
+          {
+            "low": 363.36,
+            "high": 408.95,
+            "volume": 1791315
+          },
+          {
+            "low": 408.95,
+            "high": 454.55,
+            "volume": 0
+          },
+          {
+            "low": 454.55,
+            "high": 500.14,
+            "volume": 2127905
+          },
+          {
+            "low": 500.14,
+            "high": 545.73,
+            "volume": 5952728
+          },
+          {
+            "low": 545.73,
+            "high": 591.32,
+            "volume": 5883893
+          },
+          {
+            "low": 591.32,
+            "high": 636.91,
+            "volume": 10111384
+          },
+          {
+            "low": 636.91,
+            "high": 682.5,
+            "volume": 11252424
+          },
+          {
+            "low": 682.5,
+            "high": 728.09,
+            "volume": 10419844
+          },
+          {
+            "low": 728.09,
+            "high": 773.68,
+            "volume": 8434361
+          },
+          {
+            "low": 773.68,
+            "high": 819.27,
+            "volume": 7037582
+          },
+          {
+            "low": 819.27,
+            "high": 864.86,
+            "volume": 8581500
+          },
+          {
+            "low": 864.86,
+            "high": 910.45,
+            "volume": 9593989
+          },
+          {
+            "low": 910.45,
+            "high": 956.05,
+            "volume": 7837614
+          },
+          {
+            "low": 956.05,
+            "high": 1001.64,
+            "volume": 4258246
+          },
+          {
+            "low": 1001.64,
+            "high": 1047.23,
+            "volume": 3308402
+          },
+          {
+            "low": 1047.23,
+            "high": 1092.82,
+            "volume": 2915033
+          },
+          {
+            "low": 1092.82,
+            "high": 1138.41,
+            "volume": 1407230
+          },
+          {
+            "low": 1138.41,
+            "high": 1184.0,
+            "volume": 973665
+          }
+        ]
       },
       "creditBuy": 397300,
       "creditSell": 71800,
@@ -1316,7 +2772,7 @@
       "turnoverThousand": 5592769,
       "turnoverBasis": "friday-low-times-volume-lower-bound",
       "priceAsOf": "2026-11-20",
-      "priceSource": "Yahoo Finance 日足",
+      "priceSource": "Yahoo Finance via yfinance (非公式・要照合)",
       "ma5": 494.0,
       "ma25": 492.52,
       "ma75": 534.73,
@@ -1331,7 +2787,119 @@
         "periodBars": 120,
         "poc": 548.64,
         "support": 482.27,
-        "resistance": 548.64
+        "resistance": 548.64,
+        "bins": [
+          {
+            "low": 396.0,
+            "high": 409.27,
+            "volume": 457775
+          },
+          {
+            "low": 409.27,
+            "high": 422.55,
+            "volume": 457775
+          },
+          {
+            "low": 422.55,
+            "high": 435.82,
+            "volume": 979630
+          },
+          {
+            "low": 435.82,
+            "high": 449.09,
+            "volume": 4940768
+          },
+          {
+            "low": 449.09,
+            "high": 462.36,
+            "volume": 8096031
+          },
+          {
+            "low": 462.36,
+            "high": 475.64,
+            "volume": 8568147
+          },
+          {
+            "low": 475.64,
+            "high": 488.91,
+            "volume": 12861632
+          },
+          {
+            "low": 488.91,
+            "high": 502.18,
+            "volume": 17887762
+          },
+          {
+            "low": 502.18,
+            "high": 515.45,
+            "volume": 17540051
+          },
+          {
+            "low": 515.45,
+            "high": 528.73,
+            "volume": 16808433
+          },
+          {
+            "low": 528.73,
+            "high": 542.0,
+            "volume": 18275774
+          },
+          {
+            "low": 542.0,
+            "high": 555.27,
+            "volume": 23095014
+          },
+          {
+            "low": 555.27,
+            "high": 568.55,
+            "volume": 20766198
+          },
+          {
+            "low": 568.55,
+            "high": 581.82,
+            "volume": 20299413
+          },
+          {
+            "low": 581.82,
+            "high": 595.09,
+            "volume": 15731249
+          },
+          {
+            "low": 595.09,
+            "high": 608.36,
+            "volume": 12792029
+          },
+          {
+            "low": 608.36,
+            "high": 621.64,
+            "volume": 13462059
+          },
+          {
+            "low": 621.64,
+            "high": 634.91,
+            "volume": 10933670
+          },
+          {
+            "low": 634.91,
+            "high": 648.18,
+            "volume": 7340766
+          },
+          {
+            "low": 648.18,
+            "high": 661.45,
+            "volume": 6165190
+          },
+          {
+            "low": 661.45,
+            "high": 674.73,
+            "volume": 5025867
+          },
+          {
+            "low": 674.73,
+            "high": 688.0,
+            "volume": 2389969
+          }
+        ]
       },
       "creditBuy": 12801300,
       "creditSell": 900,
@@ -1349,7 +2917,7 @@
       "turnoverThousand": 1612050,
       "turnoverBasis": "friday-low-times-volume-lower-bound",
       "priceAsOf": "2026-11-20",
-      "priceSource": "Yahoo Finance 日足",
+      "priceSource": "Yahoo Finance via yfinance (非公式・要照合)",
       "ma5": 3261.6,
       "ma25": 3870.32,
       "ma75": 3230.25,
@@ -1364,7 +2932,119 @@
         "periodBars": 120,
         "poc": 4852.5,
         "support": 3236.59,
-        "resistance": 4852.5
+        "resistance": 4852.5,
+        "bins": [
+          {
+            "low": 1890.0,
+            "high": 2069.55,
+            "volume": 1231787
+          },
+          {
+            "low": 2069.55,
+            "high": 2249.09,
+            "volume": 1653654
+          },
+          {
+            "low": 2249.09,
+            "high": 2428.64,
+            "volume": 1632224
+          },
+          {
+            "low": 2428.64,
+            "high": 2608.18,
+            "volume": 3222890
+          },
+          {
+            "low": 2608.18,
+            "high": 2787.73,
+            "volume": 3134157
+          },
+          {
+            "low": 2787.73,
+            "high": 2967.27,
+            "volume": 3118722
+          },
+          {
+            "low": 2967.27,
+            "high": 3146.82,
+            "volume": 4292629
+          },
+          {
+            "low": 3146.82,
+            "high": 3326.36,
+            "volume": 4904615
+          },
+          {
+            "low": 3326.36,
+            "high": 3505.91,
+            "volume": 3752990
+          },
+          {
+            "low": 3505.91,
+            "high": 3685.45,
+            "volume": 1328595
+          },
+          {
+            "low": 3685.45,
+            "high": 3865.0,
+            "volume": 1251176
+          },
+          {
+            "low": 3865.0,
+            "high": 4044.55,
+            "volume": 2399266
+          },
+          {
+            "low": 4044.55,
+            "high": 4224.09,
+            "volume": 2862933
+          },
+          {
+            "low": 4224.09,
+            "high": 4403.64,
+            "volume": 3155093
+          },
+          {
+            "low": 4403.64,
+            "high": 4583.18,
+            "volume": 4051448
+          },
+          {
+            "low": 4583.18,
+            "high": 4762.73,
+            "volume": 4248160
+          },
+          {
+            "low": 4762.73,
+            "high": 4942.27,
+            "volume": 4987187
+          },
+          {
+            "low": 4942.27,
+            "high": 5121.82,
+            "volume": 3309032
+          },
+          {
+            "low": 5121.82,
+            "high": 5301.36,
+            "volume": 2832583
+          },
+          {
+            "low": 5301.36,
+            "high": 5480.91,
+            "volume": 2624818
+          },
+          {
+            "low": 5480.91,
+            "high": 5660.45,
+            "volume": 2123393
+          },
+          {
+            "low": 5660.45,
+            "high": 5840.0,
+            "volume": 766748
+          }
+        ]
       },
       "creditBuy": 389200,
       "creditSell": 400,
@@ -1382,7 +3062,7 @@
       "turnoverThousand": 297786,
       "turnoverBasis": "friday-low-times-volume-lower-bound",
       "priceAsOf": "2026-11-20",
-      "priceSource": "Yahoo Finance 日足",
+      "priceSource": "Yahoo Finance via yfinance (非公式・要照合)",
       "ma5": 507.2,
       "ma25": 452.84,
       "ma75": 431.85,
@@ -1397,7 +3077,119 @@
         "periodBars": 120,
         "poc": 416.82,
         "support": 416.82,
-        "resistance": null
+        "resistance": null,
+        "bins": [
+          {
+            "low": 389.0,
+            "high": 395.18,
+            "volume": 207552
+          },
+          {
+            "low": 395.18,
+            "high": 401.36,
+            "volume": 436276
+          },
+          {
+            "low": 401.36,
+            "high": 407.55,
+            "volume": 1072029
+          },
+          {
+            "low": 407.55,
+            "high": 413.73,
+            "volume": 2455970
+          },
+          {
+            "low": 413.73,
+            "high": 419.91,
+            "volume": 3031407
+          },
+          {
+            "low": 419.91,
+            "high": 426.09,
+            "volume": 3007966
+          },
+          {
+            "low": 426.09,
+            "high": 432.27,
+            "volume": 1917653
+          },
+          {
+            "low": 432.27,
+            "high": 438.45,
+            "volume": 802263
+          },
+          {
+            "low": 438.45,
+            "high": 444.64,
+            "volume": 496774
+          },
+          {
+            "low": 444.64,
+            "high": 450.82,
+            "volume": 326842
+          },
+          {
+            "low": 450.82,
+            "high": 457.0,
+            "volume": 472241
+          },
+          {
+            "low": 457.0,
+            "high": 463.18,
+            "volume": 359125
+          },
+          {
+            "low": 463.18,
+            "high": 469.36,
+            "volume": 114906
+          },
+          {
+            "low": 469.36,
+            "high": 475.55,
+            "volume": 187270
+          },
+          {
+            "low": 475.55,
+            "high": 481.73,
+            "volume": 131981
+          },
+          {
+            "low": 481.73,
+            "high": 487.91,
+            "volume": 237632
+          },
+          {
+            "low": 487.91,
+            "high": 494.09,
+            "volume": 320907
+          },
+          {
+            "low": 494.09,
+            "high": 500.27,
+            "volume": 393705
+          },
+          {
+            "low": 500.27,
+            "high": 506.45,
+            "volume": 514682
+          },
+          {
+            "low": 506.45,
+            "high": 512.64,
+            "volume": 395688
+          },
+          {
+            "low": 512.64,
+            "high": 518.82,
+            "volume": 164493
+          },
+          {
+            "low": 518.82,
+            "high": 525.0,
+            "volume": 159437
+          }
+        ]
       },
       "creditBuy": 2478300,
       "creditSell": 0,
@@ -1415,7 +3207,7 @@
       "turnoverThousand": 253756,
       "turnoverBasis": "friday-low-times-volume-lower-bound",
       "priceAsOf": "2026-11-20",
-      "priceSource": "Yahoo Finance 日足",
+      "priceSource": "Yahoo Finance via yfinance (非公式・要照合)",
       "ma5": 2684.6,
       "ma25": 2417.96,
       "ma75": 2189.76,
@@ -1430,7 +3222,119 @@
         "periodBars": 120,
         "poc": 2517.0,
         "support": 2517.0,
-        "resistance": 2574.82
+        "resistance": 2574.82,
+        "bins": [
+          {
+            "low": 1563.0,
+            "high": 1620.82,
+            "volume": 88785
+          },
+          {
+            "low": 1620.82,
+            "high": 1678.64,
+            "volume": 633625
+          },
+          {
+            "low": 1678.64,
+            "high": 1736.45,
+            "volume": 624046
+          },
+          {
+            "low": 1736.45,
+            "high": 1794.27,
+            "volume": 312712
+          },
+          {
+            "low": 1794.27,
+            "high": 1852.09,
+            "volume": 282059
+          },
+          {
+            "low": 1852.09,
+            "high": 1909.91,
+            "volume": 211401
+          },
+          {
+            "low": 1909.91,
+            "high": 1967.73,
+            "volume": 8172
+          },
+          {
+            "low": 1967.73,
+            "high": 2025.55,
+            "volume": 0
+          },
+          {
+            "low": 2025.55,
+            "high": 2083.36,
+            "volume": 20891
+          },
+          {
+            "low": 2083.36,
+            "high": 2141.18,
+            "volume": 110793
+          },
+          {
+            "low": 2141.18,
+            "high": 2199.0,
+            "volume": 51942
+          },
+          {
+            "low": 2199.0,
+            "high": 2256.82,
+            "volume": 107882
+          },
+          {
+            "low": 2256.82,
+            "high": 2314.64,
+            "volume": 322628
+          },
+          {
+            "low": 2314.64,
+            "high": 2372.45,
+            "volume": 550742
+          },
+          {
+            "low": 2372.45,
+            "high": 2430.27,
+            "volume": 699419
+          },
+          {
+            "low": 2430.27,
+            "high": 2488.09,
+            "volume": 729441
+          },
+          {
+            "low": 2488.09,
+            "high": 2545.91,
+            "volume": 778956
+          },
+          {
+            "low": 2545.91,
+            "high": 2603.73,
+            "volume": 625699
+          },
+          {
+            "low": 2603.73,
+            "high": 2661.55,
+            "volume": 191448
+          },
+          {
+            "low": 2661.55,
+            "high": 2719.36,
+            "volume": 207687
+          },
+          {
+            "low": 2719.36,
+            "high": 2777.18,
+            "volume": 275164
+          },
+          {
+            "low": 2777.18,
+            "high": 2835.0,
+            "volume": 160407
+          }
+        ]
       },
       "creditBuy": 152300,
       "creditSell": 8800,
@@ -1448,7 +3352,7 @@
       "turnoverThousand": 247442,
       "turnoverBasis": "friday-low-times-volume-lower-bound",
       "priceAsOf": "2026-11-20",
-      "priceSource": "Yahoo Finance 日足",
+      "priceSource": "Yahoo Finance via yfinance (非公式・要照合)",
       "ma5": 3081.6,
       "ma25": 3095.0,
       "ma75": 2919.24,
@@ -1463,7 +3367,119 @@
         "periodBars": 120,
         "poc": 2817.41,
         "support": 2817.41,
-        "resistance": null
+        "resistance": null,
+        "bins": [
+          {
+            "low": 2571.0,
+            "high": 2608.91,
+            "volume": 87429
+          },
+          {
+            "low": 2608.91,
+            "high": 2646.82,
+            "volume": 224445
+          },
+          {
+            "low": 2646.82,
+            "high": 2684.73,
+            "volume": 378822
+          },
+          {
+            "low": 2684.73,
+            "high": 2722.64,
+            "volume": 431504
+          },
+          {
+            "low": 2722.64,
+            "high": 2760.55,
+            "volume": 619818
+          },
+          {
+            "low": 2760.55,
+            "high": 2798.45,
+            "volume": 734621
+          },
+          {
+            "low": 2798.45,
+            "high": 2836.36,
+            "volume": 736016
+          },
+          {
+            "low": 2836.36,
+            "high": 2874.27,
+            "volume": 649481
+          },
+          {
+            "low": 2874.27,
+            "high": 2912.18,
+            "volume": 528931
+          },
+          {
+            "low": 2912.18,
+            "high": 2950.09,
+            "volume": 502705
+          },
+          {
+            "low": 2950.09,
+            "high": 2988.0,
+            "volume": 430416
+          },
+          {
+            "low": 2988.0,
+            "high": 3025.91,
+            "volume": 333973
+          },
+          {
+            "low": 3025.91,
+            "high": 3063.82,
+            "volume": 213991
+          },
+          {
+            "low": 3063.82,
+            "high": 3101.73,
+            "volume": 162953
+          },
+          {
+            "low": 3101.73,
+            "high": 3139.64,
+            "volume": 148355
+          },
+          {
+            "low": 3139.64,
+            "high": 3177.55,
+            "volume": 174693
+          },
+          {
+            "low": 3177.55,
+            "high": 3215.45,
+            "volume": 220152
+          },
+          {
+            "low": 3215.45,
+            "high": 3253.36,
+            "volume": 169710
+          },
+          {
+            "low": 3253.36,
+            "high": 3291.27,
+            "volume": 112736
+          },
+          {
+            "low": 3291.27,
+            "high": 3329.18,
+            "volume": 78322
+          },
+          {
+            "low": 3329.18,
+            "high": 3367.09,
+            "volume": 56586
+          },
+          {
+            "low": 3367.09,
+            "high": 3405.0,
+            "volume": 35540
+          }
+        ]
       },
       "creditBuy": 198300,
       "creditSell": 0,
@@ -1481,7 +3497,7 @@
       "turnoverThousand": 1223180,
       "turnoverBasis": "friday-low-times-volume-lower-bound",
       "priceAsOf": "2026-11-20",
-      "priceSource": "Yahoo Finance 日足",
+      "priceSource": "Yahoo Finance via yfinance (非公式・要照合)",
       "ma5": 1584.8,
       "ma25": 1437.84,
       "ma75": 1503.03,
@@ -1496,7 +3512,119 @@
         "periodBars": 120,
         "poc": 1422.88,
         "support": 1422.88,
-        "resistance": 1586.28
+        "resistance": 1586.28,
+        "bins": [
+          {
+            "low": 1333.0,
+            "high": 1349.34,
+            "volume": 360182
+          },
+          {
+            "low": 1349.34,
+            "high": 1365.68,
+            "volume": 767715
+          },
+          {
+            "low": 1365.68,
+            "high": 1382.02,
+            "volume": 2260996
+          },
+          {
+            "low": 1382.02,
+            "high": 1398.36,
+            "volume": 3534426
+          },
+          {
+            "low": 1398.36,
+            "high": 1414.7,
+            "volume": 7615831
+          },
+          {
+            "low": 1414.7,
+            "high": 1431.05,
+            "volume": 8170516
+          },
+          {
+            "low": 1431.05,
+            "high": 1447.39,
+            "volume": 6118211
+          },
+          {
+            "low": 1447.39,
+            "high": 1463.73,
+            "volume": 3422654
+          },
+          {
+            "low": 1463.73,
+            "high": 1480.07,
+            "volume": 4151484
+          },
+          {
+            "low": 1480.07,
+            "high": 1496.41,
+            "volume": 5593668
+          },
+          {
+            "low": 1496.41,
+            "high": 1512.75,
+            "volume": 6685588
+          },
+          {
+            "low": 1512.75,
+            "high": 1529.09,
+            "volume": 7431238
+          },
+          {
+            "low": 1529.09,
+            "high": 1545.43,
+            "volume": 5494381
+          },
+          {
+            "low": 1545.43,
+            "high": 1561.77,
+            "volume": 3784565
+          },
+          {
+            "low": 1561.77,
+            "high": 1578.11,
+            "volume": 3873661
+          },
+          {
+            "low": 1578.11,
+            "high": 1594.45,
+            "volume": 3690591
+          },
+          {
+            "low": 1594.45,
+            "high": 1610.8,
+            "volume": 2727751
+          },
+          {
+            "low": 1610.8,
+            "high": 1627.14,
+            "volume": 1970673
+          },
+          {
+            "low": 1627.14,
+            "high": 1643.48,
+            "volume": 1153656
+          },
+          {
+            "low": 1643.48,
+            "high": 1659.82,
+            "volume": 771130
+          },
+          {
+            "low": 1659.82,
+            "high": 1676.16,
+            "volume": 614223
+          },
+          {
+            "low": 1676.16,
+            "high": 1692.5,
+            "volume": 500960
+          }
+        ]
       },
       "creditBuy": 154800,
       "creditSell": 99000,
@@ -1514,7 +3642,7 @@
       "turnoverThousand": 651728,
       "turnoverBasis": "friday-low-times-volume-lower-bound",
       "priceAsOf": "2026-11-20",
-      "priceSource": "Yahoo Finance 日足",
+      "priceSource": "Yahoo Finance via yfinance (非公式・要照合)",
       "ma5": 2624.0,
       "ma25": 2463.56,
       "ma75": 2457.4,
@@ -1529,7 +3657,119 @@
         "periodBars": 120,
         "poc": 2422.95,
         "support": 2422.95,
-        "resistance": null
+        "resistance": null,
+        "bins": [
+          {
+            "low": 2125.0,
+            "high": 2150.91,
+            "volume": 287034
+          },
+          {
+            "low": 2150.91,
+            "high": 2176.82,
+            "volume": 850787
+          },
+          {
+            "low": 2176.82,
+            "high": 2202.73,
+            "volume": 1612027
+          },
+          {
+            "low": 2202.73,
+            "high": 2228.64,
+            "volume": 1097559
+          },
+          {
+            "low": 2228.64,
+            "high": 2254.55,
+            "volume": 660914
+          },
+          {
+            "low": 2254.55,
+            "high": 2280.45,
+            "volume": 694957
+          },
+          {
+            "low": 2280.45,
+            "high": 2306.36,
+            "volume": 997837
+          },
+          {
+            "low": 2306.36,
+            "high": 2332.27,
+            "volume": 1544358
+          },
+          {
+            "low": 2332.27,
+            "high": 2358.18,
+            "volume": 2270201
+          },
+          {
+            "low": 2358.18,
+            "high": 2384.09,
+            "volume": 2127533
+          },
+          {
+            "low": 2384.09,
+            "high": 2410.0,
+            "volume": 1873099
+          },
+          {
+            "low": 2410.0,
+            "high": 2435.91,
+            "volume": 2573502
+          },
+          {
+            "low": 2435.91,
+            "high": 2461.82,
+            "volume": 2553523
+          },
+          {
+            "low": 2461.82,
+            "high": 2487.73,
+            "volume": 2461912
+          },
+          {
+            "low": 2487.73,
+            "high": 2513.64,
+            "volume": 1783377
+          },
+          {
+            "low": 2513.64,
+            "high": 2539.55,
+            "volume": 1605452
+          },
+          {
+            "low": 2539.55,
+            "high": 2565.45,
+            "volume": 890625
+          },
+          {
+            "low": 2565.45,
+            "high": 2591.36,
+            "volume": 863615
+          },
+          {
+            "low": 2591.36,
+            "high": 2617.27,
+            "volume": 1258984
+          },
+          {
+            "low": 2617.27,
+            "high": 2643.18,
+            "volume": 1029304
+          },
+          {
+            "low": 2643.18,
+            "high": 2669.09,
+            "volume": 694277
+          },
+          {
+            "low": 2669.09,
+            "high": 2695.0,
+            "volume": 327824
+          }
+        ]
       },
       "creditBuy": 271200,
       "creditSell": 14800,
@@ -1998,5 +4238,7 @@
       "creditAsOf": "2026-11-19",
       "creditPreviousAsOf": "2026-11-13"
     }
-  ]
+  ],
+  "quotesCheckedAt": "2026-11-24 05:04 JST",
+  "quoteSource": "Yahoo Finance via unofficial yfinance (best effort)"
 }
