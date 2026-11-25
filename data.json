@@ -186,7 +186,11 @@
         "patternVersion": "v7.6",
         "availableBars": 329,
         "note": "ローソク足の機械的な形状一致。トレンド転換・翌週の上昇を証明しない"
-      }
+      },
+      "mondayOpen": 1456.0,
+      "mondayOpenDate": "2026-11-24",
+      "latestClose": 1476.5,
+      "latestCloseDate": "2026-11-24"
     },
     {
       "code": "6315",
@@ -352,7 +356,11 @@
         "patternVersion": "v7.6",
         "availableBars": 329,
         "note": "ローソク足の機械的な形状一致。トレンド転換・翌週の上昇を証明しない"
-      }
+      },
+      "mondayOpen": 2417.0,
+      "mondayOpenDate": "2026-11-24",
+      "latestClose": 2338.0,
+      "latestCloseDate": "2026-11-24"
     },
     {
       "code": "7951",
@@ -523,7 +531,11 @@
         "patternVersion": "v7.6",
         "availableBars": 329,
         "note": "ローソク足の機械的な形状一致。トレンド転換・翌週の上昇を証明しない"
-      }
+      },
+      "mondayOpen": 1407.0,
+      "mondayOpenDate": "2026-11-24",
+      "latestClose": 1418.0,
+      "latestCloseDate": "2026-11-24"
     },
     {
       "code": "4543",
@@ -699,7 +711,11 @@
         "patternVersion": "v7.6",
         "availableBars": 329,
         "note": "ローソク足の機械的な形状一致。トレンド転換・翌週の上昇を証明しない"
-      }
+      },
+      "mondayOpen": 2497.0,
+      "mondayOpenDate": "2026-11-24",
+      "latestClose": 2548.5,
+      "latestCloseDate": "2026-11-24"
     },
     {
       "code": "3865",
@@ -875,7 +891,11 @@
         "patternVersion": "v7.6",
         "availableBars": 329,
         "note": "ローソク足の機械的な形状一致。トレンド転換・翌週の上昇を証明しない"
-      }
+      },
+      "mondayOpen": 841.0,
+      "mondayOpenDate": "2026-11-24",
+      "latestClose": 849.0,
+      "latestCloseDate": "2026-11-24"
     },
     {
       "code": "8022",
@@ -1020,7 +1040,11 @@
       "creditSell": 41500,
       "creditDelta": -27100,
       "creditAsOf": "2026-11-19",
-      "creditPreviousAsOf": "2026-11-13"
+      "creditPreviousAsOf": "2026-11-13",
+      "mondayOpen": 4170.0,
+      "mondayOpenDate": "2026-11-24",
+      "latestClose": 4170.0,
+      "latestCloseDate": "2026-11-24"
     },
     {
       "code": "9843",
@@ -1165,7 +1189,11 @@
       "creditSell": 405100,
       "creditDelta": -63100,
       "creditAsOf": "2026-11-19",
-      "creditPreviousAsOf": "2026-11-13"
+      "creditPreviousAsOf": "2026-11-13",
+      "mondayOpen": 3668.0,
+      "mondayOpenDate": "2026-11-24",
+      "latestClose": 3619.0,
+      "latestCloseDate": "2026-11-24"
     },
     {
       "code": "3042",
@@ -1310,7 +1338,11 @@
       "creditSell": 332400,
       "creditDelta": 70200,
       "creditAsOf": "2026-11-19",
-      "creditPreviousAsOf": "2026-11-13"
+      "creditPreviousAsOf": "2026-11-13",
+      "mondayOpen": 787.0,
+      "mondayOpenDate": "2026-11-24",
+      "latestClose": 725.0,
+      "latestCloseDate": "2026-11-24"
     },
     {
       "code": "9831",
@@ -1455,7 +1487,11 @@
       "creditSell": 336200,
       "creditDelta": 57700,
       "creditAsOf": "2026-11-19",
-      "creditPreviousAsOf": "2026-11-13"
+      "creditPreviousAsOf": "2026-11-13",
+      "mondayOpen": 806.9,
+      "mondayOpenDate": "2026-11-24",
+      "latestClose": 800.8,
+      "latestCloseDate": "2026-11-24"
     },
     {
       "code": "2810",
@@ -1600,7 +1636,11 @@
       "creditSell": 80700,
       "creditDelta": -400,
       "creditAsOf": "2026-11-19",
-      "creditPreviousAsOf": "2026-11-13"
+      "creditPreviousAsOf": "2026-11-13",
+      "mondayOpen": 4854.0,
+      "mondayOpenDate": "2026-11-24",
+      "latestClose": 4896.0,
+      "latestCloseDate": "2026-11-24"
     },
     {
       "code": "4527",
@@ -1745,7 +1785,11 @@
       "creditSell": 125000,
       "creditDelta": -168000,
       "creditAsOf": "2026-11-19",
-      "creditPreviousAsOf": "2026-11-13"
+      "creditPreviousAsOf": "2026-11-13",
+      "mondayOpen": 2654.5,
+      "mondayOpenDate": "2026-11-24",
+      "latestClose": 2673.5,
+      "latestCloseDate": "2026-11-24"
     },
     {
       "code": "4888",
@@ -1890,7 +1934,11 @@
       "creditSell": 16900,
       "creditDelta": 606200,
       "creditAsOf": "2026-11-19",
-      "creditPreviousAsOf": "2026-11-13"
+      "creditPreviousAsOf": "2026-11-13",
+      "mondayOpen": 399.0,
+      "mondayOpenDate": "2026-11-24",
+      "latestClose": 387.0,
+      "latestCloseDate": "2026-11-24"
     },
     {
       "code": "8179",
@@ -2035,7 +2083,11 @@
       "creditSell": 388600,
       "creditDelta": -1800,
       "creditAsOf": "2026-11-19",
-      "creditPreviousAsOf": "2026-11-13"
+      "creditPreviousAsOf": "2026-11-13",
+      "mondayOpen": 1640.0,
+      "mondayOpenDate": "2026-11-24",
+      "latestClose": 1647.0,
+      "latestCloseDate": "2026-11-24"
     },
     {
       "code": "4704",
@@ -2180,7 +2232,11 @@
       "creditSell": 65600,
       "creditDelta": -49900,
       "creditAsOf": "2026-11-19",
-      "creditPreviousAsOf": "2026-11-13"
+      "creditPreviousAsOf": "2026-11-13",
+      "mondayOpen": 7660.0,
+      "mondayOpenDate": "2026-11-24",
+      "latestClose": 7475.0,
+      "latestCloseDate": "2026-11-24"
     },
     {
       "code": "4343",
@@ -2325,7 +2381,11 @@
       "creditSell": 25000,
       "creditDelta": 27300,
       "creditAsOf": "2026-11-19",
-      "creditPreviousAsOf": "2026-11-13"
+      "creditPreviousAsOf": "2026-11-13",
+      "mondayOpen": 3070.0,
+      "mondayOpenDate": "2026-11-24",
+      "latestClose": 3115.0,
+      "latestCloseDate": "2026-11-24"
     },
     {
       "code": "8281",
@@ -2470,7 +2530,11 @@
       "creditSell": 20000,
       "creditDelta": -11700,
       "creditAsOf": "2026-11-19",
-      "creditPreviousAsOf": "2026-11-13"
+      "creditPreviousAsOf": "2026-11-13",
+      "mondayOpen": 1150.0,
+      "mondayOpenDate": "2026-11-24",
+      "latestClose": 1148.0,
+      "latestCloseDate": "2026-11-24"
     },
     {
       "code": "8253",
@@ -2615,7 +2679,11 @@
       "creditSell": 46300,
       "creditDelta": -125200,
       "creditAsOf": "2026-11-19",
-      "creditPreviousAsOf": "2026-11-13"
+      "creditPreviousAsOf": "2026-11-13",
+      "mondayOpen": 4676.0,
+      "mondayOpenDate": "2026-11-24",
+      "latestClose": 4562.0,
+      "latestCloseDate": "2026-11-24"
     },
     {
       "code": "3909",
@@ -2760,7 +2828,11 @@
       "creditSell": 71800,
       "creditDelta": 22800,
       "creditAsOf": "2026-11-19",
-      "creditPreviousAsOf": "2026-11-13"
+      "creditPreviousAsOf": "2026-11-13",
+      "mondayOpen": 682.0,
+      "mondayOpenDate": "2026-11-24",
+      "latestClose": 640.0,
+      "latestCloseDate": "2026-11-24"
     },
     {
       "code": "2334",
@@ -2905,7 +2977,11 @@
       "creditSell": 900,
       "creditDelta": 1600400,
       "creditAsOf": "2026-11-19",
-      "creditPreviousAsOf": "2026-11-13"
+      "creditPreviousAsOf": "2026-11-13",
+      "mondayOpen": 487.0,
+      "mondayOpenDate": "2026-11-24",
+      "latestClose": 430.0,
+      "latestCloseDate": "2026-11-24"
     },
     {
       "code": "338A",
@@ -3050,7 +3126,11 @@
       "creditSell": 400,
       "creditDelta": -10000,
       "creditAsOf": "2026-11-19",
-      "creditPreviousAsOf": "2026-11-13"
+      "creditPreviousAsOf": "2026-11-13",
+      "mondayOpen": 3490.0,
+      "mondayOpenDate": "2026-11-24",
+      "latestClose": 3495.0,
+      "latestCloseDate": "2026-11-24"
     },
     {
       "code": "9204",
@@ -3195,7 +3275,11 @@
       "creditSell": 0,
       "creditDelta": -74300,
       "creditAsOf": "2026-11-19",
-      "creditPreviousAsOf": "2026-11-13"
+      "creditPreviousAsOf": "2026-11-13",
+      "mondayOpen": 530.0,
+      "mondayOpenDate": "2026-11-24",
+      "latestClose": 567.0,
+      "latestCloseDate": "2026-11-24"
     },
     {
       "code": "6317",
@@ -3340,7 +3424,11 @@
       "creditSell": 8800,
       "creditDelta": -18700,
       "creditAsOf": "2026-11-19",
-      "creditPreviousAsOf": "2026-11-13"
+      "creditPreviousAsOf": "2026-11-13",
+      "mondayOpen": 2602.0,
+      "mondayOpenDate": "2026-11-24",
+      "latestClose": 2612.0,
+      "latestCloseDate": "2026-11-24"
     },
     {
       "code": "367A",
@@ -3485,7 +3573,11 @@
       "creditSell": 0,
       "creditDelta": -4500,
       "creditAsOf": "2026-11-19",
-      "creditPreviousAsOf": "2026-11-13"
+      "creditPreviousAsOf": "2026-11-13",
+      "mondayOpen": 3185.0,
+      "mondayOpenDate": "2026-11-24",
+      "latestClose": 3245.0,
+      "latestCloseDate": "2026-11-24"
     },
     {
       "code": "7716",
@@ -3630,7 +3722,11 @@
       "creditSell": 99000,
       "creditDelta": -122300,
       "creditAsOf": "2026-11-19",
-      "creditPreviousAsOf": "2026-11-13"
+      "creditPreviousAsOf": "2026-11-13",
+      "mondayOpen": 1615.0,
+      "mondayOpenDate": "2026-11-24",
+      "latestClose": 1620.0,
+      "latestCloseDate": "2026-11-24"
     },
     {
       "code": "3765",
@@ -3775,7 +3871,11 @@
       "creditSell": 14800,
       "creditDelta": -15600,
       "creditAsOf": "2026-11-19",
-      "creditPreviousAsOf": "2026-11-13"
+      "creditPreviousAsOf": "2026-11-13",
+      "mondayOpen": 2617.0,
+      "mondayOpenDate": "2026-11-24",
+      "latestClose": 2541.0,
+      "latestCloseDate": "2026-11-24"
     },
     {
       "code": "5133",
@@ -4239,6 +4339,6 @@
       "creditPreviousAsOf": "2026-11-13"
     }
   ],
-  "quotesCheckedAt": "2026-11-24 05:04 JST",
+  "quotesCheckedAt": "2026-11-26 03:37 JST",
   "quoteSource": "Yahoo Finance via unofficial yfinance (best effort)"
 }

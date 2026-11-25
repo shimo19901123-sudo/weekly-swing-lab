@@ -847,8 +847,186 @@
           ]
         }
       ]
+    },
+    {
+      "asOf": "2026-11-20",
+      "tradeMonday": "2026-11-24",
+      "tradeFriday": "2026-11-27",
+      "selectionMode": "pretrade_locked",
+      "pickedCodes": [
+        "8086",
+        "6315",
+        "7951",
+        "4543",
+        "3865"
+      ],
+      "days": [
+        {
+          "date": "2026-11-24",
+          "sourceCheckedAtJST": "2026-11-26T03:37+09:00",
+          "recordedMode": "historical_reconstruction",
+          "expectedCount": 5,
+          "obtainedCount": 5,
+          "weekPnlAvailableCount": 5,
+          "dayGross100Total": 4400.0,
+          "weekOpenGross100Total": 1200.0,
+          "dayUpCount": 3,
+          "dayDownCount": 2,
+          "complete": true,
+          "stocks": [
+            {
+              "code": "8086",
+              "name": "ニプロ",
+              "status": "observed",
+              "date": "2026-11-24",
+              "source": "Yahoo Finance via yfinance (非公式、確定日足の再照合が必要)",
+              "selectionClose": 1456.5,
+              "open": 1456.0,
+              "high": 1491.0,
+              "low": 1443.5,
+              "close": 1476.5,
+              "previousClose": 1456.5,
+              "volume": 727800,
+              "volumeRatio20": 0.95,
+              "ma5": 1462.5,
+              "ma25": 1388.84,
+              "mondayOpen": 1456.0,
+              "dayChangePct": 1.37,
+              "dayProfit100": 2000.0,
+              "weekChangePct": 1.41,
+              "weekOpenProfit100": 2050.0,
+              "candle": "陽線",
+              "selectionSupportEst": 1345.68,
+              "selectionResistanceEst": 1579.68,
+              "observations": [
+                "前営業日の終値より上昇",
+                "終値が当日5MA以上"
+              ]
+            },
+            {
+              "code": "6315",
+              "name": "TOWA",
+              "status": "observed",
+              "date": "2026-11-24",
+              "source": "Yahoo Finance via yfinance (非公式、確定日足の再照合が必要)",
+              "selectionClose": 2352.0,
+              "open": 2417.0,
+              "high": 2535.0,
+              "low": 2332.0,
+              "close": 2338.0,
+              "previousClose": 2352.0,
+              "volume": 7193500,
+              "volumeRatio20": 1.61,
+              "ma5": 2265.8,
+              "ma25": 2133.92,
+              "mondayOpen": 2417.0,
+              "dayChangePct": -0.6,
+              "dayProfit100": -1400.0,
+              "weekChangePct": -3.27,
+              "weekOpenProfit100": -7900.0,
+              "candle": "陰線・長い上ヒゲ",
+              "selectionSupportEst": 2256.86,
+              "selectionResistanceEst": 2542.95,
+              "observations": [
+                "前営業日の終値より下落",
+                "出来高が直前20営業日平均の1.5倍以上",
+                "終値が当日5MA以上",
+                "当日の日足に長い上ヒゲ"
+              ]
+            },
+            {
+              "code": "7951",
+              "name": "ヤマハ",
+              "status": "observed",
+              "date": "2026-11-24",
+              "source": "Yahoo Finance via yfinance (非公式、確定日足の再照合が必要)",
+              "selectionClose": 1380.5,
+              "open": 1407.0,
+              "high": 1422.5,
+              "low": 1389.5,
+              "close": 1418.0,
+              "previousClose": 1380.5,
+              "volume": 3204800,
+              "volumeRatio20": 0.96,
+              "ma5": 1371.5,
+              "ma25": 1277.6,
+              "mondayOpen": 1407.0,
+              "dayChangePct": 2.72,
+              "dayProfit100": 3750.0,
+              "weekChangePct": 0.78,
+              "weekOpenProfit100": 1100.0,
+              "candle": "陽線・長い下ヒゲ",
+              "selectionSupportEst": 1228.02,
+              "selectionResistanceEst": null,
+              "observations": [
+                "前営業日の終値より上昇",
+                "終値が当日5MA以上",
+                "当日の日足に長い下ヒゲ"
+              ]
+            },
+            {
+              "code": "4543",
+              "name": "テルモ",
+              "status": "observed",
+              "date": "2026-11-24",
+              "source": "Yahoo Finance via yfinance (非公式、確定日足の再照合が必要)",
+              "selectionClose": 2547.0,
+              "open": 2497.0,
+              "high": 2581.0,
+              "low": 2483.0,
+              "close": 2548.5,
+              "previousClose": 2547.0,
+              "volume": 6436200,
+              "volumeRatio20": 0.96,
+              "ma5": 2548.9,
+              "ma25": 2462.98,
+              "mondayOpen": 2497.0,
+              "dayChangePct": 0.06,
+              "dayProfit100": 150.0,
+              "weekChangePct": 2.06,
+              "weekOpenProfit100": 5150.0,
+              "candle": "陽線",
+              "selectionSupportEst": 2272.0,
+              "selectionResistanceEst": null,
+              "observations": [
+                "前営業日の終値より上昇",
+                "終値が当日5MAを下回る"
+              ]
+            },
+            {
+              "code": "3865",
+              "name": "北越コーポレーション",
+              "status": "observed",
+              "date": "2026-11-24",
+              "source": "Yahoo Finance via yfinance (非公式、確定日足の再照合が必要)",
+              "selectionClose": 850.0,
+              "open": 841.0,
+              "high": 855.0,
+              "low": 836.0,
+              "close": 849.0,
+              "previousClose": 850.0,
+              "volume": 284900,
+              "volumeRatio20": 0.86,
+              "ma5": 850.8,
+              "ma25": 835.84,
+              "mondayOpen": 841.0,
+              "dayChangePct": -0.12,
+              "dayProfit100": -100.0,
+              "weekChangePct": 0.95,
+              "weekOpenProfit100": 800.0,
+              "candle": "陽線",
+              "selectionSupportEst": 848.55,
+              "selectionResistanceEst": 908.36,
+              "observations": [
+                "前営業日の終値より下落",
+                "終値が当日5MAを下回る"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
-  "generatedAtJST": "2026-11-13T22:18+09:00",
+  "generatedAtJST": "2026-11-26T03:37+09:00",
   "source": "Yahoo Finance via yfinance (非公式、確定日足の再照合が必要)"
 }
